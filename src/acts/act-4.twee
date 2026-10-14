@@ -1,4 +1,5 @@
 :: Act 4 [act act4] {"position":"1610,170","size":"100,100"}
+<img class="art" src="img/district-5.jpg" alt="District 5">
 !Act 4: District 5
 
 The desert district. Silik and Skuttle, Sabelle's device upgrade, a reunion with Castella at the Wellness Retreat, and the final confrontation with Sir Richard Black.
@@ -17,6 +18,7 @@ The desert district. Silik and Skuttle, Sabelle's device upgrade, a reunion with
 
 
 :: A4 District 5 Wastes [location act4 todo] {"position":"1740,290","size":"100,100"}
+<img class="art" src="img/district-5.jpg" alt="District 5">
 !District 5 Wastes
 //Act 4//
 

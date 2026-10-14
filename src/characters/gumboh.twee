@@ -1,4 +1,5 @@
 :: A3 Gumboh [character act3 todo char-Gumboh] {"position":"1480,650","size":"100,100"}
+<img class="portrait" src="img/gumboh.jpg" alt="Gumboh">
 <<meet "Gumboh">>
 //Act 3, District 3 Slums//
 
@@ -15,6 +16,7 @@ TODO: scene for Gumboh in Act 3.
 
 
 :: Codex Gumboh [codex char-Gumboh] {"position":"2260,1250","size":"100,100"}
+<img class="portrait" src="img/gumboh.jpg" alt="Gumboh">
 !Gumboh
 ''Where:'' District 3 slums
 ''Appears in:'' [[Act 3|A3 Gumboh]]

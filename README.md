@@ -8,6 +8,7 @@ src/
   endings.twee            Endings hub and the Best / Good / Bad endings
   acts/act-1.twee ...     one file per act: the act hub and its locations
   characters/<name>.twee  one file per character: their scene in each act plus their Codex entry
+assets/img/               art from the team pitch deck, copied to build/img by the build scripts
 storyformats/sugarcube-2  SugarCube 2.37.3, so every build uses the same version
 ```
 
@@ -19,6 +20,13 @@ storyformats/sugarcube-2  SugarCube 2.37.3, so every build uses the same version
 This writes two files to `build/`:
 - `atlantis-play.html` is the playable game. Open it in a browser.
 - `atlantis-twine.html` is a Twine archive. Use Library > Import in Twine to open it in the visual editor.
+- `img/` holds the art. Passages show it with `<img src="img/...">`, so keep `img/` next to the HTML when you share the game.
+
+The Twine archive references the same `img/` paths. Twine stores only the passage text, not the pictures, so images appear in Twine only when the published HTML sits next to an `img/` folder.
+
+## Art
+
+Images live in `assets/img/`. Use lowercase descriptive names and keep each file under about 1600px wide and 1MB. Use `<img class="art" src="img/name.jpg" alt="...">` for a full-width banner and `class="portrait"` for a character portrait floated to the right.
 
 ## Working in the files
 

@@ -1,4 +1,5 @@
 :: Act 2 [act act2] {"position":"830,170","size":"100,100"}
+<img class="art" src="img/bleached-cave.jpg" alt="The bleached seabed">
 !Act 2: The Bulwarks
 
 Districts 3 and 4 under the Bleached Coral Colossus. Sabelle builds the Power Washer in the Wilds, Castella returns with the Colossus plan, and Gerold calls in at the Midpoint.
@@ -18,6 +19,8 @@ Districts 3 and 4 under the Bleached Coral Colossus. Sabelle builds the Power Wa
 
 
 :: A2 Districts 3 and 4 [location act2 todo] {"position":"960,290","size":"100,100"}
+<img class="art" src="img/district-3.jpg" alt="District 3">
+<img class="art" src="img/district-4.jpg" alt="District 4">
 !Districts 3 and 4
 //Act 2//
 

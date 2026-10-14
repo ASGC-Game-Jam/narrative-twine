@@ -1,4 +1,5 @@
 :: Act 1 [act act1] {"position":"440,170","size":"100,100"}
+<img class="art" src="img/city-plaza.jpg" alt="A city plaza in Atlantis">
 !Act 1: Arrival
 
 The MC arrives to find Sir Richard Black missing. First research station, District 1's scientists, Aishui near District 2, and a glimpse of the leviathan in the Hook.
@@ -37,6 +38,7 @@ Castella's station. She mentions an inventor, Sabelle.
 
 
 :: A1 District 1 [location act1 todo] {"position":"570,410","size":"100,100"}
+<img class="art" src="img/district-1.jpg" alt="District 1">
 !District 1
 //Act 1//
 
@@ -53,6 +55,7 @@ First Plot Point: the District 1/2 scientists. The King holds court here.
 
 
 :: A1 Near District 2 [location act1 todo] {"position":"570,770","size":"100,100"}
+<img class="art" src="img/district-2.jpg" alt="District 2">
 !Near District 2
 //Act 1//
 
@@ -67,6 +70,7 @@ The MC meets the sea god.
 
 
 :: A1 The Hook [location act1 todo] {"position":"570,890","size":"100,100"}
+<img class="art" src="img/bleached-cave.jpg" alt="A cave in the bleached seabed">
 !The Hook
 //Act 1//
 

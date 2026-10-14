@@ -27,6 +27,8 @@ a:hover,.link-internal:hover{color:#ffd27a !important}
 .link-broken{color:#ff8a8a !important}
 button{background:#163746 !important;color:#e6f1f4 !important;border-color:#2e5a6c !important}
 .who{color:#7fe0d2}.trust{color:#ffc65c;font-style:italic}.trustval{color:#9fb6bf}
+.art{display:block;width:100%;height:auto;border-radius:8px;margin:0 0 1em}
+.portrait{float:right;max-width:220px;width:40%;height:auto;margin:0 0 1em 1em;border-radius:6px;border:1px solid #24414f}
 
 :: StoryInit {"position":"50,50","size":"100,100"}
 /* Acts and progress */
@@ -76,6 +78,7 @@ button{background:#163746 !important;color:#e6f1f4 !important;border-color:#2e5a
 
 
 :: Start {"position":"50,170","size":"100,100"}
+<img class="art" src="img/title-bg.jpg" alt="Project Atlantis title art">
 !Atlantis: District Simulation (scaffold)
 
 Atlantis is sealing itself off district by district as the Bleaching spreads. The Oceanography Council has sent you down to find their missing contact, Sir Richard Black.

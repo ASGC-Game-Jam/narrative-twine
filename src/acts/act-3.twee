@@ -1,4 +1,5 @@
 :: Act 3 [act act3] {"position":"1220,170","size":"100,100"}
+<img class="art" src="img/leviathan-bones.jpg" alt="Leviathan bones in the bleached reef">
 !Act 3: The Leviathan
 
 Sir Richard resurfaces and attacks the leviathan in the Wilds. The MC bonds with Seayssal, works the Second Pinch Point in the slums, and repairs the manta ray ornithopter.
@@ -34,6 +35,7 @@ Sir Richard attacks the leviathan; the MC bonds with Seayssal.
 
 
 :: A3 District 3 Slums [location act3 todo] {"position":"1350,530","size":"100,100"}
+<img class="art" src="img/district-3.jpg" alt="District 3">
 !District 3 Slums
 //Act 3//
 
@@ -49,6 +51,7 @@ Second Pinch Point (marked potential in the outline).
 
 
 :: A3 District 4 Workshop [location act3 todo] {"position":"1350,770","size":"100,100"}
+<img class="art" src="img/district-4.jpg" alt="District 4">
 !District 4 Workshop
 //Act 3//
 
