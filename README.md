@@ -26,6 +26,14 @@ This writes two files to `build/`:
 
 The Twine archive references the same `img/` paths. Twine stores only the passage text, not the pictures, so images appear in Twine only when the published HTML sits next to an `img/` folder.
 
+## Playtesting online
+
+The latest build is playable at https://asgc-game-jam.github.io/narrative-twine/, so playtesters don't need to build anything.
+
+- `.github/workflows/pages.yml` rebuilds and redeploys the site on every push to `main`. You can also run it by hand from the Actions tab.
+- The site serves everything in `build/`. `index.html` opens the game, and the Twine archive is at `atlantis-twine.html`.
+- Pages only has to be enabled once, under Settings > Pages > Source: GitHub Actions.
+
 ## Art
 
 Images live in `assets/img/`. Use lowercase descriptive names and keep each file under about 1600px wide and 1MB. Use `<img class="art" src="img/name.jpg" alt="...">` for a full-width banner and `class="portrait"` for a character portrait floated to the right.
