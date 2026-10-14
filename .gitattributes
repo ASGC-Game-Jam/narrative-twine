@@ -1,0 +1,8 @@
+# Normalize text to LF in the repo and working tree, regardless of core.autocrlf.
+* text=auto eol=lf
+
+# Windows batch scripts need CRLF.
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+*.exe binary
