@@ -1,0 +1,27 @@
+:: A2 Dench [character act2 todo char-Dench] {"position":"1090,650","size":"100,100"}
+<<meet "Dench">>
+//Act 2, Districts 3 and 4//
+
+/* Bio: Bullheaded, xenophobic fishmonger who founded and leads the Citizen Watch. Very low trust, quick to violence. */
+
+TODO: scene for Dench in Act 2.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Dench" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Dench" -10>><</link>>
+
+[[Dench|Codex Dench]]
+[[Back to Districts 3 and 4|A2 Districts 3 and 4]]
+
+
+:: Codex Dench [codex char-Dench] {"position":"2260,1010","size":"100,100"}
+!Dench
+''Where:'' Mid-level district
+''Appears in:'' [[Act 2|A2 Dench]]
+<<if $trust["Dench"] isnot undefined>>''Trust:'' <<print $trust["Dench"]>><</if>>
+
+Bullheaded, xenophobic fishmonger who founded and leads the Citizen Watch. Very low trust, quick to violence.
+
+[[Back to Codex|Codex]]
+
+

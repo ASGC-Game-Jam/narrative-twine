@@ -1,0 +1,43 @@
+:: A2 Sabelle [character act2 todo char-Sabelle] {"position":"1090,890","size":"100,100"}
+<<meet "Sabelle">>
+//Act 2, The Wilds Workshop//
+
+/* Bio: Industrious, ingenious, eager 20-year-old inventor (they/them) from the slums with goggles and a homemade gauntlet. Built Seayssal's tail fin. */
+
+TODO: scene for Sabelle in Act 2.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Sabelle" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Sabelle" -10>><</link>>
+
+[[Sabelle|Codex Sabelle]]
+[[Back to The Wilds Workshop|A2 The Wilds Workshop]]
+
+
+:: A4 Sabelle [character act4 todo char-Sabelle] {"position":"1870,530","size":"100,100"}
+<<meet "Sabelle">>
+//Act 4, Sabelle's Forge//
+
+/* Bio: Industrious, ingenious, eager 20-year-old inventor (they/them) from the slums with goggles and a homemade gauntlet. Built Seayssal's tail fin. */
+
+TODO: scene for Sabelle in Act 4.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Sabelle" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Sabelle" -10>><</link>>
+
+[[Sabelle|Codex Sabelle]]
+[[Back to Sabelle's Forge|A4 Sabelle's Forge]]
+
+
+:: Codex Sabelle [codex char-Sabelle] {"position":"2260,770","size":"100,100"}
+!Sabelle
+''Where:'' Slums
+''Appears in:'' [[Act 2|A2 Sabelle]], [[Act 4|A4 Sabelle]]
+<<if $trust["Sabelle"] isnot undefined>>''Trust:'' <<print $trust["Sabelle"]>><</if>>
+
+Industrious, ingenious, eager 20-year-old inventor (they/them) from the slums with goggles and a homemade gauntlet. Built Seayssal's tail fin.
+
+[[Back to Codex|Codex]]
+
+

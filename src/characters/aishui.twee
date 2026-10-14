@@ -1,0 +1,27 @@
+:: A1 Aishui [character act1 todo char-Aishui] {"position":"700,770","size":"100,100"}
+<<meet "Aishui">>
+//Act 1, Near District 2//
+
+/* Bio: Playful, protective, naive sea god with coral antlers. Raised by Seayssal; searching for a cure. Trusts the MC from the start. */
+
+TODO: scene for Aishui in Act 1.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Aishui" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Aishui" -10>><</link>>
+
+[[Aishui|Codex Aishui]]
+[[Back to Near District 2|A1 Near District 2]]
+
+
+:: Codex Aishui [codex char-Aishui] {"position":"2260,530","size":"100,100"}
+!Aishui
+''Where:'' District 3, travels everywhere
+''Appears in:'' [[Act 1|A1 Aishui]]
+<<if $trust["Aishui"] isnot undefined>>''Trust:'' <<print $trust["Aishui"]>><</if>>
+
+Playful, protective, naive sea god with coral antlers. Raised by Seayssal; searching for a cure. Trusts the MC from the start.
+
+[[Back to Codex|Codex]]
+
+

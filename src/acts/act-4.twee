@@ -1,0 +1,77 @@
+:: Act 4 [act act4] {"position":"1610,170","size":"100,100"}
+!Act 4: District 5
+
+The desert district. Silik and Skuttle, Sabelle's device upgrade, a reunion with Castella at the Wellness Retreat, and the final confrontation with Sir Richard Black.
+
+<<set $act to 4>>
+
+!!Locations
+* [[District 5 Wastes|A4 District 5 Wastes]]
+* [[Sabelle's Forge|A4 Sabelle's Forge]]
+* [[Wellness Retreat|A4 Wellness Retreat]]
+* [[Final Confrontation|A4 Final Confrontation]]
+
+!!Act complete?
+/* TODO: gate on act flags */
+[[Go to the Endings|Endings]]
+
+
+:: A4 District 5 Wastes [location act4 todo] {"position":"1740,290","size":"100,100"}
+!District 5 Wastes
+//Act 4//
+
+The abandoned zones and Skuttle's bunker.
+
+/* TODO: location description and events */
+
+!!Here
+* [[Silik|A4 Silik]]
+* [[Skuttle|A4 Skuttle]]
+
+[[Back to Act 4|Act 4]]
+
+
+:: A4 Sabelle's Forge [location act4 todo] {"position":"1740,530","size":"100,100"}
+!Sabelle's Forge
+//Act 4//
+
+Sabelle upgrades the device.
+
+/* TODO: location description and events */
+
+!!Here
+* [[Sabelle|A4 Sabelle]]
+
+[[Back to Act 4|Act 4]]
+
+
+:: A4 Wellness Retreat [location act4 todo] {"position":"1740,650","size":"100,100"}
+!Wellness Retreat
+//Act 4//
+
+Reunion with Castella.
+
+/* TODO: location description and events */
+
+!!Here
+* [[Castella|A4 Castella]]
+* [[Wellness Retreat Guru|A4 Wellness Retreat Guru]]
+* [[Ranhuma|A4 Ranhuma]]
+
+[[Back to Act 4|Act 4]]
+
+
+:: A4 Final Confrontation [location act4 todo] {"position":"1740,1010","size":"100,100"}
+!Final Confrontation
+//Act 4//
+
+Boss: Sir Richard Black.
+
+/* TODO: location description and events */
+
+!!Here
+* [[Sir Richard Black|A4 Sir Richard Black]]
+
+[[Back to Act 4|Act 4]]
+
+

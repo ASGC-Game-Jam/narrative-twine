@@ -1,0 +1,27 @@
+:: A3 Gumboh [character act3 todo char-Gumboh] {"position":"1480,650","size":"100,100"}
+<<meet "Gumboh">>
+//Act 3, District 3 Slums//
+
+/* Bio: Warm, selfless community chef (they/them). Too weak to remember a key clue until fed. Quest: ingredients from every district. */
+
+TODO: scene for Gumboh in Act 3.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Gumboh" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Gumboh" -10>><</link>>
+
+[[Gumboh|Codex Gumboh]]
+[[Back to District 3 Slums|A3 District 3 Slums]]
+
+
+:: Codex Gumboh [codex char-Gumboh] {"position":"2260,1250","size":"100,100"}
+!Gumboh
+''Where:'' District 3 slums
+''Appears in:'' [[Act 3|A3 Gumboh]]
+<<if $trust["Gumboh"] isnot undefined>>''Trust:'' <<print $trust["Gumboh"]>><</if>>
+
+Warm, selfless community chef (they/them). Too weak to remember a key clue until fed. Quest: ingredients from every district.
+
+[[Back to Codex|Codex]]
+
+

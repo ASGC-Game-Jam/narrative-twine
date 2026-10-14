@@ -1,0 +1,27 @@
+:: A2 Citizen Watch Plant [character act2 todo char-CitizenWatchPlant] {"position":"1090,770","size":"100,100"}
+<<meet "Citizen Watch Plant">>
+//Act 2, Districts 3 and 4//
+
+/* Bio: CHARACTER REQUEST, no bio. Watch member secretly paid by the King. Outline suggests Dench could be the plant instead. */
+
+TODO: scene for Citizen Watch Plant in Act 2.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Citizen Watch Plant" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Citizen Watch Plant" -10>><</link>>
+
+[[Citizen Watch Plant|Codex Citizen Watch Plant]]
+[[Back to Districts 3 and 4|A2 Districts 3 and 4]]
+
+
+:: Codex Citizen Watch Plant [codex char-CitizenWatchPlant todo] {"position":"2390,1010","size":"100,100"}
+!Citizen Watch Plant
+''Where:'' Districts 3 and 4
+''Appears in:'' [[Act 2|A2 Citizen Watch Plant]]
+<<if $trust["Citizen Watch Plant"] isnot undefined>>''Trust:'' <<print $trust["Citizen Watch Plant"]>><</if>>
+
+CHARACTER REQUEST, no bio. Watch member secretly paid by the King. Outline suggests Dench could be the plant instead.
+
+[[Back to Codex|Codex]]
+
+

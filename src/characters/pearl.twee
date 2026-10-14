@@ -1,0 +1,27 @@
+:: A2 Pearl [character act2 todo char-Pearl] {"position":"1090,530","size":"100,100"}
+<<meet "Pearl">>
+//Act 2, Districts 3 and 4//
+
+/* Bio: Upbeat jellyfolk shopkeeper who shelters people caught outside by the Colossus. Disapproves of Dench. Her supplier Sal is missing. */
+
+TODO: scene for Pearl in Act 2.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Pearl" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Pearl" -10>><</link>>
+
+[[Pearl|Codex Pearl]]
+[[Back to Districts 3 and 4|A2 Districts 3 and 4]]
+
+
+:: Codex Pearl [codex char-Pearl] {"position":"2390,890","size":"100,100"}
+!Pearl
+''Where:'' District 3
+''Appears in:'' [[Act 2|A2 Pearl]]
+<<if $trust["Pearl"] isnot undefined>>''Trust:'' <<print $trust["Pearl"]>><</if>>
+
+Upbeat jellyfolk shopkeeper who shelters people caught outside by the Colossus. Disapproves of Dench. Her supplier Sal is missing.
+
+[[Back to Codex|Codex]]
+
+

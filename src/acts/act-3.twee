@@ -1,0 +1,69 @@
+:: Act 3 [act act3] {"position":"1220,170","size":"100,100"}
+!Act 3: The Leviathan
+
+Sir Richard resurfaces and attacks the leviathan in the Wilds. The MC bonds with Seayssal, works the Second Pinch Point in the slums, and repairs the manta ray ornithopter.
+
+<<set $act to 3>>
+
+!!Locations
+* [[Wilds Research Station|A3 Wilds Research Station]]
+* [[District 3 Slums|A3 District 3 Slums]]
+* [[District 4 Workshop|A3 District 4 Workshop]]
+
+!!Offstage this act
+* Castella (no role in Act 3: gap)
+
+!!Act complete?
+/* TODO: gate on act flags */
+[[Continue to Act 4|Act 4]]
+
+
+:: A3 Wilds Research Station [location act3 todo] {"position":"1350,290","size":"100,100"}
+!Wilds Research Station
+//Act 3//
+
+Sir Richard attacks the leviathan; the MC bonds with Seayssal.
+
+/* TODO: location description and events */
+
+!!Here
+* [[Sir Richard Black|A3 Sir Richard Black]]
+* [[Seayssal|A3 Seayssal]]
+
+[[Back to Act 3|Act 3]]
+
+
+:: A3 District 3 Slums [location act3 todo] {"position":"1350,530","size":"100,100"}
+!District 3 Slums
+//Act 3//
+
+Second Pinch Point (marked potential in the outline).
+
+/* TODO: location description and events */
+
+!!Here
+* [[Eelis|A3 Eelis]]
+* [[Gumboh|A3 Gumboh]]
+
+[[Back to Act 3|Act 3]]
+
+
+:: A3 District 4 Workshop [location act3 todo] {"position":"1350,770","size":"100,100"}
+!District 4 Workshop
+//Act 3//
+
+The brothers repair the manta ray ornithopter. Backstory ties to Aishui and Sabelle's contraption.
+
+/* TODO: location description and events */
+
+!!Here
+* [[Brother 1|A3 Brother 1]]
+* [[Brother 2|A3 Brother 2]]
+
+!!Referenced
+* Aishui (backstory)
+* Sabelle (backstory)
+
+[[Back to Act 3|Act 3]]
+
+

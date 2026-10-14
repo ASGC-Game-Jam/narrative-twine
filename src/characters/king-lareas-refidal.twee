@@ -1,0 +1,27 @@
+:: A1 King Lareas Refidal [character act1 todo char-KingLareasRefidal] {"position":"700,410","size":"100,100"}
+<<meet "King Lareas Refidal">>
+//Act 1, District 1//
+
+/* Bio: STUB. Narcissist king who manipulates Aishui and pushes hydropunk tech for wealth and power. */
+
+TODO: scene for King Lareas Refidal in Act 1.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "King Lareas Refidal" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "King Lareas Refidal" -10>><</link>>
+
+[[King Lareas Refidal|Codex King Lareas Refidal]]
+[[Back to District 1|A1 District 1]]
+
+
+:: Codex King Lareas Refidal [codex char-KingLareasRefidal todo] {"position":"2390,410","size":"100,100"}
+!King Lareas Refidal
+''Where:'' District 1
+''Appears in:'' [[Act 1|A1 King Lareas Refidal]]
+<<if $trust["King Lareas Refidal"] isnot undefined>>''Trust:'' <<print $trust["King Lareas Refidal"]>><</if>>
+
+STUB. Narcissist king who manipulates Aishui and pushes hydropunk tech for wealth and power.
+
+[[Back to Codex|Codex]]
+
+

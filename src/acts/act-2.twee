@@ -1,0 +1,96 @@
+:: Act 2 [act act2] {"position":"830,170","size":"100,100"}
+!Act 2: The Bulwarks
+
+Districts 3 and 4 under the Bleached Coral Colossus. Sabelle builds the Power Washer in the Wilds, Castella returns with the Colossus plan, and Gerold calls in at the Midpoint.
+
+<<set $act to 2>>
+
+!!Locations
+* [[Districts 3 and 4|A2 Districts 3 and 4]]
+* [[The Wilds Workshop|A2 The Wilds Workshop]]
+* [[Castella's Camp|A2 Castella's Camp]]
+* [[Council Radio|A2 Council Radio]]
+* [[Richard's Notes|A2 Richard's Notes]]
+
+!!Act complete?
+/* TODO: gate on act flags */
+[[Continue to Act 3|Act 3]]
+
+
+:: A2 Districts 3 and 4 [location act2 todo] {"position":"960,290","size":"100,100"}
+!Districts 3 and 4
+//Act 2//
+
+The Citizen Watch patrols while the Colossus roams. Boss: the Bleached Coral Colossus.
+
+/* TODO: location description and events */
+
+!!Here
+* [[Omelia Goldfin|A2 Omelia Goldfin]]
+* [[Polyp|A2 Polyp]]
+* [[Pearl|A2 Pearl]]
+* [[Dench|A2 Dench]]
+* [[Citizen Watch Plant|A2 Citizen Watch Plant]]
+
+[[Back to Act 2|Act 2]]
+
+
+:: A2 The Wilds Workshop [location act2 todo] {"position":"960,890","size":"100,100"}
+!The Wilds Workshop
+//Act 2//
+
+Sabelle builds the Power Washer.
+
+/* TODO: location description and events */
+
+!!Here
+* [[Sabelle|A2 Sabelle]]
+
+[[Back to Act 2|Act 2]]
+
+
+:: A2 Castella's Camp [location act2 todo] {"position":"960,1010","size":"100,100"}
+!Castella's Camp
+//Act 2//
+
+Castella catches up with the MC and plans the attack on the Colossus.
+
+/* TODO: location description and events */
+
+!!Here
+* [[Castella|A2 Castella]]
+
+[[Back to Act 2|Act 2]]
+
+
+:: A2 Council Radio [location act2 todo] {"position":"960,1130","size":"100,100"}
+!Council Radio
+//Act 2//
+
+Midpoint: the MC's council liaison checks in.
+
+/* TODO: location description and events */
+
+!!Here
+* [[Gerold Granite|A2 Gerold Granite]]
+
+[[Back to Act 2|Act 2]]
+
+
+:: A2 Richard's Notes [location act2 todo] {"position":"960,1250","size":"100,100"}
+!Richard's Notes
+//Act 2//
+
+The MC follows Sir Richard's trail through notes he left behind.
+
+/* TODO: location description and events */
+
+
+!!Referenced
+* Sir Richard Black (notes)
+* Seayssal (referenced)
+* King Lareas Refidal (referenced)
+
+[[Back to Act 2|Act 2]]
+
+

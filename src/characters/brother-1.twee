@@ -1,0 +1,27 @@
+:: A3 Brother 1 [character act3 todo char-Brother1] {"position":"1480,770","size":"100,100"}
+<<meet "Brother 1">>
+//Act 3, District 4 Workshop//
+
+/* Bio: CHARACTER REQUEST, no bio. Repairs the manta ray ornithopter. */
+
+TODO: scene for Brother 1 in Act 3.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Brother 1" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Brother 1" -10>><</link>>
+
+[[Brother 1|Codex Brother 1]]
+[[Back to District 4 Workshop|A3 District 4 Workshop]]
+
+
+:: Codex Brother 1 [codex char-Brother1 todo] {"position":"2390,1250","size":"100,100"}
+!Brother 1
+''Where:'' District 4
+''Appears in:'' [[Act 3|A3 Brother 1]]
+<<if $trust["Brother 1"] isnot undefined>>''Trust:'' <<print $trust["Brother 1"]>><</if>>
+
+CHARACTER REQUEST, no bio. Repairs the manta ray ornithopter.
+
+[[Back to Codex|Codex]]
+
+

@@ -1,0 +1,27 @@
+:: A2 Gerold Granite [character act2 todo char-GeroldGranite] {"position":"1090,1130","size":"100,100"}
+<<meet "Gerold Granite">>
+//Act 2, Council Radio//
+
+/* Bio: Focused, stubborn 40-year-old human Council liaison on the radio. Was Richard's liaison when he vanished. Warms up over time. */
+
+TODO: scene for Gerold Granite in Act 2.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Gerold Granite" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Gerold Granite" -10>><</link>>
+
+[[Gerold Granite|Codex Gerold Granite]]
+[[Back to Council Radio|A2 Council Radio]]
+
+
+:: Codex Gerold Granite [codex char-GeroldGranite] {"position":"2260,1130","size":"100,100"}
+!Gerold Granite
+''Where:'' Not a resident
+''Appears in:'' [[Act 2|A2 Gerold Granite]]
+<<if $trust["Gerold Granite"] isnot undefined>>''Trust:'' <<print $trust["Gerold Granite"]>><</if>>
+
+Focused, stubborn 40-year-old human Council liaison on the radio. Was Richard's liaison when he vanished. Warms up over time.
+
+[[Back to Codex|Codex]]
+
+

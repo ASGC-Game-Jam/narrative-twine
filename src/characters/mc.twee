@@ -1,0 +1,11 @@
+:: Codex MC [codex char-MC] {"position":"2260,290","size":"100,100"}
+!MC
+''Where:'' Everywhere
+''Appears in:'' not on screen (see Endings / references)
+<<if $trust["MC"] isnot undefined>>''Trust:'' <<print $trust["MC"]>><</if>>
+
+The player character, sent by the Oceanography Council.
+
+[[Back to Codex|Codex]]
+
+

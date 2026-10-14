@@ -1,0 +1,34 @@
+:: Endings [ending] {"position":"2000,170","size":"100,100"}
+!Endings
+
+Conspirators named by the outline: King Lareas, Dench, the Citizen Watch plant, and Elvira (the human conspirator).
+
+<<if $flags.mandateRevoked and $flags.elviraExposed>>
+  [[Best Ending]]
+<<elseif $flags.mandateRevoked>>
+  [[Good Ending]]
+<<else>>
+  [[Bad Ending]]
+<</if>>
+
+/* TODO: real ending conditions from the outline. For testing: */
+<<link "Debug: force best">><<set $flags.mandateRevoked to true>><<set $flags.elviraExposed to true>><<goto "Best Ending">><</link>>
+
+
+:: Best Ending [ending todo] {"position":"2000,290","size":"100,100"}
+!Best Ending
+Aishui revokes the King's mandate, backed by Seayssal. Elvira is exposed as the human conspirator. Castella becomes health minister.
+/* TODO: Elvira is never introduced in Acts 1 to 4. Seed her somewhere. */
+[[Codex]]
+
+
+:: Good Ending [ending todo] {"position":"2000,410","size":"100,100"}
+!Good Ending
+Aishui revokes the King's mandate with Seayssal's support. Castella becomes health minister. The Atlantean conspirators (King, Dench, Watch plant) are named.
+
+
+:: Bad Ending [ending todo] {"position":"2000,530","size":"100,100"}
+!Bad Ending
+TODO: what happens when the mandate stands.
+
+

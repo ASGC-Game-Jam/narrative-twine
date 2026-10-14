@@ -1,0 +1,27 @@
+:: A3 Eelis [character act3 todo char-Eelis] {"position":"1480,530","size":"100,100"}
+<<meet "Eelis">>
+//Act 3, District 3 Slums//
+
+/* Bio: Slippery, skeptical 20-year-old merman thief. Hides an early Bleaching mark. Protects Serena; partners with Sabelle. */
+
+TODO: scene for Eelis in Act 3.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Eelis" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Eelis" -10>><</link>>
+
+[[Eelis|Codex Eelis]]
+[[Back to District 3 Slums|A3 District 3 Slums]]
+
+
+:: Codex Eelis [codex char-Eelis] {"position":"2390,1130","size":"100,100"}
+!Eelis
+''Where:'' Slums
+''Appears in:'' [[Act 3|A3 Eelis]]
+<<if $trust["Eelis"] isnot undefined>>''Trust:'' <<print $trust["Eelis"]>><</if>>
+
+Slippery, skeptical 20-year-old merman thief. Hides an early Bleaching mark. Protects Serena; partners with Sabelle.
+
+[[Back to Codex|Codex]]
+
+

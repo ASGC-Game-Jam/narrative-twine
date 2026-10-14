@@ -1,0 +1,43 @@
+:: A3 Sir Richard Black [character act3 todo char-SirRichardBlack] {"position":"1480,290","size":"100,100"}
+<<meet "Sir Richard Black">>
+//Act 3, Wilds Research Station//
+
+/* Bio: Brilliant, paranoid, paternal. 55-year-old knighted human explorer who discovered Atlantis. Believes the leviathan causes the Bleaching and will kill a god to stop it. Carries James's brass compass. */
+
+TODO: scene for Sir Richard Black in Act 3.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Sir Richard Black" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Sir Richard Black" -10>><</link>>
+
+[[Sir Richard Black|Codex Sir Richard Black]]
+[[Back to Wilds Research Station|A3 Wilds Research Station]]
+
+
+:: A4 Sir Richard Black [character act4 todo char-SirRichardBlack] {"position":"1870,1010","size":"100,100"}
+<<meet "Sir Richard Black">>
+//Act 4, Final Confrontation//
+
+/* Bio: Brilliant, paranoid, paternal. 55-year-old knighted human explorer who discovered Atlantis. Believes the leviathan causes the Bleaching and will kill a god to stop it. Carries James's brass compass. */
+
+TODO: scene for Sir Richard Black in Act 4.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Sir Richard Black" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Sir Richard Black" -10>><</link>>
+
+[[Sir Richard Black|Codex Sir Richard Black]]
+[[Back to Final Confrontation|A4 Final Confrontation]]
+
+
+:: Codex Sir Richard Black [codex char-SirRichardBlack] {"position":"2390,290","size":"100,100"}
+!Sir Richard Black
+''Where:'' Near the city entrance; final boss in District 5
+''Appears in:'' [[Act 3|A3 Sir Richard Black]], [[Act 4|A4 Sir Richard Black]]
+<<if $trust["Sir Richard Black"] isnot undefined>>''Trust:'' <<print $trust["Sir Richard Black"]>><</if>>
+
+Brilliant, paranoid, paternal. 55-year-old knighted human explorer who discovered Atlantis. Believes the leviathan causes the Bleaching and will kill a god to stop it. Carries James's brass compass.
+
+[[Back to Codex|Codex]]
+
+

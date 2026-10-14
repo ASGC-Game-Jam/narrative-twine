@@ -1,0 +1,27 @@
+:: A2 Omelia Goldfin [character act2 todo char-OmeliaGoldfin] {"position":"1090,290","size":"100,100"}
+<<meet "Omelia Goldfin">>
+//Act 2, Districts 3 and 4//
+
+/* Bio: Charming, shrewd jellyfolk singer at the Golden Oyster. Rumored to ward off the Bleaching; gets kidnapped. Rescue her or she frees herself and turns antagonist. */
+
+TODO: scene for Omelia Goldfin in Act 2.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Omelia Goldfin" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Omelia Goldfin" -10>><</link>>
+
+[[Omelia Goldfin|Codex Omelia Goldfin]]
+[[Back to Districts 3 and 4|A2 Districts 3 and 4]]
+
+
+:: Codex Omelia Goldfin [codex char-OmeliaGoldfin] {"position":"2390,770","size":"100,100"}
+!Omelia Goldfin
+''Where:'' District 3 tavern
+''Appears in:'' [[Act 2|A2 Omelia Goldfin]]
+<<if $trust["Omelia Goldfin"] isnot undefined>>''Trust:'' <<print $trust["Omelia Goldfin"]>><</if>>
+
+Charming, shrewd jellyfolk singer at the Golden Oyster. Rumored to ward off the Bleaching; gets kidnapped. Rescue her or she frees herself and turns antagonist.
+
+[[Back to Codex|Codex]]
+
+

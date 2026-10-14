@@ -1,0 +1,27 @@
+:: A1 District 1 Virologist [character act1 todo char-District1Virologist] {"position":"700,650","size":"100,100"}
+<<meet "District 1 Virologist">>
+//Act 1, District 1//
+
+/* Bio: CHARACTER REQUEST, no bio. Clinical researcher in District 1 (Aiur from the brainstorm could fit). */
+
+TODO: scene for District 1 Virologist in Act 1.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "District 1 Virologist" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "District 1 Virologist" -10>><</link>>
+
+[[District 1 Virologist|Codex District 1 Virologist]]
+[[Back to District 1|A1 District 1]]
+
+
+:: Codex District 1 Virologist [codex char-District1Virologist todo] {"position":"2390,650","size":"100,100"}
+!District 1 Virologist
+''Where:'' District 1
+''Appears in:'' [[Act 1|A1 District 1 Virologist]]
+<<if $trust["District 1 Virologist"] isnot undefined>>''Trust:'' <<print $trust["District 1 Virologist"]>><</if>>
+
+CHARACTER REQUEST, no bio. Clinical researcher in District 1 (Aiur from the brainstorm could fit).
+
+[[Back to Codex|Codex]]
+
+

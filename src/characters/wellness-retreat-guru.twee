@@ -1,0 +1,27 @@
+:: A4 Wellness Retreat Guru [character act4 todo char-WellnessRetreatGuru] {"position":"1870,770","size":"100,100"}
+<<meet "Wellness Retreat Guru">>
+//Act 4, Wellness Retreat//
+
+/* Bio: CHARACTER REQUEST. Soothira Waves (District 1 spa guru, full bio) could fill this. */
+
+TODO: scene for Wellness Retreat Guru in Act 4.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Wellness Retreat Guru" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Wellness Retreat Guru" -10>><</link>>
+
+[[Wellness Retreat Guru|Codex Wellness Retreat Guru]]
+[[Back to Wellness Retreat|A4 Wellness Retreat]]
+
+
+:: Codex Wellness Retreat Guru [codex char-WellnessRetreatGuru todo] {"position":"2390,1490","size":"100,100"}
+!Wellness Retreat Guru
+''Where:'' District 5 Wellness Retreat
+''Appears in:'' [[Act 4|A4 Wellness Retreat Guru]]
+<<if $trust["Wellness Retreat Guru"] isnot undefined>>''Trust:'' <<print $trust["Wellness Retreat Guru"]>><</if>>
+
+CHARACTER REQUEST. Soothira Waves (District 1 spa guru, full bio) could fill this.
+
+[[Back to Codex|Codex]]
+
+

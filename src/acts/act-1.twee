@@ -1,0 +1,82 @@
+:: Act 1 [act act1] {"position":"440,170","size":"100,100"}
+!Act 1: Arrival
+
+The MC arrives to find Sir Richard Black missing. First research station, District 1's scientists, Aishui near District 2, and a glimpse of the leviathan in the Hook.
+
+<<set $act to 1>>
+
+!!Locations
+* [[First Research Station|A1 First Research Station]]
+* [[District 1|A1 District 1]]
+* [[Near District 2|A1 Near District 2]]
+* [[The Hook|A1 The Hook]]
+
+!!Offstage this act
+* Sir Richard Black (missing; follow his trail)
+
+!!Act complete?
+/* TODO: gate on act flags */
+[[Continue to Act 2|Act 2]]
+
+
+:: A1 First Research Station [location act1 todo] {"position":"570,290","size":"100,100"}
+!First Research Station
+//Act 1//
+
+Castella's station. She mentions an inventor, Sabelle.
+
+/* TODO: location description and events */
+
+!!Here
+* [[Castella|A1 Castella]]
+
+!!Referenced
+* Sabelle (mentioned)
+
+[[Back to Act 1|Act 1]]
+
+
+:: A1 District 1 [location act1 todo] {"position":"570,410","size":"100,100"}
+!District 1
+//Act 1//
+
+First Plot Point: the District 1/2 scientists. The King holds court here.
+
+/* TODO: location description and events */
+
+!!Here
+* [[King Lareas Refidal|A1 King Lareas Refidal]]
+* [[Serena Waves|A1 Serena Waves]]
+* [[District 1 Virologist|A1 District 1 Virologist]]
+
+[[Back to Act 1|Act 1]]
+
+
+:: A1 Near District 2 [location act1 todo] {"position":"570,770","size":"100,100"}
+!Near District 2
+//Act 1//
+
+The MC meets the sea god.
+
+/* TODO: location description and events */
+
+!!Here
+* [[Aishui|A1 Aishui]]
+
+[[Back to Act 1|Act 1]]
+
+
+:: A1 The Hook [location act1 todo] {"position":"570,890","size":"100,100"}
+!The Hook
+//Act 1//
+
+A cave where the leviathan is seen for the first time.
+
+/* TODO: location description and events */
+
+!!Here
+* [[Seayssal|A1 Seayssal]]
+
+[[Back to Act 1|Act 1]]
+
+

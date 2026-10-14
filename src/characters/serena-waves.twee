@@ -1,0 +1,27 @@
+:: A1 Serena Waves [character act1 todo char-SerenaWaves] {"position":"700,530","size":"100,100"}
+<<meet "Serena Waves">>
+//Act 1, District 1//
+
+/* Bio: Kind, shy, gentle 14-year-old medic with a battered first-aid bag. One of few allowed through the barricades. Low trust at first. */
+
+TODO: scene for Serena Waves in Act 1.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Serena Waves" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Serena Waves" -10>><</link>>
+
+[[Serena Waves|Codex Serena Waves]]
+[[Back to District 1|A1 District 1]]
+
+
+:: Codex Serena Waves [codex char-SerenaWaves] {"position":"2260,650","size":"100,100"}
+!Serena Waves
+''Where:'' District 1
+''Appears in:'' [[Act 1|A1 Serena Waves]]
+<<if $trust["Serena Waves"] isnot undefined>>''Trust:'' <<print $trust["Serena Waves"]>><</if>>
+
+Kind, shy, gentle 14-year-old medic with a battered first-aid bag. One of few allowed through the barricades. Low trust at first.
+
+[[Back to Codex|Codex]]
+
+

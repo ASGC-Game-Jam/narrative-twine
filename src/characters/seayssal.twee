@@ -1,0 +1,43 @@
+:: A1 Seayssal [character act1 todo char-Seayssal] {"position":"700,890","size":"100,100"}
+<<meet "Seayssal">>
+//Act 1, The Hook//
+
+/* Bio: Abyssal, primordial guardian. Four-billion-year-old leviathan whose life force blooms the special coral. Speaks only in telepathic images and hymns. */
+
+TODO: scene for Seayssal in Act 1.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Seayssal" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Seayssal" -10>><</link>>
+
+[[Seayssal|Codex Seayssal]]
+[[Back to The Hook|A1 The Hook]]
+
+
+:: A3 Seayssal [character act3 todo char-Seayssal] {"position":"1480,410","size":"100,100"}
+<<meet "Seayssal">>
+//Act 3, Wilds Research Station//
+
+/* Bio: Abyssal, primordial guardian. Four-billion-year-old leviathan whose life force blooms the special coral. Speaks only in telepathic images and hymns. */
+
+TODO: scene for Seayssal in Act 3.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Seayssal" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Seayssal" -10>><</link>>
+
+[[Seayssal|Codex Seayssal]]
+[[Back to Wilds Research Station|A3 Wilds Research Station]]
+
+
+:: Codex Seayssal [codex char-Seayssal] {"position":"2260,410","size":"100,100"}
+!Seayssal
+''Where:'' Caves, the Wilds, open ocean
+''Appears in:'' [[Act 1|A1 Seayssal]], [[Act 3|A3 Seayssal]]
+<<if $trust["Seayssal"] isnot undefined>>''Trust:'' <<print $trust["Seayssal"]>><</if>>
+
+Abyssal, primordial guardian. Four-billion-year-old leviathan whose life force blooms the special coral. Speaks only in telepathic images and hymns.
+
+[[Back to Codex|Codex]]
+
+

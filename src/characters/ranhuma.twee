@@ -1,0 +1,27 @@
+:: A4 Ranhuma [character act4 todo char-Ranhuma] {"position":"1870,890","size":"100,100"}
+<<meet "Ranhuma">>
+//Act 4, Wellness Retreat//
+
+/* Bio: STUB. Walrus-type Atlantean in his 60s, broken left tusk, conch bracelets. Retreat manager and therapist. Bio says District 2, outline says District 5. */
+
+TODO: scene for Ranhuma in Act 4.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Ranhuma" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Ranhuma" -10>><</link>>
+
+[[Ranhuma|Codex Ranhuma]]
+[[Back to Wellness Retreat|A4 Wellness Retreat]]
+
+
+:: Codex Ranhuma [codex char-Ranhuma todo] {"position":"2260,1610","size":"100,100"}
+!Ranhuma
+''Where:'' Wellness Retreat
+''Appears in:'' [[Act 4|A4 Ranhuma]]
+<<if $trust["Ranhuma"] isnot undefined>>''Trust:'' <<print $trust["Ranhuma"]>><</if>>
+
+STUB. Walrus-type Atlantean in his 60s, broken left tusk, conch bracelets. Retreat manager and therapist. Bio says District 2, outline says District 5.
+
+[[Back to Codex|Codex]]
+
+

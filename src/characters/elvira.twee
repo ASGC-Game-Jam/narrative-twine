@@ -1,0 +1,11 @@
+:: Codex Elvira [codex char-Elvira] {"position":"2390,1610","size":"100,100"}
+!Elvira
+''Where:'' Surface / submarines
+''Appears in:'' not on screen (see Endings / references)
+<<if $trust["Elvira"] isnot undefined>>''Trust:'' <<print $trust["Elvira"]>><</if>>
+
+Cruel human supremacist scientist. Faction undecided: Anglers or Council. Needed for the best ending but never introduced.
+
+[[Back to Codex|Codex]]
+
+

@@ -1,0 +1,136 @@
+:: StoryTitle
+Atlantis Acts Scaffold
+
+:: StoryData
+{
+  "ifid": "1C56407D-5FCE-5082-AFEE-F5EF1F8E4F26",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Start",
+  "tag-colors": {
+    "act": "green",
+    "location": "blue",
+    "character": "purple",
+    "codex": "yellow",
+    "ending": "red",
+    "todo": "orange"
+  },
+  "zoom": 0.6
+}
+
+:: Story Stylesheet [stylesheet]
+html,body{background:#0b1e28 !important;color:#e6f1f4 !important}
+#story,#passages,.passage{background:transparent !important;color:#e6f1f4 !important}
+#ui-bar,#ui-bar-body,#ui-bar-tray,#ui-dialog,#ui-dialog-body{background:#081620 !important;color:#e6f1f4 !important;border-color:#24414f !important}
+a,.link-internal,.macro-link{color:#6fc3ff !important}
+a:hover,.link-internal:hover{color:#ffd27a !important}
+.link-broken{color:#ff8a8a !important}
+button{background:#163746 !important;color:#e6f1f4 !important;border-color:#2e5a6c !important}
+.who{color:#7fe0d2}.trust{color:#ffc65c;font-style:italic}.trustval{color:#9fb6bf}
+
+:: StoryInit {"position":"50,50","size":"100,100"}
+/* Acts and progress */
+<<set $act to 1>>
+<<set $visited to []>>
+/* Trust: 0 = hostile, 50 = neutral, 100 = devoted. Starting values from the bios. */
+<<set $trust to {
+  "Sir Richard Black": 50, "Seayssal": 30, "King Lareas Refidal": 50, "Aishui": 80,
+  "Castella": 50, "Serena Waves": 20, "Sabelle": 40, "Omelia Goldfin": 50, "Polyp": 60,
+  "Pearl": 75, "Dench": 10, "Gerold Granite": 35, "Eelis": 25, "Gumboh": 80,
+  "Silik": 30, "Skuttle": 10, "Ranhuma": 50, "Elvira": 50
+}>>
+/* Story flags (TODO: wire these into scenes) */
+<<set $flags to {
+  richardMissing: true, seenLeviathanInHook: false, powerWasherBuilt: false,
+  colossusDefeated: false, omeliaRescued: false, ebbiFound: false,
+  gumbohFed: false, ornithopterRepaired: false, bondedWithSeayssal: false,
+  skuttleLetters: 0, deviceUpgraded: false, elviraExposed: false,
+  dench_isPlant: false, mandateRevoked: false
+}>>
+
+
+:: StoryCaption {"position":"180,50","size":"100,100"}
+''Act $act''<br>
+[[Character Codex|Codex]]<br>
+[[Districts Map|Districts]]
+
+
+:: StoryMenu {"position":"310,50","size":"100,100"}
+[[Act 1 hub|Act 1]]
+[[Act 2 hub|Act 2]]
+[[Act 3 hub|Act 3]]
+[[Act 4 hub|Act 4]]
+[[Endings]]
+
+
+:: TrustWidget [widget] {"position":"440,50","size":"100,100"}
+<<widget "trust">>
+  /* Usage: <<trust "Castella" 10>> */
+  <<set $trust[_args[0]] to Math.clamp($trust[_args[0]] + _args[1], 0, 100)>>
+  @@.trust;(_args[0] trust <<if _args[1] gte 0>>+<</if>>_args[1])@@
+<</widget>>
+<<widget "meet">>
+  /* Usage: <<meet "Castella">> shows the name, codex link and current trust */
+  @@.who;''_args[0]''@@ <span class="trustval">(trust: <<print $trust[_args[0]] ?? "n/a">>)</span>
+<</widget>>
+
+
+:: Start {"position":"50,170","size":"100,100"}
+!Atlantis: District Simulation (scaffold)
+
+Atlantis is sealing itself off district by district as the Bleaching spreads. The Oceanography Council has sent you down to find their missing contact, Sir Richard Black.
+
+This file is scaffolding. Each act has a hub, each hub links to its locations, and each location links to the characters who appear there. Passages tagged `todo` need writing.
+
+[[Begin Act 1|Act 1]]
+[[Character Codex|Codex]]
+[[Districts Map|Districts]]
+
+
+:: Districts [map todo] {"position":"180,170","size":"100,100"}
+!Districts
+
+* ''District 1'': the palace and the scientists. King Lareas, Serena Waves, the virologist.
+* ''District 2'': Aishui's approach. (Ranhuma's bio also places him here.)
+* ''District 3'': the Golden Oyster, Pearl's store, the slums (Gumboh, Eelis, Sabelle).
+* ''District 4'': mid-level district; the brothers' workshop.
+* ''District 5'': the desert; Skuttle's bunker, Silik, the Wellness Retreat, the final confrontation.
+* ''The Hook'': the cave where the leviathan is first seen.
+* ''The Wilds'': outside the bulwarks; research station, Sabelle's Power Washer.
+
+TODO: confirm district numbering. Several bios use "slums", "mid-level" and "wealthy region" instead of numbers.
+
+<<return>>
+
+
+:: Codex [codex] {"position":"2260,170","size":"100,100"}
+!Character Codex
+
+* [[MC|Codex MC]]
+* [[Sir Richard Black|Codex Sir Richard Black]]
+* [[Seayssal|Codex Seayssal]]
+* [[King Lareas Refidal|Codex King Lareas Refidal]]
+* [[Aishui|Codex Aishui]]
+* [[Castella|Codex Castella]]
+* [[Serena Waves|Codex Serena Waves]]
+* [[District 1 Virologist|Codex District 1 Virologist]]
+* [[Sabelle|Codex Sabelle]]
+* [[Omelia Goldfin|Codex Omelia Goldfin]]
+* [[Polyp|Codex Polyp]]
+* [[Pearl|Codex Pearl]]
+* [[Dench|Codex Dench]]
+* [[Citizen Watch Plant|Codex Citizen Watch Plant]]
+* [[Gerold Granite|Codex Gerold Granite]]
+* [[Eelis|Codex Eelis]]
+* [[Gumboh|Codex Gumboh]]
+* [[Brother 1|Codex Brother 1]]
+* [[Brother 2|Codex Brother 2]]
+* [[Silik|Codex Silik]]
+* [[Skuttle|Codex Skuttle]]
+* [[Wellness Retreat Guru|Codex Wellness Retreat Guru]]
+* [[Ranhuma|Codex Ranhuma]]
+* [[Elvira|Codex Elvira]]
+
+<<return>>
+
+

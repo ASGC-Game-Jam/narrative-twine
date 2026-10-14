@@ -1,0 +1,59 @@
+:: A1 Castella [character act1 todo char-Castella] {"position":"700,290","size":"100,100"}
+<<meet "Castella">>
+//Act 1, First Research Station//
+
+/* Bio: Pessimistically optimistic doctor leading the Wandering Healers. Sir Richard is her surrogate father. Near burnout. */
+
+TODO: scene for Castella in Act 1.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Castella" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Castella" -10>><</link>>
+
+[[Castella|Codex Castella]]
+[[Back to First Research Station|A1 First Research Station]]
+
+
+:: A2 Castella [character act2 todo char-Castella] {"position":"1090,1010","size":"100,100"}
+<<meet "Castella">>
+//Act 2, Castella's Camp//
+
+/* Bio: Pessimistically optimistic doctor leading the Wandering Healers. Sir Richard is her surrogate father. Near burnout. */
+
+TODO: scene for Castella in Act 2.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Castella" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Castella" -10>><</link>>
+
+[[Castella|Codex Castella]]
+[[Back to Castella's Camp|A2 Castella's Camp]]
+
+
+:: A4 Castella [character act4 todo char-Castella] {"position":"1870,650","size":"100,100"}
+<<meet "Castella">>
+//Act 4, Wellness Retreat//
+
+/* Bio: Pessimistically optimistic doctor leading the Wandering Healers. Sir Richard is her surrogate father. Near burnout. */
+
+TODO: scene for Castella in Act 4.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Castella" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Castella" -10>><</link>>
+
+[[Castella|Codex Castella]]
+[[Back to Wellness Retreat|A4 Wellness Retreat]]
+
+
+:: Codex Castella [codex char-Castella] {"position":"2390,530","size":"100,100"}
+!Castella
+''Where:'' Nomadic
+''Appears in:'' [[Act 1|A1 Castella]], [[Act 2|A2 Castella]], [[Act 4|A4 Castella]]
+<<if $trust["Castella"] isnot undefined>>''Trust:'' <<print $trust["Castella"]>><</if>>
+
+Pessimistically optimistic doctor leading the Wandering Healers. Sir Richard is her surrogate father. Near burnout.
+
+[[Back to Codex|Codex]]
+
+

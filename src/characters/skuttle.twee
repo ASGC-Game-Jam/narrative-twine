@@ -1,0 +1,27 @@
+:: A4 Skuttle [character act4 todo char-Skuttle] {"position":"1870,410","size":"100,100"}
+<<meet "Skuttle">>
+//Act 4, District 5 Wastes//
+
+/* Bio: Paranoid former mail carrier (they/them) hiding in a bunker. Quest: collect thank-you letters from each district. Could unlock fast travel. */
+
+TODO: scene for Skuttle in Act 4.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Skuttle" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Skuttle" -10>><</link>>
+
+[[Skuttle|Codex Skuttle]]
+[[Back to District 5 Wastes|A4 District 5 Wastes]]
+
+
+:: Codex Skuttle [codex char-Skuttle] {"position":"2260,1490","size":"100,100"}
+!Skuttle
+''Where:'' District 5 desert
+''Appears in:'' [[Act 4|A4 Skuttle]]
+<<if $trust["Skuttle"] isnot undefined>>''Trust:'' <<print $trust["Skuttle"]>><</if>>
+
+Paranoid former mail carrier (they/them) hiding in a bunker. Quest: collect thank-you letters from each district. Could unlock fast travel.
+
+[[Back to Codex|Codex]]
+
+

@@ -1,0 +1,27 @@
+:: A4 Silik [character act4 todo char-Silik] {"position":"1870,290","size":"100,100"}
+<<meet "Silik">>
+//Act 4, District 5 Wastes//
+
+/* Bio: Shifty exiled soldier showing Bleaching symptoms, apparently partly immune. Quests: bring back his pet, or convince him a cure exists. */
+
+TODO: scene for Silik in Act 4.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Silik" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Silik" -10>><</link>>
+
+[[Silik|Codex Silik]]
+[[Back to District 5 Wastes|A4 District 5 Wastes]]
+
+
+:: Codex Silik [codex char-Silik] {"position":"2390,1370","size":"100,100"}
+!Silik
+''Where:'' Abandoned zones, District 5
+''Appears in:'' [[Act 4|A4 Silik]]
+<<if $trust["Silik"] isnot undefined>>''Trust:'' <<print $trust["Silik"]>><</if>>
+
+Shifty exiled soldier showing Bleaching symptoms, apparently partly immune. Quests: bring back his pet, or convince him a cure exists.
+
+[[Back to Codex|Codex]]
+
+

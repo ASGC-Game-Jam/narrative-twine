@@ -1,0 +1,27 @@
+:: A2 Polyp [character act2 todo char-Polyp] {"position":"1090,410","size":"100,100"}
+<<meet "Polyp">>
+//Act 2, Districts 3 and 4//
+
+/* Bio: Curious, lonely 8-year-old who lost contact with his slum friend Ebbi when the bulwarks went up. Quest: find Ebbi. */
+
+TODO: scene for Polyp in Act 2.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Polyp" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Polyp" -10>><</link>>
+
+[[Polyp|Codex Polyp]]
+[[Back to Districts 3 and 4|A2 Districts 3 and 4]]
+
+
+:: Codex Polyp [codex char-Polyp] {"position":"2260,890","size":"100,100"}
+!Polyp
+''Where:'' Mid-level district
+''Appears in:'' [[Act 2|A2 Polyp]]
+<<if $trust["Polyp"] isnot undefined>>''Trust:'' <<print $trust["Polyp"]>><</if>>
+
+Curious, lonely 8-year-old who lost contact with his slum friend Ebbi when the bulwarks went up. Quest: find Ebbi.
+
+[[Back to Codex|Codex]]
+
+
