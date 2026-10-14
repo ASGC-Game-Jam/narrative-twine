@@ -30,7 +30,89 @@ button{background:#163746 !important;color:#e6f1f4 !important;border-color:#2e5a
 .art{display:block;width:100%;height:auto;border-radius:8px;margin:0 0 1em}
 .portrait{float:right;max-width:220px;width:40%;height:auto;margin:0 0 1em 1em;border-radius:6px;border:1px solid #24414f}
 
+:: Story JavaScript [script]
+/* Background music. The track is picked from the passage name or its tags, so passages don't need
+   any music markup. Tracks are cached in StoryInit. To change where a track plays, edit byPassage
+   and byTag below. Passages that match nothing (Codex, Districts map) keep the current track. */
+setup.music = {
+	volume    : 0.5,
+	fade      : 1.5,
+	tracks    : ["main-menu", "tutorial", "hub-area"],
+	byPassage : { "Start": "main-menu" },
+	byTag     : { act1: "tutorial", act2: "hub-area", act3: "hub-area", act4: "main-menu", ending: "main-menu" },
+	current   : null
+};
+
+setup.music.pick = function (name, tags) {
+	var m = setup.music;
+	if (m.byPassage.hasOwnProperty(name)) {
+		return m.byPassage[name];
+	}
+	for (var i = 0; i < tags.length; ++i) {
+		if (m.byTag.hasOwnProperty(tags[i])) {
+			return m.byTag[tags[i]];
+		}
+	}
+	return null;
+};
+
+/* Fade in the wanted track and fade out any other that is playing. */
+setup.music.update = function () {
+	var m = setup.music;
+	var want = settings.music ? m.current : null;
+	m.tracks.forEach(function (id) {
+		var track = SimpleAudio.tracks.get(id);
+		if (!track) {
+			return;
+		}
+		if (id === want) {
+			if (!track.isPlaying() || track.volume() < 1) {
+				track.loop(true);
+				var p = track.fadeIn(m.fade, track.isPlaying() ? undefined : 0);
+				/* Browsers block audio until the player clicks; it is retried on the first click. */
+				if (p && p.catch) {
+					p.catch(function () {});
+				}
+			}
+		}
+		else if (track.isPlaying()) {
+			track.fadeOut(m.fade);
+		}
+	});
+};
+
+setup.music.toggle = function () {
+	settings.music = !settings.music;
+	Setting.save();
+	setup.music.update();
+};
+
+Setting.addToggle("music", {
+	label    : "Background music",
+	default  : true,
+	onChange : function () { setup.music.update(); }
+});
+
+SimpleAudio.volume(setup.music.volume);
+
+$(document).on(":passagestart", function (ev) {
+	var next = setup.music.pick(ev.passage.title, ev.passage.tags);
+	if (next) {
+		setup.music.current = next;
+	}
+	setup.music.update();
+});
+
+$(document).one("pointerdown keydown", function () {
+	setup.music.update();
+});
+
+
 :: StoryInit {"position":"50,50","size":"100,100"}
+/* Background music (see Story JavaScript for which track plays where) */
+<<cacheaudio "main-menu" "audio/main-menu.mp3">>
+<<cacheaudio "tutorial" "audio/tutorial.mp3">>
+<<cacheaudio "hub-area" "audio/hub-area.mp3">>
 /* Acts and progress */
 <<set $act to 1>>
 <<set $visited to []>>
@@ -63,6 +145,7 @@ button{background:#163746 !important;color:#e6f1f4 !important;border-color:#2e5a
 [[Act 3 hub|Act 3]]
 [[Act 4 hub|Act 4]]
 [[Endings]]
+<<link "Music on/off">><<run setup.music.toggle()>><</link>>
 
 
 :: TrustWidget [widget] {"position":"440,50","size":"100,100"}
