@@ -1,6 +1,6 @@
 :: Codex MC [codex char-MC] {"position":"2260,290","size":"100,100"}
 <img class="portrait" src="img/mc.jpg" alt="The main character">
-!MC
+!MC Skip was here!
 ''Where:'' Everywhere!
 ''Appears in:'' not on screen (see Endings / references)
 <<if $trust["MC"] isnot undefined>>''Trust:'' <<print $trust["MC"]>><</if>>
