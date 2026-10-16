@@ -1,1 +1,4 @@
 build/
+
+# Backups made by import-from-twine
+.backup/

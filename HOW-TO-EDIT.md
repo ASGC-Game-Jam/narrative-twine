@@ -21,10 +21,18 @@ You need write access to the repo to save changes. Ask Xelnath if you don't have
    - Mac, first time: if macOS says it can't open the file, right-click **preview.command**, choose **Open**, then **Open** again. Apple Silicon Macs may ask to install Rosetta once; say yes.
 4. When you're happy, go back to GitHub Desktop: write a short summary, click **Commit to main**, then **Push origin**. Click **Fetch origin** before you start each session to get everyone else's changes.
 
-## Option C: The Twine visual editor (for looking, not editing)
+## Option C: The Twine visual editor
 
-Twine (https://twinery.org) can show the story as a map of connected boxes. After previewing (Option B), use **Library > Import** in Twine and pick `build/atlantis-twine.html`.
-Changes made in Twine are **not** saved back to the files here, so use Option A or B for real changes.
+Twine (https://twinery.org) shows the story as a map of connected boxes. Set up Option B first, then:
+
+1. Double-click **preview.cmd** or **preview.command** once, so the latest story is built.
+2. In Twine, use **Library > Import** and pick `build/atlantis-twine.html`. If Twine already has the story from last time, replace it.
+3. Edit in Twine as usual.
+4. Choose **Build > Export As Twee** and save the file into the repo folder (the one with `preview.cmd` in it).
+5. Double-click **import-from-twine.cmd** (Windows) or **import-from-twine.command** (Mac; the first time, right-click it and choose **Open**). It puts every passage back into the right file and rebuilds the game.
+6. Read the summary it shows: which passages were updated, added and removed. Then commit and push in GitHub Desktop.
+
+New passages you create in Twine go into `src/new-passages.twee`. That's fine to leave, or you can move them into the right file later. Passages you deleted in Twine are deleted from the files too, and a passage you renamed counts as deleted plus new. A copy of the old files is kept in the `.backup` folder, which is not shared.
 
 ## How the story files work
 

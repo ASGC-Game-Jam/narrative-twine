@@ -46,7 +46,7 @@ Images live in `assets/img/`. Use lowercase descriptive names and keep each file
 
 - Each passage starts with `:: Passage Name [tags] {"position":"x,y","size":"100,100"}`. Passage names must be unique across all files.
 - Put a new character's passages in `src/characters/<name>.twee`, and add their starting trust to `StoryInit` in `story.twee`.
-- If you edit in the Twine app instead, use Build > Export as Twee and copy your changed passages back into the right files. Don't commit a whole exported file over `src/`.
+- If you edit in the Twine app instead, use Build > Export As Twee, save the file in the repo folder and run `import-from-twine.cmd` (Windows) or `import-from-twine.command` (macOS). It replaces changed passages in the files they already live in, puts new ones in `src/new-passages.twee`, removes passages deleted in Twine, never changes StoryData, matches the stylesheet and script by tag, backs up `src` to `.backup/` (gitignored), and rebuilds. It stops without changing anything if the export would remove more than a quarter of the passages. The logic is in `tools/import-from-twine.ps1` (Windows) and `tools/import-from-twine.sh` with `tools/import-from-twine.awk` (macOS); keep them in step.
 - Tags: `act`, `location`, `character`, `codex`, `ending`, and `todo` for anything that still needs writing.
 
 ## Music
