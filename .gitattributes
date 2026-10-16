@@ -6,3 +6,4 @@
 *.bat text eol=crlf
 
 *.exe binary
+tools/tweego/tweego-macos binary

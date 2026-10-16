@@ -1,5 +1,7 @@
 # Atlantis Acts Scaffold (Twee source)
 
+**Writers: start with [HOW-TO-EDIT.md](HOW-TO-EDIT.md).** It explains how to edit the story and preview it, with no setup beyond a browser.
+
 The story lives in plain-text Twee 3 files under `src/`, so several people can work at once and merge changes in git.
 
 ```
@@ -15,8 +17,10 @@ storyformats/sugarcube-2  SugarCube 2.37.3, so every build uses the same version
 
 ## Build
 
-1. Tweego 2.1.1 for Windows is included in `tools/tweego/`. On macOS/Linux, install it from https://www.motoslave.net/tweego/.
-2. Run `build.cmd` (Windows) or `./build.sh` (macOS/Linux).
+1. Tweego 2.1.1 for Windows and macOS is included in `tools/tweego/` (`tweego.exe` and `tweego-macos`). On Linux, install it from https://www.motoslave.net/tweego/.
+2. Run `build.cmd` (Windows) or `./build.sh` (macOS/Linux). To build and open the game in one step, double-click `preview.cmd` or `preview.command`.
+   - macOS: if it is blocked, run `xattr -d com.apple.quarantine tools/tweego/tweego-macos`. The binary is Intel (x64), so Apple Silicon Macs may prompt to install Rosetta once.
+   - `build.sh` uses `$TWEEGO` if set, then `tools/tweego/tweego`, then `tools/tweego/tweego-macos` on macOS, then `tweego` on your PATH.
 
 This writes two files to `build/`:
 - `atlantis-play.html` is the playable game. Open it in a browser.

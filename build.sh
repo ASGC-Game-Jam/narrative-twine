@@ -2,8 +2,17 @@
 # Builds the story from src/ with Tweego (https://www.motoslave.net/tweego/).
 # Output: build/atlantis-play.html (play in a browser) and build/atlantis-twine.html (Library > Import in Twine).
 cd "$(dirname "$0")"
-TWEEGO="${TWEEGO:-tweego}"
-[ -x tools/tweego/tweego ] && TWEEGO=tools/tweego/tweego
+# Tweego to use: $TWEEGO if set, else a bundled binary, else tweego on PATH.
+if [ -z "$TWEEGO" ]; then
+  if [ -x tools/tweego/tweego ]; then
+    TWEEGO=tools/tweego/tweego
+  elif [ "$(uname -s)" = Darwin ] && [ -f tools/tweego/tweego-macos ]; then
+    chmod +x tools/tweego/tweego-macos 2>/dev/null
+    TWEEGO=tools/tweego/tweego-macos
+  else
+    TWEEGO=tweego
+  fi
+fi
 mkdir -p build
 export TWEEGO_PATH="$PWD/storyformats"
 "$TWEEGO" -o build/atlantis-play.html src || exit 1
