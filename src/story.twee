@@ -146,6 +146,7 @@ $(document).one("pointerdown keydown", function () {
 [[Act 4 hub|Act 4]]
 [[Endings]]
 <<link "Music on/off">><<run setup.music.toggle()>><</link>>
+<a href="atlantis-twine.html" download="Atlantis - import into Twine.html">Download for Twine</a>
 
 
 :: TrustWidget [widget] {"position":"440,50","size":"100,100"}

@@ -23,10 +23,11 @@ You need write access to the repo to save changes. Ask Xelnath if you don't have
 
 ## Option C: The Twine visual editor
 
-Twine (https://twinery.org) shows the story as a map of connected boxes. Set up Option B first, then:
+Twine (https://twinery.org) shows the story as a map of connected boxes. To bring your changes back you also need Option B set up.
 
-1. Double-click **preview.cmd** or **preview.command** once, so the latest story is built.
-2. In Twine, use **Library > Import** and pick `build/atlantis-twine.html`. If Twine already has the story from last time, replace it.
+1. Open the playtest site and click **Download for Twine** in the left sidebar. (Or right-click https://asgc-game-jam.github.io/narrative-twine/atlantis-twine.html and choose **Save link as**.) The file always matches the latest version on GitHub, about a minute after each change.
+   - Using GitHub Desktop? Double-click **preview.cmd** or **preview.command** instead and use `build/atlantis-twine.html`, which includes your own unsaved changes.
+2. In Twine, use **Library > Import** and pick the downloaded file. If Twine already has the story from last time, replace it.
 3. Edit in Twine as usual.
 4. Choose **Build > Export As Twee** and save the file into the repo folder (the one with `preview.cmd` in it).
 5. Double-click **import-from-twine.cmd** (Windows) or **import-from-twine.command** (Mac; the first time, right-click it and choose **Open**). It puts every passage back into the right file and rebuilds the game.
