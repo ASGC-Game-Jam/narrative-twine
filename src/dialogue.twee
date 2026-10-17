@@ -1,0 +1,63 @@
+:: Dialogue Widgets [widget] {"position":"570,50","size":"100,100"}
+/* Click-to-continue conversations. See "A1 Castella Talk" in characters/castella.twee for a full example.
+
+   The scene passage sets who the MC is talking to, opens a #dlg box and includes the first beat:
+     <<set _dlgWho to "Castella">><<set _dlgT to -0.7>>
+     <div id="dlg"><<include "A1 Castella Talk 1">></div>
+
+   Each beat is its own passage, made of these:
+     <<say "Castella" "What the NPC says." "mood">>   one NPC line (the mood is optional)
+     <<stage "What the NPC does.">>                   an action or description
+     <<choices>>
+       <<reply "What the MC says." "Next beat passage" 10>>   the number changes trust and is optional
+     <</choices>>
+
+   Clicking a reply removes the choices, shows the MC's line, then fades in the next beat's lines one at a time.
+   A beat with no <<choices>> ends the conversation; put normal [[links]] there. */
+<<widget "say">>\
+<<set _dlgT to (_dlgT ?? -0.7) + 0.9>>\
+<div class="dlg-line dlg-npc" @style="'animation-delay:' + _dlgT + 's'">\
+<span class="dlg-who"><<print _args[0]>></span>\
+<<if _args[2]>><span class="dlg-mood">(<<print _args[2]>>)</span><</if>>\
+<span class="dlg-text"><<print _args[1]>></span>\
+</div>\
+<</widget>>
+<<widget "stage">>\
+<<set _dlgT to (_dlgT ?? -0.7) + 0.9>>\
+<div class="dlg-line dlg-stage" @style="'animation-delay:' + _dlgT + 's'"><<print _args[0]>></div>\
+<</widget>>
+<<widget "choices" container>>\
+<<set _dlgT to (_dlgT ?? -0.7) + 0.9>>\
+<div class="dlg-line dlg-choices" @style="'animation-delay:' + _dlgT + 's'">_contents</div>\
+<</widget>>
+<<widget "reply">>\
+<<capture _args _dlgWho>>\
+<<link _args[0]>>\
+<<set _dlgT to -0.3>>\
+<<run $("#dlg .dlg-choices").remove()>>\
+<<append "#dlg">>\
+<div class="dlg-line dlg-mc"><span class="dlg-who">You</span><span class="dlg-text"><<print _args[0]>></span>\
+<<if _args[2]>> <<trust _dlgWho _args[2]>><</if>></div>\
+<<include _args[1]>>\
+<</append>>\
+<<run $("#dlg .dlg-mc").last()[0].scrollIntoView({ behavior: "smooth", block: "start" })>>\
+<</link>>\
+<</capture>>\
+<</widget>>
+
+
+:: Dialogue Stylesheet [stylesheet] {"position":"700,50","size":"100,100"}
+#dlg{max-width:38em}
+#dlg > br,.dlg-mc br{display:none}
+.dlg-line{margin:0 0 .9em;animation:dlg-fade .7s ease-out both}
+@keyframes dlg-fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.dlg-who{display:block;font-weight:bold;font-size:.85em;letter-spacing:.04em;text-transform:uppercase}
+.dlg-npc .dlg-who{color:#7fe0d2}
+.dlg-mc{padding-left:1em;border-left:2px solid #2e5a6c}
+.dlg-mc .dlg-who{color:#ffd27a}
+.dlg-mc .trust{display:block;font-size:.8em;margin-top:.2em}
+.dlg-mood{font-size:.8em;font-style:italic;color:#9fb6bf;margin-right:.4em}
+.dlg-stage{font-style:italic;color:#9fb6bf}
+.dlg-choices a{display:block;margin:.35em 0;padding:.45em .8em;border:1px solid #2e5a6c;border-radius:6px;background:#10303d;text-decoration:none}
+.dlg-choices a:hover{background:#163746;border-color:#ffd27a}
+.dlg-choices a::before{content:"\25B8  ";color:#9fb6bf}

@@ -57,3 +57,122 @@ Pessimistically optimistic doctor leading the Wandering Healers. Sir Richard is 
 [[Back to Codex|Codex]]
 
 
+
+
+:: A1 Castella Talk [character act1 char-Castella] {"position":"440,1850","size":"100,100"}
+/* Example dialogue scene. The beats below are included one after another into the #dlg box.
+   Castella's lines in beats 3 to 5 come from her bio's dialogue sample. */
+!First Research Station
+//Act 1, Sir Richard Black's first research station//
+
+<<set _dlgWho to "Castella">><<set _dlgT to -0.7>>\
+<div id="dlg"><<include "A1 Castella Talk 1">></div>
+
+
+:: A1 Castella Talk 1 [dialogue act1 char-Castella] {"position":"570,1850","size":"100,100"}
+<<stage "Crates of waterlogged notebooks are stacked to the ceiling. A young jellyfolk woman in a bubble helmet and a healer's coat sits among them, hands clasped tight in her lap. She looks up at you with tired eyes.">>
+<<say "Castella" "Hmmm… You're not one of the King's guards. And you're certainly not Richard." "wary">>
+<<say "Castella" "So who let you in here?">>
+<<choices>>
+<<reply "I'm a friend of Richard's. I came down to find him." "A1 Castella Talk 2a" 5>>
+<<reply "The door was open." "A1 Castella Talk 2b" -5>>
+<</choices>>
+
+
+:: A1 Castella Talk 2a [dialogue act1 char-Castella] {"position":"700,1790","size":"100,100"}
+<<say "Castella" "A friend. Hmmm. He has a lot of those, and lately none of them know where he is either.">>
+<<stage "She sets down the notebook she was holding.">>
+<<say "Castella" "The bulwarks closed every submarine route weeks ago. How did you even get down here?">>
+<<choices>>
+<<reply "Through a cave. I startled something enormous, and the roof came down behind me." "A1 Castella Talk 3" 5>>
+<<reply "Does it matter? I'm here now." "A1 Castella Talk 3b">>
+<</choices>>
+
+
+:: A1 Castella Talk 2b [dialogue act1 char-Castella] {"position":"700,1910","size":"100,100"}
+<<say "Castella" "It was not. I locked it myself." "flat">>
+<<stage "She sighs, and some of the fight goes out of her shoulders.">>
+<<say "Castella" "Fine. If you'd come to steal samples you'd have run by now. But the bulwarks closed every submarine route weeks ago. How did you get down here?">>
+<<choices>>
+<<reply "Through a cave. I startled something enormous, and the roof came down behind me." "A1 Castella Talk 3" 5>>
+<<reply "Does it matter? I'm here now." "A1 Castella Talk 3b">>
+<</choices>>
+
+
+:: A1 Castella Talk 3 [dialogue act1 char-Castella] {"position":"830,1790","size":"100,100"}
+<<say "Castella" "Oh my goodness! Did you really do that?! You're remarkably impossible." "surprised and amused">>
+<<stage "For a moment she laughs like the young woman she is. Then the tiredness settles back over her face.">>
+<<say "Castella" "That was the Leviathan, you know. Half the city prays to it and the other half blames it for the Bleaching.">>
+<<say "Castella" "Richard left all of this behind when he vanished. Notes, samples, half-finished drawings. I'm meant to sort it for the King's people, and I'm hoping it tells me where he went.">>
+<<choices>>
+<<reply "Let me help you go through it." "A1 Castella Talk 4" 10>>
+<<reply "What do his notes say about the Bleaching?" "A1 Castella Talk 4">>
+<</choices>>
+
+
+:: A1 Castella Talk 3b [dialogue act1 char-Castella] {"position":"830,1910","size":"100,100"}
+<<say "Castella" "It matters to me if you dragged the Bleaching in with you." "sharp">>
+<<stage "She looks you over the way a doctor does: eyes, hands, the skin at your wrists.">>
+<<say "Castella" "No marks. Good. Sit down, then, and don't touch anything that glows.">>
+<<say "Castella" "Richard left all of this behind when he vanished. Notes, samples, half-finished drawings. I'm meant to sort it for the King's people, and I'm hoping it tells me where he went.">>
+<<choices>>
+<<reply "Let me help you go through it." "A1 Castella Talk 4" 10>>
+<<reply "What do his notes say about the Bleaching?" "A1 Castella Talk 4">>
+<</choices>>
+
+
+:: A1 Castella Talk 4 [dialogue act1 char-Castella] {"position":"960,1850","size":"100,100"}
+<<stage "You work through the crates together. Near the bottom of one, a rolled schematic slides out from between two sample jars.">>
+<<say "Castella" "Hmmm… this isn't medicine. It's a machine.">>
+<<say "Castella" "If his notes are right, this could push the bleached coral back. Even something the size of the Colossus. But look at the parts list. Half of it only exists in Districts 3 and 4, and the bulwarks are shut.">>
+<<stage "She stares at the drawing for a long moment.">>
+<<say "Castella" "This is all so much bigger than me… I feel like a bandage that is trying to stop an aneurysm. Please tell me it's worth something." "strained">>
+<<choices>>
+<<reply "It's worth something. We'll find the parts, and we'll find Richard." "A1 Castella Talk 5a" 10>>
+<<reply "Honestly? I don't know yet." "A1 Castella Talk 5b" 5>>
+<<reply "Then stop bandaging and focus on the machine." "A1 Castella Talk 5c" -10>>
+<</choices>>
+
+
+:: A1 Castella Talk 5a [dialogue act1 char-Castella] {"position":"1090,1790","size":"100,100"}
+<<stage "A small, tired smile.">>
+<<say "Castella" "Richard used to say things like that. Usually right before doing something reckless.">>
+<<say "Castella" "I can't carry all of this by myself. Will you trust me with his notes?">>
+<<choices>>
+<<reply "I trust you." "A1 Castella Talk 6" 5>>
+<</choices>>
+
+
+:: A1 Castella Talk 5b [dialogue act1 char-Castella] {"position":"1090,1850","size":"100,100"}
+<<say "Castella" "Honest. Good." "relieved">>
+<<say "Castella" "If someone's dying, I tell them. I'd rather you did the same for me than tell me pretty things.">>
+<<choices>>
+<<reply "Then here's the truth: I'm not leaving until I find him." "A1 Castella Talk 7">>
+<</choices>>
+
+
+:: A1 Castella Talk 5c [dialogue act1 char-Castella] {"position":"1090,1910","size":"100,100"}
+<<say "Castella" "Stop bandaging. Right. And let the people in front of me die while I tinker with drawings." "cold">>
+<<stage "Her clasped hands tighten until the knuckles pale.">>
+<<say "Castella" "I can't stop any of it. I'll save who I can, but what if I can't save even one?">>
+<<choices>>
+<<reply "I'm sorry. That came out wrong." "A1 Castella Talk 7" 5>>
+<<reply "Then the machine is the only real chance." "A1 Castella Talk 7">>
+<</choices>>
+
+
+:: A1 Castella Talk 6 [dialogue act1 char-Castella] {"position":"1220,1790","size":"100,100"}
+<<say "Castella" "I won't waste that.">>
+<<include "A1 Castella Talk 7">>
+
+
+:: A1 Castella Talk 7 [dialogue act1 char-Castella] {"position":"1350,1850","size":"100,100"}
+<<say "Castella" "There's an inventor out in the Wilds. Sabelle. If anyone can build Richard's machine, it's them.">>
+<<say "Castella" "Go on, then. Find out what the scientists in District 1 know. I'll keep digging here.">>
+<<set _dlgT += 0.9>>\
+<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+//Conversation over. Castella's trust is now <<print $trust["Castella"]>>.//
+[[Talk to Castella again|A1 Castella Talk]]
+[[Back to First Research Station|A1 First Research Station]]
+[[Back to Act 1|Act 1]]
+</div>
