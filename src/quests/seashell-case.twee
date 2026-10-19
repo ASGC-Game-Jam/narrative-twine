@@ -1,0 +1,314 @@
+:: Conclude Investigation {"position":"2300,2000","size":"100,100"}
+Congrats!
+
+Import this .twee file to see how it's been constructed.
+
+NOTE: If you're new to Twine 2, passages with a Yellow Tag inside the .twee file will have tutorials written up to explain how some parts of Twine 2 works.
+
+[[Back to the start|Start]]
+
+
+:: Contradiction {"position":"2900,2200","size":"100,100"}
+<<set $journalNote4 = true>>
+<<set $journalNoteTaken = true>>
+<<set $noteCount += 1>>
+<h1>INT. MS MUNSON'S LIVING ROOM, MORNING</h1>
+
+<h2>Ms Munson</h2>
+Not this one! This one has gills! It can breathe like a real gopher!
+
+<b><i>Journal Updated...</i></b>
+
+<<include "Investigation Options">>
+
+
+:: Deliver Shells {"position":"2500,2000","size":"100,100"}
+<<set $shellsDelivered = true>>
+<h1>INT. MS MUNSON'S LIVING ROOM, MORNING</h1>
+
+<h2>Ms Munson</h2>
+Wot! Where did ye find 'em!? Thank ye! I couldn't be more grateful!
+
+[[Conclude Investigation]]
+
+
+:: First Row {"position":"3100,1600","size":"100,100"}
+<h2>EXT. MS MUNSON'S BACKYARD, MORNING</h2>
+
+<i>You check the first row of plants. They don't have seashells pinned on them.</i>
+
+[[Go back...|Investigate Backyard]]
+
+
+:: Gather Info [Tutorial] {"position":"2500,2200","size":"100,100"}
+<<set $journalNote1 = true>>
+<<set $journalNoteTaken = true>>
+<<set $noteCount += 1>>
+<h1>INT. MS MUNSON'S LIVING ROOM, MORNING</h1>
+
+<h2>Ms Munson</h2>
+<i>Ms Munson suddenly stands with her head held high.</i>
+
+I procure, exhibit, and market exquisite shells found within the city right at the borders of our great country! I don't make much, but I love me job. The backyard is where I store me shells 'til the next business day.
+
+<b><i>Journal Updated...</i></b>
+
+<<include "Investigation Options">>
+
+/*
+
+ON ASSIGNING VALUES
+
+Notice how we're doing something with the variables from StoryInit.
+
+"=" is used to assign a value to a variable.
+Which means what you assign will overwrite the variable's existing value.
+
+If journalNote5 was set to false before (which we did in StoryInit)...
+... then we're overwriting its value here by setting it to true (which we want).
+
+So the next time you open the "Journal" passage, you'll find some new information about backyard access waiting for you. (Because we set journalNote5 to true.)
+
+ON COUNTERS
+
+If you want to keep count of something, a Counter can help with that.
+noteCount here is the Counter.
+
+Let's say there are 5 pieces of information you must collect...
+...spread between 5 passages.
+
+In which case, each of those passages must have the "noteCount += x" formula.
+"+=" just lets you add the value on the right (x) to the noteCount's existing value.
+
+*/
+
+
+:: Investigate Backyard {"position":"2900,1800","size":"100,100"}
+<h2>EXT. MS MUNSON'S BACKYARD, MORNING</h2>
+
+<<if $shellCount >= 3>><i>No gophers here. Oh well. You should take the collected shells back to her.</i>
+<<else>><i>You find yourself in Ms Munson's backyard. It's quite small, squared to fit mostly seaweed plants. You see them planted in three rows, each plant decorated with a single seashell.</i>
+<</if>>
+
+[[Check the first row.|First Row]]
+[[Check the second row.|Second Row]]
+[[Check the third row.|Third Row]]
+[[Go back...|Investigation Options]]
+
+
+:: Investigation Options [Tutorial] {"position":"2700,2000","size":"100,100"}
+<i>Ms Munson stands in front in you, sobbing.</i>
+
+> "[[Why do you have seashells, may I ask?|Gather Info]]"
+> "[[Madame... gophers don't live in the waters.|Contradiction]]"
+> "[[Once we finish this interview, may I inspect your backyard?|Request Access to Backyard]]"
+> <<if $shellCount >= 3>>"[[Ms Munson, here are your shells.|Deliver Shells]]"<</if>>
+
+<<if $journalNoteTaken == true>>
+<hr>
+<ul>
+<li>[[Check Journal Notes...|Journal]]</li>
+<<if $noteCount >= 3>><li>[[Investigate Backyard]]</li><</if>>
+</ul>
+<</if>>
+
+/*
+
+ON CONDITIONS
+
+The Flags you create and store in StoryInit can be referenced in passages. To make them do something depending on its condition, you use the "if" code.
+
+You can learn more about if-statements online. Just be mindful of two things:
+
+1. close the condition with "/if" by the end of the statement.
+2. don't confuse "=" with "= =".
+
+*/
+
+
+:: Journal {"position":"2900,2000","size":"100,100"}
+<h1>MY JOURNAL</h1>
+
+<ul>
+<<if $journalNote1 == true>>
+	<li>Ms Munson is a shellsperson; she sells seashells near the seashore.</li>
+<</if>>
+
+<<if $journalNote4 == true>>
+	<li>The gopher has gills. But if a gopher has a nose, and gills are basically noses for fish, then what would the gopher breathe through?</li>
+<</if>>
+    
+<<if $journalNote5 == true>>
+	<li>The backyard is open to me to investigate. I'll proceed once I get all my remaining queries answered.</li>
+<</if>>
+</ul>
+
+<hr>
+
+<nobr><ul>
+<<if $noteCount >= 3>>
+<li>[[Investigate Backyard]]</li>
+<</if>>
+<li>[[Go back|Investigation Options]]</li>
+</ul></nobr>
+
+
+:: Request Access to Backyard {"position":"2700,2200","size":"100,100"}
+<<set $journalNote5 = true>>
+<<set $journalNoteTaken = true>>
+<<set $noteCount += 1>>
+
+<h1>INT. MS MUNSON'S LIVING ROOM, MORNING</h1>
+
+<h2>Ms Munson</h2>
+Sure!
+
+<b><i>Journal Updated...</i></b>
+
+<<include "Investigation Options">>
+
+
+:: SeashellPlusPlus {"position":"2900,1600","size":"100,100"}
+<h2>EXT. MS MUNSON'S BACKYARD, MORNING</h2>
+
+<<set $shellCount += 1>>
+
+<i>You collected a seashell!</i>
+
+[[Go back...|Investigate Backyard]]
+
+
+:: Second Row {"position":"3100,1800","size":"100,100"}
+<h2>EXT. MS MUNSON'S BACKYARD, MORNING</h2>
+
+<i>You check the second row of plants. They all have a seashell pinned on them.</i>
+
+<<if $s1 == false>>
+	<<link "Pick a random seashell." "SeashellPlusPlus">>
+    <<set $s1 = true>>
+    <</link>>
+<</if>>
+
+[[Go back...|Investigate Backyard]]
+
+
+:: Speak to Munson [Tutorial] {"position":"2700,1800","size":"100,100"}
+<h1>INT. MS MUNSON'S LIVING ROOM, MORNING</h1>
+
+<h2>Ms Munson</h2>
+I woke up early this morning to step out into me backyard, an' I saw the crabbin' gopher, it's out to get me again! I need me seashells! 3 of 'em to gift to me ma and pa!
+
+<<include "Investigation Options">>
+
+/*
+
+ON INCLUDE:
+
+Let's assume you have a few passages where you want your player options to reappear.
+
+The way it works is for every passage where you want those same options to appear...
+... you must paste those options there.
+
+For a bite-sized story with a couple of passages, it's not a big deal.
+But when you're managing 100+ passages, your sanity will beg you for a merciful death.
+
+Instead, use the "<<include>>" tag (if you're using SugarCube 2)...
+...or the "display:" macro (if you're using Harlowe).
+
+All you have to do is pop your player options into a passage...
+...and type this into all the passages where you want the options to appear:
+
+<<include "name-of-your-options-passage">>
+
+*/
+
+
+:: Start Quest [Tutorial] {"position":"2700,1600","size":"100,100"}
+<h1>INT. MS MUNSON'S LIVING ROOM, MORNING</h1>
+
+<h2>Ms Munson</h2>Me seashells! I need me seashells! But that gopher won't let me through!
+
+"[[Calm down, Ms Munson. What gopher?|Speak to Munson]]"
+
+/*
+
+ON HTML
+
+Twine's editor recognizes HTML syntax. Ever seen or written HTML code before? Then you'll recognize the h1 and h2 code. They're headers; it's why the text in Play Mode appear so big. If you know HTML basics, you can do a whole lot more with text.
+
+
+ON PLAYER OPTIONS
+
+In Twine, the "]]" and "[[" signs are used to denote the options players can select in the story.
+
+Just pop in your text between them...
+...and that turns into the player option and the passage name.
+
+You'll also notice a separator "|" between the words.
+
+The text before the separator ("Calm down, Ms Munson. What gopher?")...
+...is the text the players are going to read.
+
+And the text after the separator ("Speak to Munson")...
+...is what the name of the passage the option takes you to is. 
+
+Sometimes, you'll write player-facing text that's too long as a passage name.
+The separator helps solve that problem.
+
+*/
+
+
+:: Seashell Case Init [Tutorial] {"position":"2700,1400","size":"100,100"}
+<!-- Flags -->
+<<set $journalNote1 = false>>
+<<set $journalNote3 = false>>
+<<set $journalNote4 = false>>
+<<set $journalNote5 = false>>
+<<set $journalNoteTaken = false>>
+
+<<set $s1 = false>>
+<<set $s2 = false>>
+<<set $s3 = false>>
+
+<!-- Counters -->
+<<set $noteCount = 0>>
+<<set $shellCount = 0>>
+
+/*
+
+This is your StoryInit.
+
+(In the Atlantis build this passage is "Seashell Case Init". The real StoryInit in story.twee pulls it in with <<include "Seashell Case Init">>, so the quest keeps its variables in its own file.)
+
+It's basically where all the story-wide variables live.
+
+What you see above are all variables.
+There are many other types of variables, but these two are worth learning for now:
+
+Flags (stuff that go true or false)...
+...and Counters (stuff that keep count of an action).
+
+If it starts with a "$" sign, it can be accessed anywhere by any passage in this .twee file.
+
+A variable that lives and dies in just one specific passage starts with an "_". These usually are found in the passage using it, not the StoryInit passage.
+
+*/
+
+
+:: Third Row {"position":"3100,2000","size":"100,100"}
+<h2>EXT. MS MUNSON'S BACKYARD, MORNING</h2>
+
+<i>You check the third row of plants. All except one have a seashell pinned on them.</i>
+
+<<if $s2 == false>>
+	<<link "Pick a random seashell." "SeashellPlusPlus">>
+    <<set $s2 = true>>
+    <</link>>
+<</if>>
+<<if $s3 == false>>
+	<<link "Check the ground near the plant without a seashell." "SeashellPlusPlus">>
+    <<set $s3 = true>>
+    <</link>>
+<</if>>
+
+[[Go back...|Investigate Backyard]]

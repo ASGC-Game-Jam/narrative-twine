@@ -10,6 +10,7 @@ src/
   endings.twee            Endings hub and the Best / Good / Bad endings
   acts/act-1.twee ...     one file per act: the act hub and its locations
   characters/<name>.twee  one file per character: their scene in each act plus their Codex entry
+  quests/<name>.twee      quest examples, e.g. seashell-case.twee (The Seashell Case, linked from Start)
 assets/img/               art from the team pitch deck, copied to build/img by the build scripts
 assets/audio/             background music, copied to build/audio by the build scripts
 storyformats/sugarcube-2  SugarCube 2.37.3, so every build uses the same version

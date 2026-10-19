@@ -13,7 +13,8 @@ Atlantis Acts Scaffold
     "character": "purple",
     "codex": "yellow",
     "ending": "red",
-    "todo": "orange"
+    "todo": "orange",
+    "Tutorial": "yellow"
   },
   "zoom": 0.6
 }
@@ -131,6 +132,8 @@ $(document).one("pointerdown keydown", function () {
   skuttleLetters: 0, deviceUpgraded: false, elviraExposed: false,
   dench_isPlant: false, mandateRevoked: false
 }>>
+/* Quest example: The Seashell Case (src/quests/seashell-case.twee) */
+<<include "Seashell Case Init">>
 
 
 :: StoryCaption {"position":"180,50","size":"100,100"}
@@ -170,6 +173,7 @@ Atlantis is sealing itself off district by district as the Bleaching spreads. Th
 This file is scaffolding. Each act has a hub, each hub links to its locations, and each location links to the characters who appear there. Passages tagged `todo` need writing.
 
 [[Begin Act 1|Act 1]]
+[[Quest example: The Seashell Case|Start Quest]]
 [[Character Codex|Codex]]
 [[Districts Map|Districts]]
 
