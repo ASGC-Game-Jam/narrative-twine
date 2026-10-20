@@ -18,7 +18,7 @@ TODO: scene for Skuttle in Act 4.
 !Skuttle
 ''Where:'' District 5 desert
 ''Appears in:'' [[Act 4|A4 Skuttle]]
-''Age'' 35 (?)
+''Age:'' 35 (?)
 
 <<if $trust["Skuttle"] isnot undefined>>''Trust:'' <<print $trust["Skuttle"]>><</if>>
 
