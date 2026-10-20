@@ -18,6 +18,8 @@ TODO: scene for Skuttle in Act 4.
 !Skuttle
 ''Where:'' District 5 desert
 ''Appears in:'' [[Act 4|A4 Skuttle]]
+''Age'' 35 (?)
+
 <<if $trust["Skuttle"] isnot undefined>>''Trust:'' <<print $trust["Skuttle"]>><</if>>
 
 Paranoid former mail carrier (they/them) hiding in a bunker. Quest: collect thank-you letters from each district. Could unlock fast travel.
