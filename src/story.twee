@@ -173,6 +173,7 @@ Atlantis is sealing itself off district by district as the Bleaching spreads. Th
 This file is scaffolding. Each act has a hub, each hub links to its locations, and each location links to the characters who appear there. Passages tagged `todo` need writing.
 
 [[Begin Act 1|Act 1]]
+[[Example scene: Talk to Castella|A1 Castella Talk]]
 [[Quest example: The Seashell Case|Start Quest]]
 [[Character Codex|Codex]]
 [[Districts Map|Districts]]
