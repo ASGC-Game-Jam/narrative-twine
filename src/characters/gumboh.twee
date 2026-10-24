@@ -22,7 +22,13 @@ TODO: scene for Gumboh in Act 3.
 ''Appears in:'' [[Act 3|A3 Gumboh]]
 <<if $trust["Gumboh"] isnot undefined>>''Trust:'' <<print $trust["Gumboh"]>><</if>>
 
-Warm, selfless community chef (they/them). Too weak to remember a key clue until fed. Quest: ingredients from every district.
+Gumboh is the head chef of the community kitchen in the Slums. Warm and nurturing, Gumboh has only two rules for their kitchen. One: Everyone is welcome in Gumboh's kitchen. Two: the neediest eat first.
+Gumboh sees society like a cooking pot full of diverse flavours, and laments what has happened to Atlantis since the Bleaching took hold.
+When times were good, Gumboh would source a vibrant array of ingredients from every district and culture present in the city, keeping the citizens of the slums healthy and happy with their famous stew. However, since the bulwarks went up, Gumboh can’t get the ingredients they need and so the townsfolk must survive on scant seaweed soup.
+With food so scarce, Gumboh will often give up their own portions to feed the needy. As a result, Gumboh no longer has the energy they once had and their memory is starting to fog.
+
+
+/* Quest: ingredients from every district.
 
 [[Back to Codex|Codex]]
 
