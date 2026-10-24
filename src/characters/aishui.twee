@@ -19,6 +19,29 @@ TODO: scene for Aishui in Act 1.
 ''Where:'' District 3, travels everywhere
 ''Appears in:'' [[Act 1|A1 Aishui]]
 <<if $trust["Aishui"] isnot undefined>>''Trust:'' <<print $trust["Aishui"]>><</if>>
+''Description:'' Playful, Protective, Naive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Playful, protective, naive sea god with coral antlers. Raised by Seayssal; searching for a cure. Trusts the MC from the start.
 
