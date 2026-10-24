@@ -18,6 +18,9 @@ TODO: scene for Gumboh in Act 3.
 :: Codex Gumboh [codex char-Gumboh] {"position":"2260,1250","size":"100,100"}
 <img class="portrait" src="img/gumboh.jpg" alt="Gumboh">
 !Gumboh
+''Age:'' 35
+''Gender:'' Non-binary (they/them)
+''Occupation:'' Community Chef
 ''Where:'' District 3 slums
 ''Appears in:'' [[Act 3|A3 Gumboh]]
 <<if $trust["Gumboh"] isnot undefined>>''Trust:'' <<print $trust["Gumboh"]>><</if>>
