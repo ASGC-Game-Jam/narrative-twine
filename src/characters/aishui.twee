@@ -18,7 +18,7 @@ TODO: scene for Aishui in Act 1.
 !Aishui
 ''Point of Contact:'' Caitlin Eger
 ''Where:'' Aishui lives in District 3. Equidistant from the wealthiest and the impoverished citizens of “Atlantis.” He frequently travels between all of the districts and the caves, Wilds, and open ocean to visit Seayssal in its wandering. Seayssal and Aishui came to call “Atlantis” home, 40 years before the game’s beginning, after Seayssal realized Aishui needed some place to call home and to be around others like him and not just latch himself onto it.
-''Appears in:'' [[Act 1|A1 Aishui]]
+''Appears in:'' [[Act 1|A1 Aishui]], Act 3 (referenced), [[Act 4|A4 Aishui]]
 <<if $trust["Aishui"] isnot undefined>>''Trust:'' <<print $trust["Aishui"]>><</if>>
 ''Description:'' NPC - Playful, Protective, Naive
 ''Age:'' 10 million years old (appearance - late 20s)
