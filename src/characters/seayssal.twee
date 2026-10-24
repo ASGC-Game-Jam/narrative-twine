@@ -36,7 +36,7 @@ TODO: scene for Seayssal in Act 3.
 
 ''Where:'' Seayssal does not call any one location home. It wanders between the district’s caves and Wilds and the open ocean, but never strays too far from Atlantis since it will never let Aishui be abandoned ever again. Seayssal and Aishui came to call “Atlantis” home, 40 years before the game’s beginning, after Seayssal realized Aishui needed some place to call home and to be around others like him and not just latch himself onto it.
 
-''Appears in:'' [[Act 1|A1 Seayssal]], [[Act 3|A3 Seayssal]], [Act4|A4 Seayssal]
+''Appears in:'' [[Act 1|A1 Seayssal]], [[Act 3|A3 Seayssal]], [[Act4|A4 Seayssal]]
 
 <<if $trust["Seayssal"] isnot undefined>>''Trust:'' <<print $trust["Seayssal"]>><</if>>
 
