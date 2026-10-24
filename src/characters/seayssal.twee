@@ -29,14 +29,49 @@ TODO: scene for Seayssal in Act 3.
 [[Seayssal|Codex Seayssal]]
 [[Back to Wilds Research Station|A3 Wilds Research Station]]
 
-
 :: Codex Seayssal [codex char-Seayssal] {"position":"2260,410","size":"100,100"}
 !Seayssal
-''Where:'' Caves, the Wilds, open ocean
-''Appears in:'' [[Act 1|A1 Seayssal]], [[Act 3|A3 Seayssal]]
+
+''Point of Contact:'' Caitlin Eger
+
+''Where:'' Seayssal does not call any one location home. It wanders between the district’s caves and Wilds and the open ocean, but never strays too far from Atlantis since it will never let Aishui be abandoned ever again. Seayssal and Aishui came to call “Atlantis” home, 40 years before the game’s beginning, after Seayssal realized Aishui needed some place to call home and to be around others like him and not just latch himself onto it.
+
+''Appears in:'' [[Act 1|A1 Seayssal]], [[Act 3|A3 Seayssal]], [Act4|A4 Seayssal]
+
 <<if $trust["Seayssal"] isnot undefined>>''Trust:'' <<print $trust["Seayssal"]>><</if>>
 
-Abyssal, primordial guardian. Four-billion-year-old leviathan whose life force blooms the special coral. Speaks only in telepathic images and hymns.
+''Description:'' NPC - Abyssal, Primordial, Guardian
+
+''Age:'' 4 billion years old
+
+''Gender:'' Genderless (It)
+
+''Origin:'' Underwater creature
+
+''Occupation:'' N/A
+
+''Faction:'' N/A
+
+''Physical Description:'' Seayssal is a large serpentine creature with a lunate (crescent-shaped) tail fin and a horned nose. It has flowing tendrils (like a jellyfish) reminiscent of dragon wings. Its body is semi-transparent, shining from within like bioluminescence or stars from the night sky. Seayssal has belts wrapped around its body (debris that it got caught up in one time while saving Aishui when he was a child and never bothered to remove) with kelp (put there by Aishui for decoration little by little as he grew up) and colorful algae that’s grown on the kelp covering the belts. The bottom portion of its tail features a tube, sail-like fin (a gift from Aishui, with the help of the ingenious inventor, Sabelle, to have something from this new hydropunk era the “Atlanteans” have entered).
+ 
+''Overview:'' “Atlantis” has many records of Seayssal, who is as old as the sea itself and formed in the deepest waters. It is seldom seen in “Atlantis” itself, but its rare sightings have led to the formation of several legends. Opinions are widely divided on whether or not the sighting of this entity carries hope or despair. Some “Atlanteans” revere it as a god, believing it to be the source of their creation and ongoing protection, while others see it as a harbinger (like the oarfish in Japanese folklore - seeing one is a warning of impending earthquakes or tsunamis) and blame this entity for unleashing the curse of the “Bleaching” disease upon them. Seayssal’s exorbitant life energy reacts to the ecosystem around it, causing “special coral” to bloom faster and more frequently in “Atlantis”. This “special coral” was found in “Atlantis” before Seayssal’s arrival, but it was extremely rare. It’s still a limited resource, but now it’s less rare to find and less time is required in between harvests. Seayssal’s wellbeing directly impacts Atlantis’ ecosystem and any harm to Atlantis’ ecosystem affects Seayssal’s overall health resulting in color dulling, headaches, general body aches, and fatigue.
+
+''Relationships:'' Seayssal is a content loner. It’s an immortal entity that has no wish to tie itself to anything from this world, other than Aishui, and is at peace with its lone existence.
+Aishui - Aishui is everything to Seayssal: a child, sibling, and best friend. He is the only family Seayssal will ever have. Seayssal rescued Aishui when he was a child. Aishui was abandoned by his parents and then handed off from family to family, none of them wanting to deal with Aishui’s excessive playfulness, childish antics, and curiosity that would often get him into trouble. The last family he was with decided to abandon him in the open ocean to fend for himself. Seayssal came across the child in his travels and reluctantly took care of the child until it could find a place for him. Seayssal quickly grew fond of the boy and they’ve been with each other ever since. Affection does not come easily to Seayssal. It had been alone for billions of years and had never formed an attachment to anything or anyone before meeting Aishui. Seayssal outwardly appears to reluctantly put up with Aishui at times, but inwardly he deeply loves Aishui and Aishui is aware that he is loved and that it’s not easy for Seayssal to easily express his love to him.
+
+''Connections:''
+Church of Sealos - The worshippers of the Church of Sealos revere Seayssal as a god as well as a calamity that can and will unleash its wrath upon them. They pray to it for their continued peace and prosperity. When the “Bleaching” threatens them all, they pray to Seayssal for absolution of their sins and for it to have mercy on them and cure the “Bleaching.” Seayssal pays no mind to these worshippers, only hearing of them through Aishui’s tales. Seayssal doesn’t understand why they worship it. Not all “Atlanteans” are worshippers of the Church of Sealos just like not all “Atlanteans” are followers of Aishui.
+
+''World Knowledge:'' Aishui constantly weaves tales of “Atlantis” and the “Atlanteans” for Seayssal everytime he visits. Seayssal dutifully listens to all of his tales so it can learn about the world around it. The “Bleaching” disease and MC pique its curiosity due to the threat it may pose to itself if the ecosystem suffers, not for itself, but for the sake of Aishui who will be distraught at seeing Seayssal suffer. Seayssal is empathetic to the “Atlanteans” because, as a whole, they have welcomed Aishui with open arms, given him a place to call home, and people to call friends. Most “Atlanteans” adore him, even if they do occasionally get fed up with his playful antics and childish nature. Seayssal is aware of the legends surrounding itself, but has no desire to provide the citizens of “Atlantis” with a clear answer, for the legends do not directly threaten its only goal – the happiness and safety of Aishui.
+
+''Goal & Obstacle:'' Seayssal’s goal is to live a peaceful life watching over Aishui, never to part with him, for as long as it can. This is threatened by Sir Richard Black’s plan to subdue it for the “sake of Atlantis” and the corruption swirling around the “Atlanteans” including King Lareas who are taking advantage of Aishui’s naivety and pure heart. 
+
+''Initial Perception of the Player Character:'' Seayssal is curious, but wary of the player character at first. Slowly, through multiple interactions over the course of the game, Seayssal and the MC form a deep bond based on shared beliefs and goals to see to the wellbeing of the “Atlanteans” and “Atlantis’” ecosystem.
+
+''Vocal Qualities:'' Cosmic like multiple voices or the ocean itself is speaking through it, but not in a disorienting way.
+
+''Dialogue Sample:''
+Seayssal does not speak through words. Instead, it communicates through telepathic imagery and vocal hymns to express itself.
 
 [[Back to Codex|Codex]]
 
