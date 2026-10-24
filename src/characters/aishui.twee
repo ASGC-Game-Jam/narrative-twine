@@ -43,8 +43,11 @@ Aishui is naive and sees the best in everyone. He doesn’t think about them hav
 ''Vocal Qualities:'' Energetic and bubbly most of the time. On rare occasions, he is extremely serious and his tone becomes frigid. This happens the most when people he cares for are threatened or harmed, especially Seayssal. This also happens when he is betrayed by someone, such as Sir Richard and King Lareas, often due to them taking advantage of his naivety and pure heart.
 ''Speech Patterns:'' Will launch into long stories or ramble about a topic if given the chance. He doesn’t use a lot of fancy, eloquent words.
 ''Dialogue Sample:''
-
-
+<<say "Aishui" "Have you seen this type of seashell before? Look at its shape and color! Have you ever seen something so beautiful before? Did you know this seashell was first found…">>
+<<say "Aishui" "What’s this called? How can you have fun with it?">>
+<<say "Aishui" "Careful now, my wrath is as endless and unyielding as the ocean’s waves.">>
+<<say "Aishui" "Taking a swim with the dolphins will ease your worries!">>
+<<say "Aishui" "Seayssal, please don’t let the currents sweep you away from me.">>
 
 [[Back to Codex|Codex]]
 
