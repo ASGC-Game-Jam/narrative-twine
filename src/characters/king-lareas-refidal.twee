@@ -21,7 +21,7 @@ TODO: scene for King Lareas Refidal in Act 1.
 
 ''Where:'' King Lareas lives in District 1 in the wealthiest part of the district with the rest of the royal family and royal council.
 
-''Appears in:'' [[Act 1|A1 King Lareas Refidal]] Act 2 (Referenced), [[Act 4|A4 King Lareas Refidal]]
+''Appears in:'' [[Act 1|A1 King Lareas Refidal]], Act 2 (Referenced), [[Act 4|A4 King Lareas Refidal]]
 
 <<if $trust["King Lareas Refidal"] isnot undefined>>''Trust:'' <<print $trust["King Lareas Refidal"]>><</if>>
 
