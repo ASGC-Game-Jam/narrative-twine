@@ -17,31 +17,52 @@ TODO: scene for Aishui in Act 1.
 :: Codex Aishui [codex char-Aishui] {"position":"2260,530","size":"100,100"}
 !Aishui
 ''Point of Contact:'' Caitlin Eger
+
 ''Where:'' Aishui lives in District 3. Equidistant from the wealthiest and the impoverished citizens of “Atlantis.” He frequently travels between all of the districts and the caves, Wilds, and open ocean to visit Seayssal in its wandering. Seayssal and Aishui came to call “Atlantis” home, 40 years before the game’s beginning, after Seayssal realized Aishui needed some place to call home and to be around others like him and not just latch himself onto it.
+
 ''Appears in:'' [[Act 1|A1 Aishui]], Act 3 (referenced), [[Act 4|A4 Aishui]]
+
 <<if $trust["Aishui"] isnot undefined>>''Trust:'' <<print $trust["Aishui"]>><</if>>
+
 ''Description:'' NPC - Playful, Protective, Naive
+
 ''Age:'' 10 million years old (appearance - late 20s)
+
 ''Gender:'' Male (He/Him)
+
 ''Origin:'' Underwater creature
+
 ''Occupation:'' Historian
+
 ''Faction:'' N/A
+
 ''Physical Description:'' Staghorn coral or elkhorn coral antlers on his head adorned with “necklaces” of a colorful variety of seashells/items he’s collected over the years draped around them as head coverings. Glowing coral markings on his face. Fin-like ears. Long red hair featuring two medium braids with seaweed or kelp wrapped inside the braids that fall over his shoulders in the front, one on each side. A bracelet on his wrist, handmade from lost items he found from the surface, little trinkets hanging from it. Prominent canine teeth. Elaborate, long, and beautiful ocean-colored (white reminiscent of sea foam and shades of blue for the water). His tail shape is inspired by eastern dragons. Aishui is ethereal, but also appears childlike with his innocence, playfulness, and wonder.
+
 ''Overview:'' Aishui is a carefree, playful, and childish god who has not lost that sense of childlike wonder. Aishui deeply respects the ocean and all life within it despite the challenges, abandonment, and mistreatment that he faced in his childhood. He loves to go swimming with the dolphins or collect seashells and other items to make jewelry for himself, or something for Seayssal, and add to his ever growing collection of trinkets.
 He is extremely protective of the people he loves and cares about, which includes Seayssal and Skuttle. His playful and childlike attitude will quickly shift if those he cares for are harmed or threatened. Aishui doesn’t stand up for himself and will take mistreatment and criticism with a smile on his face while inwardly he is a torrent of emotions. However, if the people he loves are targeted then he’s the first to step in and stop it. He’s curious about the humans and their world as well as the hydropunk technology that is now being incorporated into “Atlantis” leading to him constantly badgering others with endless questions.
+
 ''Relationships:''
 Seayssal - Seayssal is everything to Aishui: a parent, sibling, and best friend. Aishui was rescued by Seayssal when he was a child. He was abandoned by his parents and then handed off from family to family, none of them wanting to deal with Aishui’s excessive playfulness, childish antics, and curiosity that would often get him into trouble. The last family he was with decided to abandon him in the open ocean to fend for himself. Seayssal came across him in his travels and reluctantly took care of Aishui until it could find a place for him. Seayssal quickly grew fond of the boy and they’ve been with each other ever since.
+
 King Lareas - King Lareas takes advantage of Aishui’s love for “Atlanteans” and his naivety, using him to achieve his wealth and power. He knows how curious Aishui is about new ideas and technology so he tells him all about the good it is doing and will continue to do for “Atlantis” and its people. Aishui is unaware of the negative repercussions of hydropunk technology, in its current state, and the harm it's doing to the people and world around him that he dearly loves and wishes to protect. Aishui wholeheartedly believes that King Lareas has the best interest of the “Atlanteans” in mind as his first priority.
+
 Skuttle - When Aishui first arrived in “Atlantis” with Seayssal, he was wary of the merfolk initially because of his abandonment and mistreatment from merfolk in his childhood. Aishui only had Seayssal at this point while Seayssal hoped Aishui would find a place to belong and others who would love him as much as it did. Skuttle was the first person from “Atlantis” that reached out to Aishui to help him. Aishui felt comfortable and safe around Skuttle since they bear more of a resemblance to Seayssal than merfolk. Skuttle helped him settle in, make connections, and made him feel welcomed. They’ve maintained a close friendship ever since.
+
 ''Connections:''
 Spiritual - Aishui is a god that has many “Atlantean” followers including Gumboh. Some of these followers built shrines around “Atlantis” for Aishui and all of the followers leave offerings to Aishui at these shrines. His followers are inspired by all that Aishui embodies. This is a Shinto type of spirituality that’s all about humility, curiosity, and their connection to the ocean life around them. Aishui doesn’t understand why they seek to follow him as he’s never seen himself as a god like that. Since they’ve put their faith in him, he will take responsibility and ensure he does everything he can for them to honor and respect their trust and dedication.
+
 ''World Knowledge:'' Aishui may act like a child most of the time, but he is serious when it comes to the people he loves. Seayssal is the one he cares for the most so when it is being threatened and harmed by this recent outbreak of the “Bleaching,” he takes to traveling between all of the districts to gather information that could help save Seayssal, and with that “Atlantis” and the “Atlanteans” as a result, as they have also become dear to him.
 Some “Atlanteans” set up shrines for him and follow him as their god. He feels a responsibility to these “Atlanteans” so he travels between all of the districts to gather information and opinions from various walks of life, from the wealthiest to the impoverished and those in between. He attempts to help them all as best he can (some need helping find a lost item significant to them, some pray to him to find a cure to the “Bleaching,” etc.), but he can only go so far as he is not the ruler of “Atlantis,” nor does he wish to be.
+
 ''Goal & Obstacle:'' Aishui is desperately searching for a cure to save Seayssal and the “Atlanteans” from this recent outbreak of the “Bleaching” disease. This isn’t the first time he’s encountered the disease. There have been cases before in “Atlantis” and he witnessed it multiple times during his travels with Seayssal before reaching “Atlantis.” However, this outbreak seems more intense and dangerous than what they’ve encountered before, which leaves him terrified for Seayssal’s fate. He blames himself for his cluelessness and helplessness as he watches Seayssal suffer, but he never shows signs of this internal struggle in front of Seayssal.
 Aishui is naive and sees the best in everyone. He doesn’t think about them having ill intent or ulterior motives which leads to him being taken advantage of, including by the two main oppositions to his goal: Sir Richard and King Lareas. Sir Richard uses him to get information about Seayssal to further progress his plan to subdue it for the sake of “Atlantis.” King Lareas leads the corruption within “Atlantis” and assures Aishui that hydropunk technology is good for “Atlantis” to further his wealth and power. 
+
 ''Initial Perception of the Player Character:'' Aishui is a very trusting individual and sees the best in people so he has a high like/trust score with the MC. He believes the Oceanography Council sent them to help treat the “Bleaching” after hearing from Sir Richard about what’s been going on in “Atlantis.” Little does he know that Sir Richard’s messages have not been making it to the council and the MC only came to “Atlantis” initially to find his friend, Sir Richard. He implores the MC to help him find a cure for the “Bleaching” disease.
+
 ''Vocal Qualities:'' Energetic and bubbly most of the time. On rare occasions, he is extremely serious and his tone becomes frigid. This happens the most when people he cares for are threatened or harmed, especially Seayssal. This also happens when he is betrayed by someone, such as Sir Richard and King Lareas, often due to them taking advantage of his naivety and pure heart.
+
 ''Speech Patterns:'' Will launch into long stories or ramble about a topic if given the chance. He doesn’t use a lot of fancy, eloquent words.
+
 ''Dialogue Sample:''
 <<say "Aishui" "Have you seen this type of seashell before? Look at its shape and color! Have you ever seen something so beautiful before? Did you know this seashell was first found…">>
 <<say "Aishui" "What’s this called? How can you have fun with it?">>
