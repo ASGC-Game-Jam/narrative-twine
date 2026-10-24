@@ -16,11 +16,60 @@ TODO: scene for King Lareas Refidal in Act 1.
 
 :: Codex King Lareas Refidal [codex char-KingLareasRefidal todo] {"position":"2390,410","size":"100,100"}
 !King Lareas Refidal
-''Where:'' District 1
-''Appears in:'' [[Act 1|A1 King Lareas Refidal]]
+
+''Point of Contact:'' Caitlin Eger
+
+''Where:'' King Lareas lives in District 1 in the wealthiest part of the district with the rest of the royal family and royal council.
+
+''Appears in:'' [[Act 1|A1 King Lareas Refidal]] Act 2 (Referenced), [[Act 4|A4 King Lareas Refidal]]
+
 <<if $trust["King Lareas Refidal"] isnot undefined>>''Trust:'' <<print $trust["King Lareas Refidal"]>><</if>>
 
-STUB. Narcissist king who manipulates Aishui and pushes hydropunk tech for wealth and power.
+''Description:'' NPC - Narcissistic, Lovelorn, Delusional
+
+''Age:'' 35
+
+''Gender:'' Male (He/Him)
+
+''Origin:'' Underwater creature
+
+''Occupation:'' King of “Atlantis”
+
+''Faction:'' N/A
+
+''Physical Description:'' King Lareas is a handsome and regal orca merfolk with “hair” reminiscent of a leafy seadragon’s leaf-like appendages. These appendages are white on the tips due to the bleaching and the bleaching is also evident across his body in several areas. King Lareas wears elaborate, regal attire which doubly serves the purpose of hiding as much evidence of the bleaching as he can. The only reason why he is even concerned about the “Bleaching” is for the sake of his vanity. Upon his head lies a prominent crown mixed with hydropunk technology (steampunk elements) and Ofwegen Crown of Light (which beautifully reflects the sunlight present in District 1). King Lareas uses his physical appearance to hide the insecurity and loneliness he feels. If he looks better than everyone else, then he is better than everyone else and they should all be aware of that. Surely then someone, most importantly Esveas, will love him.
+
+''Overview:'' Lareas was born to Queen Corelia and King Refal. Queen Corelia despised Lareas as he represented everything she hated about her life: the unwanted marriage to King Refal, the loss of her family when she moved into the royal chambers, the loss of her beloved girlfriend, Refily, and a child she never wanted to have. She refused any part in raising him and King Refal was never a present father, only seeing him as a progression of his lineage. Both Queen Corelia and King Refal have long since passed, but growing up without the love of his mother and father have had detrimental and lasting impacts on his life which is seen in how he rules over the citizens of “Atlantis” and his priorities in life.
+He has contracted the “Bleaching” disease due to the stress of ruling and the search for his “lover.” This in turn causes many “Atlanteans” to contract the disease due to the stress of their ruler having it and not knowing the cure or what will happen to the future of “Atlantis,” especially since King Lareas currently has no heir. 
+
+''Relationships:''
+Aishui - King Lareas takes advantage of Aishui’s love for “Atlanteans” and his naivety, using him to achieve his wealth and power. He knows how curious Aishui is about new ideas and technology so he tells him all about the good it is doing and will continue to do for “Atlantis” and its people. Aishui is unaware of the negative repercussions of hydropunk, in its current state, and the harm it's doing to the people and world around him that he dearly loves and wishes to protect. Aishui wholeheartedly believes that King Lareas has the best interest of the “Atlanteans” in mind as his first priority.
+
+Esveas - Esveas was the only person who ever saw him and overlooked all his faults. They met when they were young children. Esveas was the one to make Lareas laugh, heal his bruises, listen to his feelings, and make Lareas feel wanted and seen. They quickly became best friends and spent every moment together despite objections from the council about the two boys being so close to each other. Lareas looked at Esveas as if he was the only light in this world which quickly turned from childhood fondness and idolization to a deep, unrequited love as they got older. Esveas was aware of Lareas’ feelings and tried to gently let him down, explaining that he is aromantic and will never see him in the way he wishes. Lareas refused to listen and continued pursuing him which ultimately led to their friendship being dissolved and Esveas escaping from District 1. Despite everything, Esveas wishes they could have remained best friends and can’t bring himself to hate King Lareas because he knows Lareas too well and has witnessed his troubled past.
+
+Angler - King Lareas denies that Esveas escaped from him because he didn’t return his affections. He has convinced himself that Esveas is in danger and needs his help so he pays a handsome amount for Angler to become his informant inside Dench’s Citizen Watch. He wants to make sure that hydropunk technology will continue to flourish so he can attain more wealth and power over “Atlanteans” as well as seek any information on sightings of Esveas or any hints regarding his location.
+
+''Connections:''
+The Royal Family (aunts, uncles, cousins, etc.) and Royal Council of “Atlantis”
+Dench’s Citizen Watch
+
+''World Knowledge:'' King Lareas is well informed about the world around him through his advisors and the connection he planted into Dench’s Citizen Watch, but he doesn’t listen to anything that doesn’t relate to Esveas. He couldn’t care less what happens to the “Atlanteans” and what their feelings are on how he’s ruling. It wouldn’t matter to him if every “Atlantean” perished and “Atlantis” itself was destroyed. Nothing else in this world could be more important than Esveas.
+
+''Goal & Obstacle:'' King Lareas’ ultimate goal is to get Esveas to love him. He thinks that if he gains enough wealth and power then Esveas will surely have no other choice but to return his affections. In his mind, there’s no other reason why Esveas doesn’t love him. Surely if he can provide him everything he could ever need or want and lay all the power of “Atlantis” at his feet, then love will bloom in Esveas’ heart.
+He encounters several obstacles to achieving his goal including the MC seeking the truth behind Sir Richard’s disappearance and discovering the negative effects of hydropunk technology on “Atlantis” and “Atlanteans.” Working with Elvira and the other corrupt “Atlanteans” gives him a massive boost of wealth and influence, but the MC threatens to ruin everything. Sir Richard threatens to ruin all his carefully formed plans as well with his attempts at saving “Atlantis” and rising up against the Oceanography Council. His knights have had no luck in apprehending Sir Richard as he continues to evade them and steal more hydropunk technology. All the while, Esveas continues to evade King Lareas.
+
+''Initial Perception of the Player Character:'' King Lareas highly distrusts/dislikes the MC. The MC threatens to destroy all his plans, causing Esveas to grow further out of his reach. He misdirects the MC when they first meet, acting the part of a benevolent king that cares for his people and wishes to seek out their best interests. King Lareas wants the MC out of “Atlantis” as soon as possible so they don’t find out the truth behind everything, but he can’t force them out in order to maintain a good relationship with the Oceanography Council in order to remain in contact with the corrupt humans such as Elvira and further his standing with them.
+
+''Vocal Qualities:'' His vocal tone ranges from extreme highs to extreme lows. When he is angry or emotional, his voice is like a roaring waterfall. When he is alone, insecure, or speaking to Esveas, his voice is like a serene lake. His voice is always the softest when speaking to or about Esveas.
+
+''Speech Patterns:'' Pseudo-archaic speech. Will use flowery, poetic language to sound more grandiose and educated. Will interrupt others to bring the conversation back to him. He likes to hear the sound of his own voice so he is rarely ever brief when speaking. Manipulatively sweet.
+
+''Dialogue Sample:''
+<<say "King Lareas" "My dearest Esveas, so long we have been parted. Will the tides never have mercy on me and carry you back into my waiting arms?">>
+<<say "King Lareas" "How dare you return here without even a hint of his whereabouts! Why do I pay you so handsomely if your efforts remain this meaningless?!">>
+<<say "King Lareas" "The “Bleaching” will smite all those that dare defy their king. Not even you, my dear advisors, will remain unaffected.">>
+<<say "King Lareas" "My beloved, how long has it been since you’ve eaten properly? The peasants wallowing in this filthy district surely can’t provide you the nutrition you need.">>
+<<say "King Lareas" "I’d conquer all the gods of this world for you to remain by my side.">>
 
 [[Back to Codex|Codex]]
 
