@@ -18,20 +18,63 @@ TODO: scene for Gumboh in Act 3.
 :: Codex Gumboh [codex char-Gumboh] {"position":"2260,1250","size":"100,100"}
 <img class="portrait" src="img/gumboh.jpg" alt="Gumboh">
 !Gumboh
-''Age:'' 35
-''Gender:'' Non-binary (they/them)
-''Occupation:'' Community Chef
 ''Where:'' District 3 slums
 ''Appears in:'' [[Act 3|A3 Gumboh]]
 <<if $trust["Gumboh"] isnot undefined>>''Trust:'' <<print $trust["Gumboh"]>><</if>>
+''Description:'' NPC - warm, nurturing, selfless
+''Age:'' 35
+''Gender:'' Non-binary (they/them)
+''Origin:'' Underwater Creature
+''Occupation:'' Community Chef
+''Faction:'' N/A
 
-Gumboh is the head chef of the community kitchen in the Slums. Warm and nurturing, Gumboh has only two rules for their kitchen. One: Everyone is welcome in Gumboh's kitchen. Two: the neediest eat first.
-Gumboh sees society like a cooking pot full of diverse flavours, and laments what has happened to Atlantis since the Bleaching took hold.
-When times were good, Gumboh would source a vibrant array of ingredients from every district and culture present in the city, keeping the citizens of the slums healthy and happy with their famous stew. However, since the bulwarks went up, Gumboh can’t get the ingredients they need and so the townsfolk must survive on scant seaweed soup.
-With food so scarce, Gumboh will often give up their own portions to feed the needy. As a result, Gumboh no longer has the energy they once had and their memory is starting to fog.
+''Physical Description:'' Gumboh is a gentle giant, always found next to their enormous cooking pot in the community kitchen. At full strength they would be standing proud with wide, welcoming arms. However, in the present-day they haven’t eaten in a long time, so their stance is more deflated, slightly slumped over the pot. They wear an old, but lovingly cared-for apron.
+
+''Overview:'' Gumboh is the head chef of the community kitchen in the Slums. Warm and nurturing, Gumboh has only two rules for their kitchen. One: Everyone is welcome in Gumboh's kitchen. Two: the neediest eat first. Gumboh sees society like a cooking pot full of diverse flavours, and laments what has happened to Atlantis since the Bleaching took hold. When times were good, Gumboh would source a vibrant array of ingredients from every district and culture present in the city, keeping the citizens of the slums healthy and happy with their famous stew. However, since the bulwarks went up, Gumboh can’t get the ingredients they need and so the townsfolk must survive on scant seaweed soup. With food so scarce, Gumboh will often give up their own portions to feed the needy. As a result, Gumboh no longer has the energy they once had and their memory is starting to fog.
 
 
-/* Quest: ingredients from every district.
+''Relationships''
+
+''Eelis'' - Gumboh regards Eelis as a troubled lad who simply needs guidance. Eelis regards Gumboh as a do-gooder and a bit of a sap. Eelis has a long-time history of stealing food from Gumboh’s kitchen, testing Gumboh’s patience. However, Gumboh secretly leaves out the food for Eelis to steal, as Eelis is too proud to ask for food himself. Beneath the surface-level confrontation, there is an underlying tender side to their dynamic.
+
+''Aishui'' - Gumboh is a follower of Aishui, feeling deep connection to all ocean life and a big believer in the humility and curiosity that Aishui engenders.
+
+
+''Connections''
+
+''Spiritual'' - As a follower of Aishui, Gumboh has a deep reverence for all oceanic life. They see the ocean’s ecosystem as a whole, with the food they prepare as part of the give and take that balances the ecosystem. Any creature that is eaten is received with thanks to that life.
+
+
+''World Knowledge''
+
+Gumboh has spent their life in the kitchen: learning, cooking and chatting. They have an intricate knowledge of food and the natural resources that provide the ingredients.  As a central figure in the slum community, Gumboh is on top of all the local gossip at all times. Gumboh is happy to share their knowledge and insight.
+
+
+''Goal and Obstacle''
+
+Gumboh’s goal is to keep the folk of the slums well fed and happy. However, without the access to their favoured ingredients, the only thing they can serve is small portions of insipid seaweed soup.
+
+If the Player can source ingredients from each of the districts and return them to Gumboh, they can once again prepare their abundant stew. This in turn means that Gumboh can return to full strength themself, and remember the crucial information that helps unlock the Players’s path in Act 3.
+
+
+''Initial perception of the Player Character''
+
+Gumboh is, at heart, very trusting and open. They have a high trust rating from the beginning. They are happy to impart any knowledge about the city, which can help the Player in navigating the world and citizens.
+
+
+''Vocal Profile:'' Gumboh has a deep and slow vocal delivery.
+
+''Speech Patterns:'' They are thoughtful and economical with their words. If they volunteer a thought, it is a thought that needs to be expressed. They rely heavily on cooking analogies to make wider points about society. They tend to use ‘we/our’ than ‘I/my’ when talking about the kitchen and wider slums.
+
+
+''Dialogue Sample''
+
+
+
+
+
+
+/* Quest: ingredients from every district. */
 
 [[Back to Codex|Codex]]
 
