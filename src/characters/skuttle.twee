@@ -18,7 +18,48 @@ TODO: scene for Skuttle in Act 4.
 !Skuttle
 ''Where:'' District 5 desert
 ''Appears in:'' [[Act 4|A4 Skuttle]]
-''Age:'' 35 (?)
+''Description:'' NPC - paranoid, jittery, fatalistic
+''Age:'' 62
+''Gender:'' Non-binary (they/them)
+''Origin:'' Underwater Creature
+''Occupation:'' Former Mail-person
+''Faction:'' N/A
+
+''Physical Description:'' Skuttle is small, jittery, wonky and angular. They fold themself into crevices, lurk beneath shadows, constantly surveying the oceanscape for threats. They scurry quickly, not wanting to stay in one place for too long and are prone to bolting if they think danger is on the way. They wear a faded old post uniform, now torn, tattered and modded into a survivalists attire.
+
+''Overview:'' Skuttle was the well-respected postal worker of the city, in the days before the Bleaching came. It was not just a job, it was their very essence and a responsibility that they were proud to hold. A member of no faction, Skuttle would traverse the city delivering messages, resources, gifts to each and every district, building up a knowledge of the City’s hidden tunnels and passageways. But as the bleaching disease descended, the messages they were to deliver turned to threats and misinformation. Skuttle was bleached themselves and quickly became poisoned with insecurity, paranoia and fear. As the bulwarks came up, the need for a mail service vanished and Skuttle retreated to the farthest reaches of District 5, to live alone as a paranoiac prepper in a makeshift shelter. Under constant stress and anxiety, Skuttle’s condition has worsened and they can no longer leave their shelter.
+
+
+''Relationships''
+
+''Aishui'' - When Aishui first arrived to Atlantis, Skuttle was the first person to help him settle. Using their knowledge of the city folk and layout, Skuttle helped Aishui to make his first connections and stay safe.
+
+''Other Relationships'' - Skuttle’s former relationships are evidenced by the letters found in each of the districts. Addressed to Skuttle, and thanking them for specific ways in which their deliveries have helped the citizens of the city, the letters are used to relieve Skuttle’s stress and bring them out of hiding.
+
+
+''World Knowledge''
+
+Skuttle has a deep knowledge of the city folk and the structural layout of Atlantis, garnered through decades of physical experience delivering goods and mail.
+
+
+''Goal and Obstacle''
+
+Skuttle’s goal is to survive as long as they can, hunkered down in their bunker. The Player must help Skuttle calm down and relieve their stress, to allow Skuttle to come out.
+
+Scattered around each district of the city, the Player can find hidden letters written to Skuttle from citizens, thanking them for their service (the kind you might write to your postie at Christmas.) By collecting all of these and delivering them to Skuttle, the Player can re-affirm Skuttle’s faith in people, relieve their stress and come outside into the world once more.
+
+
+''Initial perception of the Player Character''
+
+Skuttle initially has  a very low trust score of the Player, in the same way that Skuttle has low trust score of everyone and everything. They are convinced that the only way to survive is by relying on yourself and nobody else. This trust score can be improved by completing Skuttle’s quest.
+
+
+''Vocal Profile:'' Skuttle has a high pitched voice delivered in erratic staccato.
+
+''Speech Patterns:'' They are sceptical, fatalistic and, when pressed, a little sarcastic. They keep their answers brief and blunt, until they are provoked and blurt out what’s really on their mind. Due to their former life as a mail-person their speech is grounded in the sayings and colloquialisms of the local people, and some post delivery specific turns of phrase.
+
+
+''Dialogue Sample''
 
 <<if $trust["Skuttle"] isnot undefined>>''Trust:'' <<print $trust["Skuttle"]>><</if>>
 
