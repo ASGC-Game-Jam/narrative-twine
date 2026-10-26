@@ -13,36 +13,51 @@ TODO: scene for Serena Waves in Act 1.
 [[Serena Waves|Codex Serena Waves]]
 [[Back to District 1|A1 District 1]]
 
-
 :: Codex Serena Waves [codex char-SerenaWaves] {"position":"2260,650","size":"100,100"}
 !Serena Waves
 ''Where:'' District 1
 ''Appears in:'' [[Act 1|A1 Serena Waves]]
 <<if $trust["Serena Waves"] isnot undefined>>''Trust:'' <<print $trust["Serena Waves"]>><</if>>
+
 ''Description:'' NPC - kind, shy, and gentle
+
 ''Age:'' 14
+
 ''Gender:'' Female (She/Her)
+
 ''Origin:'' Classical Merfolk
+
 ''Occupation:'' Medic
+
 ''Faction:'' N/A
+
 ''Physical Description:'' A slim body covered in simplistic clothing with old food stains on a few spots. She has scales on her body that go from the sides of her neck, down her arms, and stop at her wrists. Her tail has a gentle shade of pink, her tailfin revealing rainbow colors when hit with light at the right angle. Hanging from a strap wrapped around her left shoulder is a stuffed red first-aid bag. The pieces of tape covering the holes scattered along the bag’s surface are evidence of its old age and frequent use. Serena’s hair is long, white, and done up into a pony tail. She’s usually either leaning along a building’s wall in an attempt to hide from crowds or floating calmly before one of the windows into the sea while watching the sea creature with this radiant smile on her face.
+
 ''Overview:'' Serena Waves is one of the kindest people in the undersea civilization and is an experienced medical provider. Even with the paranoia keeping the population divided, she is one of the few who is allowed through some of the barricades to provide first-aid. Her heart aches whenever she sees the toll the bleaching disease has put on the people and she wishes she could give them a cure. But with no cure in sight, all she can do is provide comfort and healing with her trusty first-aid bag where and when she can. While Serena is great at caring for and soothing patients, making conversation with them, even to distract them from their ailments, is a challenge for her. This introverted aspect of herself also makes it difficult for anyone who doesn’t know Serena to make conversation with her. But if a visitor with a careful tongue can connect with her, they could gain a viable source of information on the state of the people as well as medical aid. If she’s not providing first-aid, she can often be found gazing happily at the oceanic creatures outside of the city in places that are well out of sight of other people.
+
 ''Relationships:''
 Eelis - Serena can’t count the number of times she’s had to heal Eelis’ cuts and bruises, but he more than makes up for that by being one of the few Merfolk in the city who can make her laugh.
 PC (Player Character) - She is deeply hesitant to speak to the PC at first. But when she sees them trying to help an injured citizen, she rushes over to help out. Moved by the PC’s good heart, she doesn’t hesitate to help them with medical aid and info on the state of the city when asked. Having a conversation with the PC, however, is still a challenge for Serena, unless the topic of sea creatures is involved in some way.
 Soothira Waves - Whenever Serena is feeling glum, tired, or just needs some guidance, she knows she can count on her sister Soothira to give her the help she needs. She always leaves the spa feeling completely refreshed in mind and body, but she’ll often find a few medicinal herbs added to her first-aid kit. Serena doesn’t quite know if they help her patients at all, but Soothira swears by them and she hasn’t lied to her sister before.
+
 ''Connections:''
 N/A
+
 ''World Knowledge:''
 Serena may not be the best talker in the city, but she is a well-practiced listener. This allows her to get a sense of the state of the city and its people just by listening to her patients as well as other cityfolk making conversation near her hiding places. Sadly, she hasn’t heard anything concrete about a cure for the bleaching disease by the time the PC arrives, but she’s still keeping an ear out.
+
 ''Goal & Obstacle:''
 Serena’s goal is to help as many sick and injured people as she can and brighten up their days even for a little while. She has also vowed to use the cure, if one is found, on every infected citizen she can find, regardless of the paranoia plaguing her home.
+
 ''Initial perceptions of the Player Character:''
 Serena’s like/trust score would be pretty low initially. She doesn’t hate the PC on sight and seeing them interact with other people is enough to recognize them as harmless. But she is still quite afraid of the idea of talking to them, so their first attempt at establishing contact with her will end in failure.
-''Speech Patterns:''
+
+''Speech Pattern:''
 Her vocal pitch is somewhere in the middle. Her voice is soft and demure. When she’s too afraid to speak to someone, she’ll make little frightened sounds.
+
 ''Vocal Profile:''
 She uses every-day-life words. She’ll usually speak rather briefly when talking, not wanting to keep a conversation going any longer than she has to. Serena’s voice will sometimes trail off when especially nervous. She’ll usually be reticent, but when either medical matters or sea creatures are brought up, she is far more inclined to speak her mind.
+
 ''Dialogue Samples:''
 <<say "Serena Waves" "St-stay back… n-n-not in the mood…">>
 <<say "Serena Waves" "Stay calm, sir. I’ll take good care of you.">>
