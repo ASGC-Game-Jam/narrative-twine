@@ -18,6 +18,7 @@ TODO: scene for Skuttle in Act 4.
 !Skuttle
 ''Where:'' District 5 desert
 ''Appears in:'' [[Act 4|A4 Skuttle]]
+<<if $trust["Skuttle"] isnot undefined>>''Trust:'' <<print $trust["Skuttle"]>><</if>>
 ''Description:'' NPC - paranoid, jittery, fatalistic
 ''Age:'' 62
 ''Gender:'' Non-binary (they/them)
@@ -63,9 +64,7 @@ Skuttle initially has  a very low trust score of the Player, in the same way tha
 
 ''Dialogue Sample''
 
-<<if $trust["Skuttle"] isnot undefined>>''Trust:'' <<print $trust["Skuttle"]>><</if>>
 
-Paranoid former mail carrier (they/them) hiding in a bunker. Quest: collect thank-you letters from each district. Could unlock fast travel.
 
 [[Back to Codex|Codex]]
 
