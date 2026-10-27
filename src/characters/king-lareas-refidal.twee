@@ -91,7 +91,7 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 
 <<choices>>
 <<reply "It was not my intention to tresspass into your beautiful city. I only wish to reunite with Sir Richard and return home." "A1 Meet King Lareas Refidal 3a">>
-<<stage "You roll your eyes." reply "What other human could I possibly be referring to?" "A1 Meet King Lareas Refidal 3c">>
+<<reply "Which other human could I possibly be referring to?" "A1 Meet King Lareas Refidal 3c">>
 <</choices>>
 
 
