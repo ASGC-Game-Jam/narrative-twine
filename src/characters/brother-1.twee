@@ -16,9 +16,62 @@ TODO: scene for Brother 1 in Act 3.
 
 :: Codex Brother 1 [codex char-Brother1 todo] {"position":"2390,1250","size":"100,100"}
 !Brother 1
-''Where:'' District 4
+''Where:'' District 4: Suburbia
 ''Appears in:'' [[Act 3|A3 Brother 1]]
 <<if $trust["Brother 1"] isnot undefined>>''Trust:'' <<print $trust["Brother 1"]>><</if>>
+''Description:'' NPC - sulky, snappy, absent-minded
+''Age:'' 75
+''Gender:'' Male (he/him)
+''Origin:'' Underwater Creature
+''Occupation:'' Mechanic
+''Faction:'' Long-standing member of the mechanics guild
+
+
+''Physical Description:'' 
+
+Willun is a crusty, stringy, lanky old man, made crooked by years crouching under various devices. He is the identical twin of Abol, with whom he is bound together, side by side, so that Willun is the right hand-side of the chimera.
+
+
+''Overview:'' 
+
+Willun is one of the co-founders of Willun & Abol Quality Mechanics Ltd, alongside his brother Abol. Founded many decades ago, in their youth, the brothers are quality mechanics that have moved with the times and mastered fixing up all kinds of tech. Willun in his day was a workhorse, with great speed and stamina.
+
+However, the tides of time and familiarity have turned the brothers bitter towards each other, and they have fallen into constant bickering and moaning. A few days before the Player arrives, Aishui enacted a mischievous plan to get the brothers working together again: getting Sabelle to bind them together, side-by-side using a coral/seaweed contraption. However, this only intensified the bickering and arguing, and worse: the two old identical siblings have now forgotten which one is which. This presents an argument so intense that they simply refuse to work until it has been resolved.
+
+
+''Relationships''
+
+''Abol'' - Willun’s identical twin brother of 75 years, a shrewd partner who complemented Willun’s physical work. Sadly, years of working together has turned the brothers bitter and their current relationship consists mainly of bickering, heckling and name-calling.
+
+''Aishui'' - Willun and Abol are familiars of Aishui as he passes through the neighbourhood from time to time. Currently they are both very pissed off at having been bound together on account of Aishui’s mischievous scheme.
+
+''Sabelle'' - Willun is a big admirer of Sabelle’s ability to craft inventions. Willun has always been happy to lend a hand to any covert projects that Sabelle is working on in the brothers’ workshop. The brothers are both currently a little hurt that Sabelle has conspired with Aisgui to bind them together.
+
+
+''World Knowledge''
+
+Willun was always single mindedly focused on work. They have a great physical knowledge of all things tech and can intuitively pick up on items from their feel and look. He is not so accomplished at explaining things verbally. He spent his life in District 4, and does not concern himself much with the wider city. His knowledge is currently hindered by the fact he doesn’t currently know which brother he is.
+
+
+''Goal and Obstacle''
+
+Willun needs to remember which brother he is before the pair can start working again. The problem is, due to the brothers’ bickering nature, it makes it impossible to discern.
+
+The Player must find out information about the brothers’ characters from other characters in the district. However, whenever information is relayed to the brothers, they both want to identify with the character who is being described. Ultimately the Player must find out a certain dish which Willun loves but Abol is repulsed by, and deliver it to them to provoke their natural reactions, and make them remember who they are. Once that is resolved, they are willing and able to use their complementary skills once more to fix up the manta-ray ornithopter.
+
+
+''Initial perception of the Player Character''
+
+Both brothers are too invested in bickering to really pay too much attention to the Player initially. Once the quest is complete, Willun becomes trusting of the Player and happy to fix the manta-ray ornithopter.
+
+
+''Vocal Profile:'' Willun has a creaky, old vocal delivery, higher-pitched than low. He is spiky and snappy when he gets annoyed.
+
+''Speech Patterns:'' He is blunt and abrupt with his words when fighting and arguing. Once he remembers that he is Willun, he is more sparse with his words, speaking in brief sentences.
+
+
+''Dialogue Sample''
+
 
 CHARACTER REQUEST, no bio. Repairs the manta ray ornithopter.
 
