@@ -85,10 +85,9 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 <<reply "I'm seeking my friend-">>
 <<say "King Lareas Refidal" "Sir Richard Black, I presume?">>
 
-
-
-
-
+<<set _dlgT += 0.9>>\
+<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+//Conversation over. King Lareas Refidal's trust is now <<print $trust["King Lareas Refidal"]>>.//
 [[Back to Act 1|Act 1]]
 </div>
 
