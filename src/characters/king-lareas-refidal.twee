@@ -95,8 +95,9 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 <</choices>>
 
 :: A1 Meet King Lareas Refidal 3a [dialogue act1 char-King Lareas Refidal] {"position":"830,1790","size":"100,100"}
-<<stage "King Lareas' eyes grow misty and his voice softens.">>
+<<stage "King Lareas' eyes grow misty as he slightly bows his head, speaking softly to himself.">>
 <<say "King Lareas Refidal" "Reunion is a precious wish. One that I tenaciously cling to.">>
+<<stage "With a blink, King Lareas' gaze hardens on you once more.">>
 
 :: A1 Meet King Lareas Refidal 3b [dialogue act1 char-King Lareas Refidal] {"position":"830,1910","size":"100,100"}
 <<say "King Lareas Refidal" "I'd advise you to watch your snark in my presence for only I can grant you access to the rest of Atlantis. You can either receive my aid or wallow in the dungeons forever wondering about your friend's whereabouts.">>
