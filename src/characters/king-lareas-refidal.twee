@@ -71,7 +71,7 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 [[Back to Codex|Codex]]
 
 :: A1 Meet King Lareas Refidal [character act1 char-King Lareas Refidal] {"position":"440,1850","size":"100,100"}
-/* Example Dialogue */
+/* Example dialogue for meeting King Lareas in Act 1*/
 
 !The Royal Palace of Atlantis
 //Act 1, The King's Throne Room//
@@ -80,14 +80,22 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 <div id="dlg"><<include "A1 Meet King Lareas Refidal 1">></div>
 
 :: A1 Meet King Lareas Refidal 1 [dialogue act1 char-King Lareas Refidal] {"position":"570,1850","size":"100,100"}
-<<stage "A regal orca merfolk stares down imposingly with narrowed eyes from upon his ornate throne.">>
-<<say "King Lareas Refidal" "What brings a human to barge into the Atlantean Royal Court?">>
+<<stage "A regal orca merfolk stares imposingly with narrowed eyes from upon his ornate throne. The guards behind you usher you closer to the King and force you to kneel before him.">>
+<<say "King Lareas Refidal" "What brings a human to trespass into Atlantis, ignoring our carefully constructed safeguards, and sneaking around like a thief?">>
 <<choices>>
 <<reply "I'm seeking my friend-" "A1 Meet King Lareas Refidal 2">>
 <</choices>>
 
 :: A1 Meet King Lareas Refidal 2 [dialogue act1 char-King Lareas Refidal] {"position":"700,1790","size":"100,100"}
 <<say "King Lareas Refidal" "Sir Richard Black, I presume?">>
+
+<<choices>>
+<<reply "It was not my intention to tresspass into your beautiful city. I only wish to reunite with Sir Richard and return home." "A1 Meet King Lareas Refidal 3a">>
+<<stage "You roll your eyes." reply "What other human could I possibly be referring to?" "A1 Meet King Lareas Refidal 3c">>
+<</choices>>
+
+
+
 
 
 
