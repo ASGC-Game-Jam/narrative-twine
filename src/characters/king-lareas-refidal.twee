@@ -100,7 +100,7 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 <<stage "With a blink, King Lareas' gaze pierces you once more.">>
 
 :: A1 Meet King Lareas Refidal 3b [dialogue act1 char-King Lareas Refidal] {"position":"830,1910","size":"100,100"}
-<<say "King Lareas Refidal" "I'd advise you to watch your snark in my presence for only I can grant you access to the rest of Atlantis. You can either receive my aid or wallow in the dungeons forever wondering about your friend's whereabouts.">>
+<<say "King Lareas Refidal" "I'd advise you to watch your snark in my presence for only I can grant you access to the rest of Atlantis. You can either receive my aid or wallow in the dungeons forever ruminating on the fate of your friend.">>
 
 
 
