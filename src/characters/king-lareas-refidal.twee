@@ -70,11 +70,25 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 
 [[Back to Codex|Codex]]
 
-:: A1 Meet King Lareas Refidal [character act1 char-king-lareas-refidal] {"position":"440,1850","size":"100,100"}
+:: A1 Meet King Lareas Refidal [character act1 char-King Lareas Refidal] {"position":"440,1850","size":"100,100"}
 /* Example Dialogue */
 
 !The Royal Palace of Atlantis
 //Act 1, The King's Throne Room//
+
+<<set _dlgWho to "King Lareas Refidal">><<set _dlgT to -0.7>>\
+<div id="dlg"><<include "A1 Meet King Lareas Refidal 1">></div>
+
+:: A1 Meet King Lareas Refidal 1 [dialogue act1 char-King Lareas Refidal] {"position":"570,1850","size":"100,100"}
+<<stage "A regal orca merfolk stares imposingly upon his ornate throne.">>
+<<say "King Lareas Refidal" "What brings a human to barge into the Atlantean Royal Court?">>
+<<reply "I'm seeking my friend-">>
+<<say "King Lareas Refidal" "Sir Richard Black, I presume?">>
+
+
+
+
+
 
 
 
