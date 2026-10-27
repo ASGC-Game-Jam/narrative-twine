@@ -16,7 +16,7 @@ TODO: scene for Brother 2 in Act 3.
 
 :: Codex Brother 2 [codex char-Brother2 todo] {"position":"2260,1370","size":"100,100"}
 !Brother 2
-''Where:'' District 4
+''Where:'' District 4: Suburbia
 ''Appears in:'' [[Act 3|A3 Brother 2]]
 <<if $trust["Brother 2"] isnot undefined>>''Trust:'' <<print $trust["Brother 2"]>><</if>>
 ''Description:'' NPC - spiky, cantankerous, absent-minded
