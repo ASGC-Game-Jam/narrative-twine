@@ -80,7 +80,7 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 <div id="dlg"><<include "A1 Meet King Lareas Refidal 1">></div>
 
 :: A1 Meet King Lareas Refidal 1 [dialogue act1 char-King Lareas Refidal] {"position":"570,1850","size":"100,100"}
-<<stage "A regal orca merfolk stares imposingly upon his ornate throne.">>
+<<stage "A regal orca merfolk stares down imposingly with narrowed eyes from upon his ornate throne.">>
 <<say "King Lareas Refidal" "What brings a human to barge into the Atlantean Royal Court?">>
 <<choices>>
 <<reply "I'm seeking my friend-" "A1 Meet King Lareas 2">>
