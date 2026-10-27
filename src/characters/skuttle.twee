@@ -16,7 +16,7 @@ TODO: scene for Skuttle in Act 4.
 
 :: Codex Skuttle [codex char-Skuttle] {"position":"2260,1490","size":"100,100"}
 !Skuttle
-''Where:'' District 5 desert
+''Where:'' District 5: Desert
 ''Appears in:'' [[Act 4|A4 Skuttle]]
 <<if $trust["Skuttle"] isnot undefined>>''Trust:'' <<print $trust["Skuttle"]>><</if>>
 ''Description:'' NPC - paranoid, jittery, fatalistic
@@ -28,7 +28,8 @@ TODO: scene for Skuttle in Act 4.
 
 ''Physical Description:'' Skuttle is small, jittery, wonky and angular. They fold themself into crevices, lurk beneath shadows, constantly surveying the oceanscape for threats. They scurry quickly, not wanting to stay in one place for too long and are prone to bolting if they think danger is on the way. They wear a faded old post uniform, now torn, tattered and modded into a survivalists attire.
 
-''Overview:'' 
+
+''Overview'' 
 
 Skuttle was the well-respected postal worker of the city, in the days before the Bleaching came. It was not just a job, it was their very essence and a responsibility that they were proud to hold. A member of no faction, Skuttle would traverse the city delivering messages, resources, gifts to each and every district, building up a knowledge of the City’s hidden tunnels and passageways. But as the bleaching disease descended, the messages they were to deliver turned to threats and misinformation. Skuttle was bleached themselves and quickly became poisoned with insecurity, paranoia and fear. As the bulwarks came up, the need for a mail service vanished and Skuttle retreated to the farthest reaches of District 5, to live alone as a paranoiac prepper in a makeshift shelter. Under constant stress and anxiety, Skuttle’s condition has worsened and they can no longer leave their shelter.
 
