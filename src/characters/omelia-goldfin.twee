@@ -20,7 +20,58 @@ TODO: scene for Omelia Goldfin in Act 2.
 ''Appears in:'' [[Act 2|A2 Omelia Goldfin]]
 <<if $trust["Omelia Goldfin"] isnot undefined>>''Trust:'' <<print $trust["Omelia Goldfin"]>><</if>>
 
-Charming, shrewd jellyfolk singer at the Golden Oyster. Rumored to ward off the Bleaching; gets kidnapped. Rescue her or she frees herself and turns antagonist.
+''Description:'' NPC - Charming (seductive, even). Imaginative. Shrewd.
+
+''Age:'' Around 40.
+
+''Gender:'' Female (she/her).
+
+''Origin:'' Jellyfolk.
+
+''Occupation:'' Singer.
+
+''Faction:'' Golden Oyster Tavern. 
+
+''Physical description:'' Omelia wants to be seen, and her bright, fancy dress, shawl, and red bell (she’s “jellyfish folk”) are testament to that. Her body, of a blue tone with yellow patches, can produce bioluminescence, a trick she often uses when she’s singing or wishes to persuade someone… but if someone has the wrong idea about her, her red tentacles can discharge a sting powerful enough to paralyse someone for hours.
+
+Always with her head held high and the confident posture of someone who owns every place she walks into, Omelia is a presence to be reckoned with.
+
+''Overview:'' 
+Omelia was born in the poor District 4, and there, she endured much: hunger, scorn, an illness that nearly killed her. But what she lacked in material means, she boasted in willpower. She rose to fame as a singer whose enchanting voice and ambitious nature–ambitious enough to get rid of competition and obstacles when needed–turned her into the heart and soul of the Golden Oyster, a well-to-do tavern amidst the slums of District 3.
+Her position granted Omelia contact with powerful people across Atlantis, and with it, influence.
+When the bleaching disease started, the Golden Oyster became a refuge for many people who believed themselves safe inside those walls as well as comforted by Omelia’s singing. Indeed, they are: since stress is a factor that contributes to the Bleaching, her performances help alleviate some of that. And Omelia’s voice and performances are so beautiful and touching that some people started believing Omelia’s voice to be “magical” and capable of keeping “evil” at bay. Omelia knows this isn’t true, but that doesn’t stop her from taking advantage of that.
+These people kidnap and chain Omelia, forcing her to sing to keep them from getting sick.
+
+''Relationships & Connections:''
+Tilawell: The owner of the Golden Oyster. Though neither he nor Omelia would ever admit it, they have grown to care about one another almost like in a father-daughter relationship.
+Captain Acropora: When in the city, Acropora finds comfort in Omelia’s songs, and Omelia enjoys listening to the tales of “The Undaunted.” They’re lovers, but not ones with attachment beyond the hours they spend together–even if Omelia misses the captain’s company more than she’d be willing to admit.
+Golden Oyster: Omelia has a level of loyalty to the people of the tavern where she works, especially thanks to her relationship with Tilawell.
+
+''World knowledge:''
+Omelia has never formally studied, but after spending so much time around people, learning to manipulate their desires to her end, she has acquired a wealth of information as well as coins.
+Her knowledge is mostly concentrated on the upper sections of Atlantis, as the wealthy and middle-class are the most frequent clients of the Golden Oyster–where they often let slip things they wouldn’t say anywhere else, particularly after a few drinks–and more focused on material matters. So she won’t have much insight into religions or more specific areas of science.
+
+''Goal & Obstacle:''
+Omelia’s goal is deceptively simple: she wants power, to rise so far above the place where she was born that she will never have to think about it again. But this straightforward desire makes her dangerous: she will do anything to ensure her success and continual ascension, even if that means the downfall of others. She is pride and hubris, charm and treachery.
+
+''Initial perception of the Player Character:''
+Going with the proposed story, Omelia would meet the player after they decided to rescue her. This would immediately increase her favour, though she wouldn’t let it be so clearly known, since she still has a reputation to preserve.
+If the player doesn’t save her, however, I’d like for her to still be able to free herself, and then act as a more direct antagonist.
+
+''Speech patterns & Vocal profile:''
+Omelia has a melodious voice with a sing-songy intonation. She’s someone who commands attention with her voice–and people usually give it to her willingly. She can also put on a more seductive voice if she believes she’ll gain something out of it.
+Omelia likes her fancy words and turns of phrase, which lend her sometimes verbose sentences a dramatic flavour.
+
+''Dialogue Sample:''
+OMELIA: (light mockery) My, oh my, you fancy yourself a hero of the grand ballads, don’t you?
+
+OMELIA: Gather around, ladies, gentlemen, and everyone in between, for a song that will stir the deepest depths of your soul!
+
+OMELIA: (if player doesn’t save her) I need no saviours, for I am and have always been my own hero. But you, darling? You will wish you hadn’t made an enemy of Omelia Goldfin!
+
+OMELIA: Even the most heart-breaking tragedy becomes the most magnificent poem when I sing it.
+
+
 
 [[Back to Codex|Codex]]
 
