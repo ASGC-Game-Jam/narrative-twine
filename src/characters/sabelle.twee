@@ -36,7 +36,66 @@ TODO: scene for Sabelle in Act 4.
 ''Appears in:'' [[Act 2|A2 Sabelle]], [[Act 4|A4 Sabelle]]
 <<if $trust["Sabelle"] isnot undefined>>''Trust:'' <<print $trust["Sabelle"]>><</if>>
 
-Industrious, ingenious, eager 20-year-old inventor (they/them) from the slums with goggles and a homemade gauntlet. Built Seayssal's tail fin.
+''Description:'' NPC - Industrious. Ingenious. Eager.
+
+''Age:'' 20
+
+''Gender:'' Non-binary (they/them)
+
+''Origin:'' Atlantean
+
+''Occupation:'' Inventor 
+
+''Faction:'' Though Sabelle has tried to join inventor guilds, they haven’t had success yet.
+
+''Resides:'' District 4.
+
+''Physical description:''
+
+Sabelle’s simpler and tattered clothes lay beneath a layer of belts and tools and a piece of gear they crafted for themselves [currently, I’m envisioning a gauntlet-type gear that has, for example, a hook and a tool that allows them to crack things open]—though it’s not as technologically advanced. A pair of goggles is always seen on their head, sharing space with short spikes (they’re the “fish type”). They also have orange/brown fins (maybe making them more visible on the arm that doesn’t have the gauntlet would make for a cool visual).
+They have a bit of a “rogue-ish” behaviour, usually hunched when idle or working, their hands constantly on the move whether they’re creating or speaking. As they have been accused of theft before, they try to make themselves small.
+
+''Overview:''
+
+A young Atlantean from the poorer regions, Sabelle dreams of becoming an inventor like the ones whose creations have inspired wonder in them. Refused by mentors due to their social status and young age, and unable to pay for proper equipment, they scavenge for parts they can use to assemble their own tools and ingredients for their various experiments. It's during one of these expeditions that Sabelle finds an uncommon source of power.
+
+Sabelle’s wish to create comes from two places: they wish to make life easier, especially for people like her family, and to be remembered for their inventions; to make a difference. These two desires can sometimes conflict and contradict one another, especially once Sabelle gets invested in a line of investigation. They’ll make excuses for themselves, claiming it’s for the best for everyone, but in truth, they’re chasing their personal dreams.
+
+Sabelle admires other inventors (including those who turned them down), scholars, and people with an adventurous personality. On the other hand, they don’t like the wealthy class and have “borrowed” items from them more than once.
+
+''Relationships & Connections:''
+
+Family: Sabelle is constantly thinking of their family: their mother, Aliacor, and their younger brother, Isaan, whom they help through the things they find and build. (Probably will only be mentioned and not appear in the story.)
+Captain Acropora: Sabelle admires the captain known as The Undaunted, even more after a brief encounter where she treated Sabelle like an actual person and gave them a white crystal she found during one of her voyages.
+Eelis: Created by Joseph Johnson. We’ll still work on the finer details of the dynamic, but as these are both characters from the slums, of similar age, and with skills that can contribute to each other’s goals (e.g. Eelis can sneak in places to get components that Sabelle needs, while Sabelle can craft a tool such as a better lockpick to make Eelis’ job easier), there’s potential for a friendship there.
+
+''World knowledge:''
+Sabelle didn’t have the chance for in-depth study or consistent schooling, so their knowledge comes from their family and background as well as the things they discover while scouring for parts and observing the people. They are street-wise and have greater knowledge of the city’s underworld, which allows them to know places others might not, for example, but they lack the understanding of finer social structures, history, and such.
+They’re curious about the world beyond their city, and they know there are more civilisations out there, thanks to Captain Acropora, but they don’t know anything about this world.
+
+''Goal & Obstacle:''
+Sabelle wants to invent something so unique and brilliant that it will make them one of the most renowned inventors in the history of their people. But… they don’t know yet what this marvellous invention could be, so they keep scouring for parts andassembling different gears and pieces, hoping to find that spark of inspiration that will lead them towards greatness. When the plague begins, that inspiration comes: they want to be the one who will cure everyone [and, pending plot/world-building decisions, perhaps the one to harness the power of the eldritch being, which might not cure people but also make them stronger].
+Their lack of monetary resources has been an obstacle to their goal, as they don’t have access to certain materials, be it tools or studies, and one can’t always find good pieces when scavenging.
+Whether they’re easy to persuade or not depends on the subject: because Sabelle has that eagerness to learn things and become who they want to be, they can be persuaded rather easily if someone offers them a way to those things e.g. an artefact or element they haven’t seen or studied before. But they’re wary of people, so they won’t so easily trust promises or anything based purely on words.
+
+''Initial perception of the Player Character:''
+
+Sabelle will be curious about this outsider, but also somewhat wary even as they help the MC. They would want to ask several questions, perhaps even ask to “study” the MC in some way, but won’t be so forthcoming with answers about themselves and their lives.
+
+''Speech patterns & Vocal profile:''
+Sabelle’s eager and full of energy, and that reflects in their voice and, especially when excited, a higher pitch. However, they can also sound sad and even bitter when speaking of their family’s situation or the wealthy.
+Sabelle’s vocabulary is, for the most part, simple, but they do possess technical knowledge of gears, steam, and such. They speak fast and normally briefly unless they’re excited about something, then they tend to speak until they can no longer breathe.
+
+''Dialogue Sample:''
+
+SABELLE (excited): Look at how this shines! Oh, I hope it doesn’t explode, not yet! Careful, careful, very careful! I’m sure we’ll make something special together!
+
+SABELLE: Them in their fancy houses could help us, but they won’t, they never do! All they care about is their pearls.
+
+SABELLE (eager): Imagine all the knowledge we can discover, all the secrets we can find!
+
+SABELLE: (about stealing from the rich) They won’t even notice if I grab a thing or two… or three… for the greater good!
+
 
 [[Back to Codex|Codex]]
 
