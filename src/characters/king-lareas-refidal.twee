@@ -119,7 +119,7 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 <</choices>>
 <<stage "The King continues speaking, as if you never said anything at all.">>
 <<say "King Lareas Refidal" "In exchange, once you find Sir Richard you will bring him before me to answer for his crimes of theft. If he proves his innocence, you shall take him with you and return to the surface immediately."
-<<stage You take your leave with a slight bow of your head in respect of the king.>>
+<<stage "You take your leave with a slight bow of your head in respect of the king.">>
 
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
