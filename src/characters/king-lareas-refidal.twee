@@ -82,16 +82,13 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 
 :: A1 Meet King Lareas Refidal 1 [dialogue act1 char-King Lareas Refidal]
 <<stage "A regal orca merfolk stares imposingly from upon his ornate throne. The guards behind you usher you closer to the King and force you to kneel before him.">>
-
 <<say "King Lareas Refidal" "What brings a human to trespass into Atlantis, ignoring our carefully constructed safeguards, and sneaking around like a thief?">>
-
 <<choices>>
 <<reply "I'm seeking my friend-" "A1 Meet King Lareas Refidal 2">>
 <</choices>>
 
 :: A1 Meet King Lareas Refidal 2 [dialogue act1 char-King Lareas Refidal]
 <<say "King Lareas Refidal" "Sir Richard Black, I presume?">>
-
 <<choices>>
 <<reply "It was not my intention to tresspass into your beautiful city. I only wish to reunite with him, ensure his wellbeing, and return home." "A1 Meet King Lareas Refidal 3a" 10>>
 <<reply "Which other human could I possibly be referring to?" "A1 Meet King Lareas Refidal 3b" -10>>
@@ -99,46 +96,34 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 
 :: A1 Meet King Lareas Refidal 3a [dialogue act1 char-King Lareas Refidal]
 <<stage "King Lareas' eyes grow misty as he slightly bows his head, speaking softly to himself.">>
-
 <<say "King Lareas Refidal" "Reunion is a precious wish. One that I tenaciously cling to.">>
-
 <<stage "With a blink, King Lareas' gaze pierces you once more.">>
-
 <<choices>>
 <<reply "If I may...I heard mention of an illness on my way here. I've also noticed some strange environmental events both here and on the surface. Can you tell me more about what's going on?" "A1 Meet King Lareas Refidal 5">>
 <</choices>>
 
 :: A1 Meet King Lareas Refidal 3b [dialogue act1 char-King Lareas Refidal]
 <<say "King Lareas Refidal" "I'd advise you to watch your snark in my presence for only I can grant you access to the rest of Atlantis. You can either receive my aid or wallow in the dungeons forever ruminating upon the fate of your friend.">>
-
 <<stage "You bite your tongue to reign yourself in and avoid further conflict with the king.">>
-
 <<choices>>
 <<reply "I deeply apologize, Your Majesty." "A1 Meet King Lareas 4">>
 <</choices>>
 
 :: A1 Meet King Lareas Refidal 4 [dialogue act1 char-King Lareas Refidal]
-
 <<stage "The King's eyes narrow, seeing past your forced courtesy. His hand tightens around his Trident for control, then releases the tension with an exhale.">>
-
 <<choices>>
 <<reply "If I may...I heard mention of an illness on my way here. I've also noticed some strange environmental events both here and on the surface. Can you tell me more about what's going on?" "A1 Meet King Lareas Refidal 5">>
 <</choices>>
 
 :: A1 Meet King Lareas Refidal 5 [dialogue act1 char-King Lareas Refidal] 
 <<say "King Lareas Refidal" "There is no need to concern yourself with any of that. Atlantis has the best scientists and healers working tirelessy on solutions. Once you've apprehended Sir Richard, we can discuss involving the Oceanography Council.">>
-
 <<stage "With a wave of his hand the knights surrounding you retreat a few steps back.">>
-
 <<say "King Lareas Refidal" "My knights will grant you access through the bulwarks between Districts 1 and 2.">>
-
 <<reply "Your generosity knows no bounds." "A1 Meet King Lareas Refidal 6">>
 
 :: A1 Meet King Lareas Refidal 6 [dialogue act1 char-King Lareas Refidal] 
 <<stage "The King continues speaking as if you never said anything at all.">>
-
 <<say "King Lareas Refidal" "In exchange, once you find Sir Richard you will bring him before me to answer for his crimes of theft. If he proves his innocence, you shall take him with you and return to the surface immediately.">>
-
 <<stage "You take your leave with a slight bow of your head in respect of the king.">>
 
 <<set _dlgT += 0.9>>\
