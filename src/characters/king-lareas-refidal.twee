@@ -119,7 +119,9 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 <<say "King Lareas Refidal" "There is no need to concern yourself with any of that. Atlantis has the best scientists and healers working tirelessy on solutions. Once you've apprehended Sir Richard, we can discuss involving the Oceanography Council.">>
 <<stage "With a wave of his hand the knights surrounding you retreat a few steps back.">>
 <<say "King Lareas Refidal" "My knights will grant you access through the bulwarks between Districts 1 and 2.">>
+<<choices>>
 <<reply "Your generosity knows no bounds." "A1 Meet King Lareas Refidal 6">>
+<</choices>>
 
 :: A1 Meet King Lareas Refidal 6 [dialogue act1 char-King Lareas Refidal] 
 <<stage "The King continues speaking as if you never said anything at all.">>
