@@ -86,7 +86,6 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <</choices>>
 
 :: A1 Serena Waves Talk 2a [dialogue act1]
-
 <<stage "The woman's tail swings in and out of view at a nervous pace for a few seconds. She then slowly pokes her head out enough to look at you with her right eye for a brief moment before darting back behind the building. You can see her tail tense up in obvious fear.">>
 <<say "Serena Waves" "So... so scary!" "fearful whisper">>
 <<stage "It is obvious to you now that this merfolk is frightened by your appearance. Perhaps a change in subject is in order?">>
@@ -97,7 +96,6 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <</choices>>
 
 :: A1 Serena Waves Talk 2b [dialogue act1]
-
 <<stage "Your words only make her whimper a bit more loudly, perhaps in agreement. A different approach is required if you want her to open up.">>
 <<choices>>
 <<reply "I just remembered, there was a giant whale with scales I saw during my descent." A1 Serena Waves Talk 3a 10>>
@@ -105,7 +103,6 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <</choices>>
 
 :: A1 Serena Waves Talk 3a [dialogue act1]
-
 <<stage "Her tail instantly starts to swing excitedly. Within a second, she swims up to you quick as a flash, revealing a beaming smile and sparkling eyes, her fear forgotten.">>
 <<say "Serena Waves" "The Scaleback Whale! I know of that creature! It is one of the largest whales to ever been seen by Merfolk. Its scales on its back vary in color. Some whales have blue scales, others have green scales. Why, I've even seen one with scales that have multiple colors, which is extremely rare!" "deeply excited">>
 <<stage "She immediately becomes silent and her eyes grow wide with shock as she realizes that she had just talked to you. Blushing profusely, she swims away without saying another word, leaving you dumbfounded.>>
@@ -114,7 +111,6 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <</choices>>
 
 :: A1 Serena Waves Talk 3b [dialogue act1]
-
 <<stage "You decide to peform a simplistic dance in an attempt to amuse the merfolk. Your slow movements and the stomping of your boots make the dance seem quite silly. Just as you had hoped for. The woman peaks out from behind the building again, intrigued by your dance. She can't help but let out an amused giggle in spite of her fear. Slowly, her giggling turns into laughter while she floats fully into view.">>
 <<say "Serena Waves" "You're so funny! Just like Eelis!" "In between her laughs">>
 <<stage "Her laughter slows down and stops after a few seconds. Now calm and not so frightened, she speaks to you with a grateful tone.">>
@@ -122,9 +118,9 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <<stage "She swims into the dark of the alleyway and out of sight.">>
 <<choices>>
 <<reply "Nothing distracts someone from their fears better than comedy." A1 Serena Waves Talk 4>>
+<</choices>>
 
 :: A1 Serena Waves Talk 4 [dialogue act1]
-
 <<stage "You quietly go back to your business, unsure of what to do about her now.">>
 
 [[Back to Act 1|Act 1]]
