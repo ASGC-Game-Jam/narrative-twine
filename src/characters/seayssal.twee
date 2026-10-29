@@ -76,4 +76,37 @@ Seayssal does not speak through words. Instead, it communicates through telepath
 
 [[Back to Codex|Codex]]
 
+:: A1 Meet Seayssal [character act1 char-Seayssal] {"position":"440,1850","size":"100,100"}
+/* Dialogue for meeting Seayssal in Act 1*/
 
+!Outside of Atlantis
+//Act 1, Underwater Cave//
+
+<<set _dlgWho to "Seayssal">><<set _dlgT to -0.7>>\
+<div id="dlg"><<include "A1 Meet Seayssal 1">></div>
+
+:: A1 Meet Seayssal 1 [dialogue act1 char-Seayssal]
+
+<<stage "The submarine propels you ever closer to your destination. However, as you draw closer you notice something amiss. At a loss, you grab your radio...">>
+
+<<choices>>
+<<reply "Radio Gerold" "A1 Meet Seayssal 2">>
+<</choices>>
+
+:: A1 Meet Seayssal 2 [dialogue act1 char-Seayssal]
+
+<<say "Gerold Granite" "Gerold Granite, speaking. How may I assist you?">>
+
+<<say "You" "Massive bulwarks are restricting access to Atlantis. Do you know another route in?">>
+
+<<say "Gerold Granite" "There should be an access point through a cave below your current location.">>
+
+<<say "You" "Thank you, Gerold.">>
+
+<<stage "You tuck your radio away and man the controls once more, descending deeper into the ocean.">>
+
+<<set _dlgT += 0.9>>\
+<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+//Conversation over. Seayssal's trust is now <<print $trust["Seayssal"]>>.//
+[[Back to Act 1|Act 1]]
+</div>
