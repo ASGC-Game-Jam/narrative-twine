@@ -129,7 +129,7 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 
 <<say "King Lareas Refidal" "My knights will grant you access through the bulwarks between Districts 1 and 2.">>
 
-<<say "You" "Your generosity known no bounds.">>
+<<say "You" "Your generosity knows no bounds.">>
 
 <<stage "The King continues speaking as if you never said anything at all.">>
 
