@@ -105,7 +105,7 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 <<choices>>
 <<reply "I deeply apologize, Your Majesty.">>
 <</choices>>
-<<stage "The King's eyes narrow, seeing past your forced courtesy. His hand tightens around his Trident for control, then releases the tension with an exhale.">>
+<<stage "The King's eyes narrow, seeing past your forced courtesy. His hand tightens around his Trident for control, then releases the tension with an exhale." "A1 Meet King Lareas Refidal 4">>
 
 :: A1 Meet King Lareas Refidal 4 [dialogue act1 char-King Lareas Refidal] {"position":"960,1850","size":"100,100"}
 <<choices>>
