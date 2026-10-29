@@ -87,7 +87,7 @@ Seayssal does not speak through words. Instead, it communicates through telepath
 
 :: A1 Meet Seayssal 1 [dialogue act1 char-Seayssal]
 
-<<stage "The submarine propels you ever closer to your destination. However, as you draw closer you notice something amiss. At a loss, you grab your radio...">>
+<<stage "The submarine propels you ever closer to your destination. However, you notice something amiss. At a loss, you grab your radio...">>
 
 <<choices>>
 <<reply "Radio Gerold" "A1 Meet Seayssal 2">>
@@ -104,6 +104,19 @@ Seayssal does not speak through words. Instead, it communicates through telepath
 <<say "You" "Thank you, Gerold.">>
 
 <<stage "You tuck your radio away and man the controls once more, descending deeper into the ocean.">>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
