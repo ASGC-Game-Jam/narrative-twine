@@ -97,7 +97,10 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 :: A1 Meet King Lareas Refidal 3a [dialogue act1 char-King Lareas Refidal] {"position":"830,1790","size":"100,100"}
 <<stage "King Lareas' eyes grow misty as he slightly bows his head, speaking softly to himself.">>
 <<say "King Lareas Refidal" "Reunion is a precious wish. One that I tenaciously cling to.">>
-<<stage "With a blink, King Lareas' gaze pierces you once more." "A1 Meet King Lareas Refidal 4">>
+<<stage "With a blink, King Lareas' gaze pierces you once more.">>
+<<choices>>
+<<reply "If I may...I heard mention of an illness on my way here. I've also noticed some strange environmental events both here and on the surface. Can you tell me more about what's going on?" "A1 Meet King Lareas Refidal 4">>
+<</choices>>
 
 :: A1 Meet King Lareas Refidal 3b [dialogue act1 char-King Lareas Refidal] {"position":"830,1910","size":"100,100"}
 <<say "King Lareas Refidal" "I'd advise you to watch your snark in my presence for only I can grant you access to the rest of Atlantis. You can either receive my aid or wallow in the dungeons forever ruminating upon the fate of your friend.">>
@@ -105,12 +108,12 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 <<choices>>
 <<reply "I deeply apologize, Your Majesty.">>
 <</choices>>
-<<stage "The King's eyes narrow, seeing past your forced courtesy. His hand tightens around his Trident for control, then releases the tension with an exhale." "A1 Meet King Lareas Refidal 4">>
+<<stage "The King's eyes narrow, seeing past your forced courtesy. His hand tightens around his Trident for control, then releases the tension with an exhale.">>
+<<choices>>
+<<reply "If I may...I heard mention of an illness on my way here. I've also noticed some strange environmental events both here and on the surface. Can you tell me more about what's going on?" "A1 Meet King Lareas Refidal 4">>
+<</choices>>
 
 :: A1 Meet King Lareas Refidal 4 [dialogue act1 char-King Lareas Refidal] {"position":"830,1910","size":"100,100"}
-<<choices>>
-<<reply "If I may...I heard mention of an illness on my way here. I've also noticed some strange environmental events both here and on the surface. Can you tell me more about what's going on?>>
-<</choices>>
 <<say "King Lareas Refidal" "There is no need to concern yourself with any of that. Atlantis has the best scientists and healers working tirelessy on solutions. Once you've apprehended Sir Richard, we can discuss involving the Oceanography Council.">>
 <<stage "With a wave of his hand the knights surrounding you retreat a few steps back.">>
 <<say "King Lareas Refidal" "My knights will grant you access through the bulwarks between Districts 1 and 2.">>
