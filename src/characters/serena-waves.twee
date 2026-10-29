@@ -72,7 +72,7 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 //Act 1//
 
 <<set _dlgWho to "Serena Waves">>
-<div id="dlg"><<include "A1 Serena Waves Talk">></div>
+<div id="dlg"><<include "A1 Serena Waves Talk 1">></div>
 
 :: A1 Serena Waves Talk 1 [dialogue act1]
 <<stage "The long hair and the right eye of a merfolk woman peak out from behind a building in the nearby alley. When you look towards her, she makes a frightened noise and hides. Once you get close, she starts to whimper.">>
