@@ -20,7 +20,55 @@ TODO: scene for Ranhuma in Act 4.
 ''Appears in:'' [[Act 4|A4 Ranhuma]]
 <<if $trust["Ranhuma"] isnot undefined>>''Trust:'' <<print $trust["Ranhuma"]>><</if>>
 
-STUB. Walrus-type Atlantean in his 60s, broken left tusk, conch bracelets. Retreat manager and therapist. Bio says District 2, outline says District 5.
+''Description:'' NPC - Courteous. Possessive. Calm.
+
+''Age:'' Around 60
+
+''Gender:'' Male (he/him)
+
+''Origin:'' Atlantean, walrus type 
+
+''Occupation:'' Manager, therapist
+
+''Faction:'' Healing Foam Retreat 
+
+''Resident of the district:'' District 5
+
+''Physical description:'' 
+Ranhuma is a walrus-type Atlantean with his left tusk broken a little below the middle of its total length. He dresses modestly, with single-colour, unadorned clothes, though he wears conch bracelets and a collar woven from an underwater plant called Mercywort, which he believes brings peace and quiet to the mind of those who allow themselves to be in their presence.
+
+''Overview:''
+Ranhuma is a former guard who lost part of his tusk during a conflict, and due to the nature of the wound, it never properly healed. During his recovery, he learned meditative and exercise techniques that restored his health, helped him find inner peace, and led him to found the Healing Foam Retreat.
+Beneath the surface of a creature who cares about the well-being of others, however, Ranhuma has a need for control that stems from the belief that he alone can bring about an age of true peace to Atlantis–and the success of his retreat and the techniques he adopted (and, accordingly to him, improved), corroborates to that lofty perception.
+While Ranhuma employs a variety of therapists and doctors, they must adhere to his rules or be banished from the Healing Foam. He has a close partner in Warewi, from the [I think mantafolk would be cool here, but if too much work, then sharkfolk or whatever else is fine], who aids him in a secret project: together, the two have been working on a formula to “soothe spirits and calm minds, leading to blessed peace”—in truth, this potion numbs whoever drinks it and makes them more susceptible to being influenced by another, kind of like thralls.
+
+''Relationships & Connections:''
+Warewi: the mantafolk/whateverfolk allied with Ranhuma, including in his shady schemes.
+Soothira: one of the therapists working for Ranhuma, though she’s (initially?) unaware of his ulterior motives.
+Omelia: More than once, Ranhuma has tried to bring Omelia into the Healing Foam, eager to try his experiments on her, whom she considers to be among the “most troubled spirits” in Atlantis.
+
+''World knowledge:''
+Thanks to his age and work as a guard, Ranhuma has vast knowledge about the different districts of Atlantis and the people who live in them. His position as manager and highly sought-out therapist also granted him a more personal relationship with some people, including influential ones, and the secrets that come with them.
+Ranhuma understands religion and its doctrines, but while he may spew some religious words, he’s not faithful himself.
+
+''Goal & Obstacle:''
+To create the substance that allows him to “bring peace to people’s minds and souls,” which would also grant him a kind of army. But the process to create this drug is a complex one, must be done in secret, and the tests so far haven’t been as successful as Ranhuma want.
+
+''Initial perception of the Player Character:''
+Ranhuma recognises the MC as a stressed, burdened person (whether they truly are or not doesn’t really matter) and wishes to use them to test the new version of his drug, believing that no one would care about his disappearance anyway.
+
+''Speech patterns & Vocal profile:''
+Ranhuma speaks in a low pitch and soft voice that’s intended to comfort people he’s speaking with and build trust–even if this trust is misplaced.
+Ranhuma speaks like a sage, with some fancy words but particularly making use of figures of speech and poetics.
+
+''Dialogue Sample:''
+
+Ranhuma: Waves rise and fall, ever-shifting in this endless ocean, and yet they brought you and me together. That, friend of mine, is no coincidence.
+
+Ranhuma: Atlanteans have long lived like a school of fish: impressive and mighty from a distance, but if you look closely, you will see the chaos. They beg for someone to give them order, give them peace, and I have answered their call.
+
+Ranhuma: The only thing more dangerous than a troubled mind is a restless spirit.
+
 
 [[Back to Codex|Codex]]
 
