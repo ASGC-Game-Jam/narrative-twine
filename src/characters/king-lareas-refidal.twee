@@ -131,8 +131,10 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 
 <<say "King Lareas Refidal" "My knights will grant you access through the bulwarks between Districts 1 and 2.">>
 
-<<say "You" "Your generosity knows no bounds.">>
+<<reply "Your generosity knows no bounds." "A1 Meet King Lareas Refidal 5">>
 
+
+:: A1 Meet King Lareas Refidal 5 [dialogue act1 char-King Lareas Refidal] 
 <<stage "The King continues speaking as if you never said anything at all.">>
 
 <<say "King Lareas Refidal" "In exchange, once you find Sir Richard you will bring him before me to answer for his crimes of theft. If he proves his innocence, you shall take him with you and return to the surface immediately.">>
