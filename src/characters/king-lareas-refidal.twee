@@ -64,7 +64,7 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 ''Dialogue Sample:''
 <<say "King Lareas" "My dearest Esveas, so long we have been parted. Will the tides never have mercy on me and carry you back into my waiting arms?">>
 <<say "King Lareas" "How dare you return here without even a hint of his whereabouts! Why do I pay you so handsomely if your efforts remain this meaningless?!">>
-<<say "King Lareas" "The “Bleaching” will smite all those that dare defy their king. Not even you, my dear advisors, will remain unaffected.">>
+<<say "King Lareas" "The Bleaching will smite all those that dare defy their king. Not even you, my dear advisors, will remain unaffected.">>
 <<say "King Lareas" "My beloved, how long has it been since you’ve eaten properly? The peasants wallowing in this filthy district surely can’t provide you the nutrition you need.">>
 <<say "King Lareas" "I’d conquer all the gods of this world for you to remain by my side.">>
 
@@ -97,7 +97,7 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 :: A1 Meet King Lareas Refidal 3a [dialogue act1 char-King Lareas Refidal] {"position":"830,1790","size":"100,100"}
 <<stage "King Lareas' eyes grow misty as he slightly bows his head, speaking softly to himself.">>
 <<say "King Lareas Refidal" "Reunion is a precious wish. One that I tenaciously cling to.">>
-<<stage "With a blink, King Lareas' gaze pierces you once more." "A1 Meet King Lareas Refidal 4a"">>
+<<stage "With a blink, King Lareas' gaze pierces you once more." "A1 Meet King Lareas Refidal 4">>
 
 :: A1 Meet King Lareas Refidal 3b [dialogue act1 char-King Lareas Refidal] {"position":"830,1910","size":"100,100"}
 <<say "King Lareas Refidal" "I'd advise you to watch your snark in my presence for only I can grant you access to the rest of Atlantis. You can either receive my aid or wallow in the dungeons forever ruminating upon the fate of your friend.">>
