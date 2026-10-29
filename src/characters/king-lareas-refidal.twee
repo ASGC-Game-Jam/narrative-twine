@@ -112,9 +112,7 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 
 <<stage "You bite your tongue to reign yourself in and avoid further conflict with the king.">>
 
-<<choices>>
-<<reply "I deeply apologize, Your Majesty.">>
-<</choices>>
+<<say "You" "I deeply apologize, Your Majesty.">>
 
 <<stage "The King's eyes narrow, seeing past your forced courtesy. His hand tightens around his Trident for control, then releases the tension with an exhale.">>
 
