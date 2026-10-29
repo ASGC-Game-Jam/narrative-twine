@@ -67,7 +67,9 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 
 [[Back to Codex|Codex]]
 
-:: A1 Serena Waves Talk [character act1 char-SerenaWaves]
+/*Meet Serena Waves in Act 1*/
+
+:: A1 Serena Waves Talk [character act1 char-Serena Waves]
 
 !Alleyway in District 1
 //Act 1, Meeting Serena Waves//
@@ -75,7 +77,7 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <<set _dlgWho to "Serena Waves">><<set _dlgT to -0.7>>\
 <div id="dlg"><<include "A1 Serena Waves Talk 1">></div>
 
-:: A1 Serena Waves Talk 1 [dialogue act1 char-SerenaWaves]
+:: A1 Serena Waves Talk 1 [dialogue act1 char-Serena Waves]
 <<stage "The long hair and the right eye of a merfolk woman peak out from behind a building in the nearby alley. When you look towards her, she makes a frightened noise and hides. Once you get close, she starts to whimper.">>
 <<say "Serena Waves" "I… I don’t mean to be rude…" "frightened">>
 <<say "Serena Waves" "But please don’t come any closer." "frightened">>
@@ -88,7 +90,7 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <</choices>>
 <</timed>>
 
-:: A1 Serena Waves Talk 2a [dialogue act1 char-SerenaWaves]
+:: A1 Serena Waves Talk 2a [dialogue act1 char-Serena Waves]
 <<stage "The woman's tail swings in and out of view at a nervous pace for a few seconds. She then slowly pokes her head out enough to look at you with her right eye for a brief moment before darting back behind the building. You can see her tail tense up in obvious fear.">>
 <<say "Serena Waves" "So... so scary!" "fearful whisper">>
 <<stage "It is obvious to you now that this merfolk is frightened by your appearance. Perhaps a change in subject is in order?">>
@@ -100,7 +102,7 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <</choices>>
 <</timed>>
 
-:: A1 Serena Waves Talk 2b [dialogue act1 char-SerenaWaves]
+:: A1 Serena Waves Talk 2b [dialogue act1 char-Serena Waves]
 <<stage "Your words only make her whimper a bit more loudly, perhaps in agreement. A different approach is required if you want her to open up.">>
 <<timed 2s t8n>>
 <<choices>>
@@ -109,7 +111,7 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <</choices>>
 <</timed>>
 
-:: A1 Serena Waves Talk 3a [dialogue act1 char-SerenaWaves]
+:: A1 Serena Waves Talk 3a [dialogue act1 char-Serena Waves]
 <<stage "Her tail instantly starts to swing excitedly. Within a second, she swims up to you quick as a flash, revealing a beaming smile and sparkling eyes, her fear forgotten.">>
 <<say "Serena Waves" "The Scaleback Whale! I know of that creature! It is one of the largest whales to ever been seen by Merfolk. Its scales on its back vary in color. Some whales have blue scales, others have green scales. Why, I've even seen one with scales that have multiple colors, which is extremely rare!" "deeply excited">>
 <<stage "She immediately becomes silent and her eyes grow wide with shock as she realizes that she had just talked to you. Blushing profusely, she swims away without saying another word, leaving you dumbfounded.>>
@@ -119,7 +121,7 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <</choices>>
 <</timed>>
 
-:: A1 Serena Waves Talk 3b [dialogue act1 char-SerenaWaves]
+:: A1 Serena Waves Talk 3b [dialogue act1 char-Serena Waves]
 <<stage "You decide to peform a simplistic dance in an attempt to amuse the merfolk. Your slow movements and the stomping of your boots make the dance seem quite silly. Just as you had hoped for. The woman peaks out from behind the building again, intrigued by your dance. She can't help but let out an amused giggle in spite of her fear. Slowly, her giggling turns into laughter while she floats fully into view.">>
 <<say "Serena Waves" "You're so funny! Just like Eelis!" "In between her laughs">>
 <<stage "Her laughter slows down and stops after a few seconds. Now calm and not so frightened, she speaks to you with a grateful tone.">>
@@ -131,12 +133,11 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <</choices>>
 <</timed>>
 
-:: A1 Serena Waves Talk 4 [dialogue act1 char-SerenaWaves]
+:: A1 Serena Waves Talk 4 [dialogue act1 char-Serena Waves]
 <<stage "You quietly go back to your business, unsure of what to do about her now.">>
 
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
 //Conversation over. Serena Wave's trust is now <<print $trust["Serena Waves"]>>.//
-
 [[Back to Act 1|Act 1]]
 </div>
