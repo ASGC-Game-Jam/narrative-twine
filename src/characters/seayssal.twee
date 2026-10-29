@@ -88,15 +88,18 @@ Seayssal does not speak through words. Instead, it communicates through telepath
 :: A1 Meet Seayssal 1 [dialogue act1 char-Seayssal]
 
 <<stage "The submarine propels you ever closer to your destination. However, you notice something amiss. At a loss, you grab your radio and call Gerold.">>
-
 <<say "Gerold Granite" "Gerold Granite, speaking. How may I assist you?">>
+<<choices>>
+<<reply "Massive bulwarks are restricting access to Atlantis. Do you know another route in?" "A1 Meet Seayssal 2">>
+<</choices>>
 
-<<say "You" "Massive bulwarks are restricting access to Atlantis. Do you know another route in?">>
-
+:: A1 Meet Seayssal 2 [dialogue act1 char-Seayssal]
 <<say "Gerold Granite" "There should be an access point through a cave below your current location.">>
+<<choices>>
+<<reply "Thank you, Gerold." "A1 Meet Seayssal 3">>
+<</choices>>
 
-<<say "You" "Thank you, Gerold.">>
-
+:: A1 Meet Seayssal 3 [dialogue act1 char-Seayssal]
 <<stage "You tuck your radio away and man the controls once more, descending deeper into the ocean.">>
 
 
