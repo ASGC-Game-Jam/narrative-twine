@@ -112,7 +112,7 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 :: A1 Serena Waves Talk 3a [dialogue act1 char-Serena Waves]
 <<stage "Her tail instantly starts to swing excitedly. Within a second, she swims up to you quick as a flash, revealing a beaming smile and sparkling eyes, her fear forgotten.">>
 <<say "Serena Waves" "The Scaleback Whale! I know of that creature! It is one of the largest whales to ever been seen by Merfolk. Its scales on its back vary in color. Some whales have blue scales, others have green scales. Why, I've even seen one with scales that have multiple colors, which is extremely rare!" "deeply excited">>
-<<stage "She immediately becomes silent and her eyes grow wide with shock as she realizes that she had just talked to you. Blushing profusely, she swims away without saying another word, leaving you dumbfounded.>>
+<<stage "She immediately becomes silent and her eyes grow wide with shock as she realizes that she had just talked to you. Blushing profusely, she swims away without saying another word, leaving you dumbfounded.">>
 <<choices>>
 <<reply "Well, at least I got her to come out of her shell... or scales." "A1 Serena Waves Talk 4">>
 <</choices>>
