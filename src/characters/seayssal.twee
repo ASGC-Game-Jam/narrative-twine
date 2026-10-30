@@ -100,7 +100,7 @@ Seayssal does not speak through words. Instead, it communicates through telepath
 <</choices>>
 
 :: A1 Meet Seayssal 3 [dialogue act1 char-Seayssal]
-<<stage "You garb yourself in your diving suit, abandoning your submarine, and descend deeper into the ocean.">>
+<<stage "You garb yourself in your diving suit, abandon your submarine, and descend deeper into the ocean.">>
 
 
 
