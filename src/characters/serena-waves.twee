@@ -86,9 +86,9 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <<stage "Her voice is tiny, soft, and fragile like fine china. Saying the wrong thing will likely make her swim away.">>
 <<timed 2s t8n>>
 <<choices>>
-<<reply "I'm not going to hurt you." A1 Serena Waves Talk 2a 5>>
-<<reply "She's scared of her own shadow, this one..." A1 Serena Waves Talk 2b -5>>
-<<reply "Okay okay, I'll keep my distance." A1 Serena Waves Talk 4 5>>
+<<reply "I'm not going to hurt you." "A1 Serena Waves Talk 2a" 5>>
+<<reply "She's scared of her own shadow, this one..." "A1 Serena Waves Talk 2b" -5>>
+<<reply "Okay okay, I'll keep my distance." "A1 Serena Waves Talk 4" 5>>
 <</choices>>
 <</timed>>
 
@@ -97,16 +97,16 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <<say "Serena Waves" "So... so scary!" "fearful whisper">>
 <<stage "It is obvious to you now that this merfolk is frightened by your appearance. Perhaps a change in subject is in order?">>
 <<choices>>
-<<reply "You know, I saw this huge scaly whale on my way down here. What do you know about it?" A1 Serena Waves Talk 3a 10>>
-<<reply "Am I still scary when I do... this?" A1 Serena Waves Talk 3b 15>>
-<<reply "Sorry... I'll take my leave then." A1 Serena Waves Talk 4>>
+<<reply "You know, I saw this huge scaly whale on my way down here. What do you know about it?" "A1 Serena Waves Talk 3a" 10>>
+<<reply "Am I still scary when I do... this?" "A1 Serena Waves Talk 3b" 15>>
+<<reply "Sorry... I'll take my leave then." "A1 Serena Waves Talk 4">>
 <</choices>>
 
 :: A1 Serena Waves Talk 2b [dialogue act1 char-Serena Waves]
 <<stage "Your words only make her whimper a bit more loudly, perhaps in agreement. A different approach is required if you want her to open up.">>
 <<choices>>
-<<reply "I just remembered, there was a giant whale with scales I saw during my descent." A1 Serena Waves Talk 3a 10>>
-<<reply "Me and my big mouth..." A1 Serena Waves Talk 4>>
+<<reply "I just remembered, there was a giant whale with scales I saw during my descent." "A1 Serena Waves Talk 3a" 10>>
+<<reply "Me and my big mouth..." "A1 Serena Waves Talk 4">>
 <</choices>>
 
 :: A1 Serena Waves Talk 3a [dialogue act1 char-Serena Waves]
@@ -114,7 +114,7 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <<say "Serena Waves" "The Scaleback Whale! I know of that creature! It is one of the largest whales to ever been seen by Merfolk. Its scales on its back vary in color. Some whales have blue scales, others have green scales. Why, I've even seen one with scales that have multiple colors, which is extremely rare!" "deeply excited">>
 <<stage "She immediately becomes silent and her eyes grow wide with shock as she realizes that she had just talked to you. Blushing profusely, she swims away without saying another word, leaving you dumbfounded.>>
 <<choices>>
-<<reply "Well, at least I got her to come out of her shell... or scales." A1 Serena Waves Talk 4>>
+<<reply "Well, at least I got her to come out of her shell... or scales." "A1 Serena Waves Talk 4">>
 <</choices>>
 
 :: A1 Serena Waves Talk 3b [dialogue act1 char-Serena Waves]
@@ -124,7 +124,7 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <<say "Serena Waves" "I'm glad you're not so scary.">>
 <<stage "She swims into the dark of the alleyway and out of sight.">>
 <<choices>>
-<<reply "Nothing distracts someone from their fears better than comedy." A1 Serena Waves Talk 4>>
+<<reply "Nothing distracts someone from their fears better than comedy." "A1 Serena Waves Talk 4">>
 <</choices>>
 
 :: A1 Serena Waves Talk 4 [dialogue act1 char-Serena Waves]
