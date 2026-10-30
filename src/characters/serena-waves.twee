@@ -88,7 +88,7 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <<choices>>
 <<reply "I'm not going to hurt you." A1 Serena Waves Talk 2a 5>>
 <<reply "She's scared of her own shadow, this one..." A1 Serena Waves Talk 2b -5>>
-<<reply "Okay okay, I'll keep my distance. A1 Serena Waves Talk 4 5>>
+<<reply "Okay okay, I'll keep my distance." A1 Serena Waves Talk 4 5>>
 <</choices>>
 <</timed>>
 
