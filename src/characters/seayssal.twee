@@ -111,7 +111,7 @@ Seayssal does not speak through words. Instead, it communicates through telepath
 :: A1 Meet Seayssal 4 [dialogue act1 char-Seayssal]
 <<stage "Your awed voice alerts the creature of your presence. It turns it's head towards you, emitting a curious sound.">>
 <<stage "You swim closer wanting to discover more about this wondrous being, but the creature is spooked by your sudden movement. Its tail lashes against the cave's outer walls in its hasty retreat.">>
-<<stage "Stalactites rumble and shift above your head. You swim forward through the cave's exit to evade their deadly descent. You look back to see the cave's exit completely blocked off and sigh.">>
+<<stage "Stalactites rumble and shift above your head. You swim forward through the cave's exit to evade their deadly descent. You look back to see the cave's exit completely blocked off.">>
 <<choices>>
 <<reply "Seems like I'm not returning to the surface anytime soon." "A1 Meet Seayssal 5">>
 <</choices>>
