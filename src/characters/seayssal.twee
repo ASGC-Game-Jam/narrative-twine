@@ -101,19 +101,23 @@ Seayssal does not speak through words. Instead, it communicates through telepath
 
 :: A1 Meet Seayssal 3 [dialogue act1 char-Seayssal]
 <<stage "You garb yourself in your diving suit, abandon your submarine, and descend deeper into the ocean.">>
+<<stage "You navigate through the treacherous cave, guided by the light of bioluminescent fungi, until you see the open ocean ahead of you.">>
+<<stage "Before you can depart from the cave, the currents carry a beautiful sound to your ears. You float in the water admiring the hymn that sounds like tides.">>
+<<stage "The sound reverberates louder through the cave. You look up to see a large serpentine creature, it's semi-transparent body shining brightly from within.">>
+<<choices>>
+<<reply "I've never heard reports of a creature like this in Atlantis." "A1 Meet Seayssal 4">>
+<</choices>>
 
+:: A1 Meet Seayssal 4 [dialogue act1 char-Seayssal]
+<<stage "Your awed voice alerts the creature of your presence. It turns it's head towards you, emitting a curious sound.">>
+<<stage "You swim closer wanting to discover more about this wondrous being, but the creature is spooked by your sudden movement. Its tail lashes against the cave's outer walls in its hasty retreat.">>
+<<stage "Stalactites rumble and shift above your head. You swim forward through the cave's exit to evade their descent. You look back to see the cave's exit completely blocked off and sigh.>>
+<<choices>>
+<<reply "Seems like I'm not returning to the surface anytime soon." "A1 Meet Seayssal 5">>
+<</choices>>
 
-
-
-
-
-
-
-
-
-
-
-
+:: A1 Meet Seayssal 5 [dialogue act1 char-Seayssal]
+<<stage "You swim toward Atlantis excited to see what other wondrous secrets you'll discover on your journey.">>
 
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
