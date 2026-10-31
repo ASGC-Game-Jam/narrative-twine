@@ -16,9 +16,53 @@ TODO: scene for Pearl in Act 2.
 
 :: Codex Pearl [codex char-Pearl] {"position":"2390,890","size":"100,100"}
 !Pearl
+''Point of Contact:''  Sam Rains
+
 ''Where:'' District 3
+
 ''Appears in:'' [[Act 2|A2 Pearl]]
+
 <<if $trust["Pearl"] isnot undefined>>''Trust:'' <<print $trust["Pearl"]>><</if>>
+
+''Description:'' NPC - Upbeat, welcoming, helpful
+
+''Age:'' 42 
+
+''Gender:'' Female (She/Her)
+
+''Origin:'' Jellyfolk Atlantean
+
+''Occupation:'' General Store Shopkeep
+
+''Faction:'' N/A
+
+''Physical Description:'' Pearl is a short, plump Jellyfolk female. Her skin is a soft purple with lime-green striping, with a similarly lime green bell. Her eyes are a darker green, with faint wrinkling at the corners from her near constant, friendly smiles. She wears a garment similar to a strapless sundress made of a yellow seaweed-like material, leaving her tentacles below free-flowing. She wears several small shell necklaces and bracelets. Her movements are bombastic and welcoming, though she is careful to keep a safe enough distance from others to prevent accidental stinging.
+
+''Overview:'' Pearl was originally born with her siblings in District 1, and apprenticed under her parents in their general store there. She had a good upbringing; a loving family, good education, plenty of friends. As her older brother was going to be taking over the main store, Pearl offered to move to District 3 and start a sister store there upon reaching adulthood. Expanding the business was a smart move, and Pearl lived comfortably, making connections within her new community and helping her family at the same time. She most enjoyed hearing the tales from travelers from both other districts and outside the city. However, when the Bleaching began, business dropped steeply. Pearl lost contact with her family in District 1, and she watched those warm, friendly connections she’d made die away. As she’s been lucky that her shop hasn’t been damaged yet by the Colossus, she has taken assisting anyone caught out on the street, either by giving them an indoor area to rest and regroup, or by offering supplies so that they can keep safe. With trade so disrupted, she isn’t sure exactly how long she can keep any of this up, or even if her family is safe in District 1.
+
+''Relationships:''
+Dench - The head of the Citizen’s Watch. Pearl rarely dislikes anyone, but she very much dislikes Dench, and highly disapproves of his behavior.
+
+Kelp - Pearl’s elder brother. Before the chaos caused by the Bleaching, Pearl was in frequent contact with him.
+
+Sal - Pearl’s supplier. He obtained and delivered all of the inventory for Pearl’s shop. She hasn’t seen him in weeks.
+
+''Connections:'' 
+N/A
+
+''World Knowledge:'' Pearl was previously very well-informed, especially when it came to the goings on of Districts 1, 2, 3, and 4. However, with the chaos of the Bleaching and the search for Sir Richard Black, her information is spotty. She is better informed than most in her district, if only because she has interacted with more people as they seek shelter or supplies, but rumors only go so far.
+
+''Goal & Obstacle:'' Pearl is trying to keep others safe and together, as best she can with the resources she has. Distrust and disinformation make that difficult, along with the possibility of any Bleached Coral finally reaching her doorstep.
+
+''Initial Percpetion of the Player Character:'' Pearl is rather excited to meet the MC, having heard rumors of non-Atlanteans before the Colossus took up residence, and is inclined to being as helpful as possible.
+
+''Speech Patterns & Vocal Profile:" Pearl speaks with a slightly deeper tone. She speaks slowly and calmly, and does not hide her emotions well. Pearl has a slightly elevated vocabulary compared to others in Districts 3 and 4, however she does try to mimic the speech patterns of her new community more than not. She tries to avoid any form of negative speech, and is exceedingly congenial.
+
+''Dialogue Sample:''
+<<say "Pearl" "You didn’t get injured out there, did you? Thank goodness, I’ve been seeing so many come in hurt…">>
+<<say "Pearl" "Do you need anything? I don’t have much food left in stock, but I do still have some medical supplies. Here, take this for the road.">>
+<<say "Pearl" "The last folks that came through said that the Colossus was only a few blocks away now. I want to stay as long as I can, but…no, no trembling ground is going to scare me off. I’ll stay right here until the last possible moment, and I won’t leave anyone behind.">>
+
 
 Upbeat jellyfolk shopkeeper who shelters people caught outside by the Colossus. Disapproves of Dench. Her supplier Sal is missing.
 
