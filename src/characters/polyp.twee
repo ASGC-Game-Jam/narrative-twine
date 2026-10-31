@@ -16,9 +16,53 @@ TODO: scene for Polyp in Act 2.
 
 :: Codex Polyp [codex char-Polyp] {"position":"2260,890","size":"100,100"}
 !Polyp
-''Where:'' Mid-level district
+''Point of Contact:''  Sam Rains
+
+''Where:'' District 4
+
 ''Appears in:'' [[Act 2|A2 Polyp]]
+
 <<if $trust["Polyp"] isnot undefined>>''Trust:'' <<print $trust["Polyp"]>><</if>>
+
+''Description:'' NPC - Curious, lonely, hopeful
+
+''Age:'' 8 
+
+''Gender:'' Male (He/Him)
+
+''Origin:'' Merfolk Atlantean
+
+''Occupation:'' Unemployed (Child)
+
+''Faction:'' N/A
+
+''Physical Description:'' Polyp is small, even smaller than other children his age, though not by much, and he doesn’t appear malnourished. His scales resemble a clownfish in pattern and color, with large sections of orange separated by bands of white. He has large, dark brown eyes. He wears a simple, dark brown a-frame top made of brown seaweed. It is too large and thus sits poorly on him, and is tied about the waist with a yellow kelp belt, though it is tied somewhat sloppily, as he is an energetic child and doesn’t quite care about his appearance yet. When he moves, it's almost always with large, exaggerated and energetic movements. He has a gap between his front teeth.
+
+''Overview:'' Polyp is a typical child, by both Atlantean and human standards. He lives as an only child with both his parents, a cook and a craftsman. Energetic, playful, and curious, he led a very typical and happy life before the Bleaching, dreaming of exploring the world outside the city. Polyp used to be best friends with a child in District 3. They spent their days running through the city and making mischief. Then the Bleached Coral creatures started to appear and wreak havoc, and Polyp was forced to stay inside, losing all contact with his friend. He hasn’t gotten a straight answer out of any of the adults, whose attitudes range from telling Polyp to forget his friend and stay inside to telling Polyp that his friend is probably long gone. While an adult might realize that the either case comes from adults who are scared and poorly trying to protect Polyp both physically and mentally, Polyp is too young to understand that, and doesn’t know what to believe, struggling with trust and loneliness. He’s discovered a way to sneak out of his home, where his parents are sheltering in place, in order to search for his friend Ebbi.
+
+''Relationships:''
+Ebbi - Polyp’s best friend of the same age group, lives in District 3. Lost contact when the Colossus appeared. 
+
+Brinne - Polyp’s mother. She is very afraid of the Bleaching and the Bleached Coral and the harm it could bring to her family, and has grown more strict with Polyp as a result. 
+
+“Uncle” Loch - One of Polyp’s neighbors. Conspiracy-minded and aggressive, the primary adult telling Polyp that his friend is gone, and to forget about him.
+
+''Connections:'' 
+N/A
+
+''World Knowledge:'' Polyp has very little knowledge of the world around him. What little he does know, such as the stories told about the city’s founding or its greatest moments in history, he knows from his school (which he does not pay very good attention to). He is very knowledgeable about the district he lives in, and all the best hiding spots and ways to get around and escape being caught, which he learned naturally by playing with friends. What he knows about current events is very limited and contradictory: he gets this information from the adults in his life, and their information is contradictory at best, and incendiary at worst.
+
+''Goal & Obstacle:'' Polyp’s primary goal is to learn what happened to his friend, Ebbi. He has tried using their usual routes to get around, but with the increased guards and the physical boundaries that have now appeared that he is too small and weak to overcome, he’s unable to get very far. He’s very easy to persuade and easily offers what information he has, especially if the player offers to help find his friend.
+
+''Initial Percpetion of the Player Character:'' Polyp’s curious nature makes him more excited about the novelty of meeting a human than distrustful, though he does harbor some wariness upon initial meeting. Still, he is easily swayed towards positive feelings upon positive actions by the MC.
+
+''Speech Patterns & Vocal Profile:"  Polyp’s voice is high pitched and young, and he speaks energetically. Polyp uses very simple words and phrases, as he has not yet learned more eloquent ways to speak. He uses long, run-on sentences and occasionally interrupts himself mid-sentence if he happens to have another more prominent thought. He sometimes mispronounces words or says the wrong word when he means another, due to misunderstanding it when he first heard it.
+
+
+''Dialogue Sample:''
+<<say "Polyp" "Wow! What are you? Where did you come from? Did you come from outside? What’s it like? What’s your name? Are there pufferfish out there? Pufferfish are my favorite!">>
+<<say "Polyp" "I miss Ebbi a lot. We used to find really cool spiral shells and take the loudest ones and then scare the guards. Ebbi was really, really good at getting away!">>
+<<say "Polyp" "Do you know what the Bleaching is? My mom says it makes someone very sick. She also says it makes the coral mean. Does it make people like you mean? You don’t look mean to me, just weird.">>
 
 Curious, lonely 8-year-old who lost contact with his slum friend Ebbi when the bulwarks went up. Quest: find Ebbi.
 
