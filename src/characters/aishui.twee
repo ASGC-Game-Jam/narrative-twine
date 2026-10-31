@@ -90,8 +90,8 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <<stage "The Atlantean spots you and calls out to you.">>
 <<say "Aishui" "Are you here to play with us?">>
 <<choices>>
-<<reply "Yes, I would love to!" "A1 Meet Aishui 3">>
-<<reply "No, I'm searching for my friend, but maybe we can all play later once I find him." "A1 Meet Aishui 4">>
+<<reply "Yes, I would love to!" "A1 Meet Aishui 3" 5>>
+<<reply "No, I'm searching for my friend, but maybe we can all play later once I find him." -5 "A1 Meet Aishui 4">>
 <</choices>>
 
 :: A1 Meet Aishui 3 [dialogue act1 char-Aishui]
