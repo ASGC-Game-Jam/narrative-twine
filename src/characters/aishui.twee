@@ -67,6 +67,57 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <<say "Aishui" "Taking a swim with the dolphins will ease your worries!">>
 <<say "Aishui" "Seayssal, please don’t let the currents sweep you away from me.">>
 
+
+:: A1 Meet Aishui [character act1 char-Aishui] {"position":"440,1850","size":"100,100"}
+/* Dialogue for meeting Aishui in Act 1*/
+
+!Atlantis
+//Act 1, District 2//
+
+<<set _dlgWho to "Aishui">><<set _dlgT to -0.7>>\
+<div id="dlg"><<include "A1 Meet Aishui 1">></div>
+
+:: A1 Meet Aishui 1 [dialogue act1 char-Aishui]
+<<stage "You notice several strange occurences while walking through the districts. Some Atlanteans and objects appear have faded in color while other Atlanteans appear to be detrimentally lethargic."
+<<stage "You mumble to yourself...">>
+<<choices>>
+<<reply "What is going on? Why is everyone so secretive about this illness?" "A1 Meet Aishui 2">>
+<</choices>>
+
+:: A1 Meet Aishui 2 [dialogue act1 char-Aishui]
+<<stage "You hear a cheerful laugh ahead and swim closer to it, but it moves further away. You chase after this laugh in a playful game of Marco Polo, chasing blindly after it as it ebbs and flows".
+<<stage "When you finally reach the source of the melodic laugh, you freeze and blink several times wondering if the image before you is a mirage, but no matter how much or how long you stare, the image never fades. An ethereal Atlantean with coral antlers and an ocean-colored dragonlike tail swims around playfully between two dolphins.">>
+<<stage "The Atlantean spots you and calls out to you.">>
+<<say "Aishui" "Are you here to play with us?">>
+<<choices>>
+<<reply "Yes, I would love to!" "A1 Meet Aishui 3">>
+<<reply "No, I'm searching for my friend, but maybe we can all play later once I find him." "A1 Meet Aishui 4">>
+<</choices>>
+
+:: A1 Meet Aishui 3 [dialogue act1 char-Aishui]
+
+
+
+
+
+
+
+
+:: A1 Meet Aishui 4 [dialogue act1 char-Aishui]
+
+
+
+
+
+
+
+
+
+
+<<set _dlgT += 0.9>>\
+<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+//Conversation over. Aishui's trust is now <<print $trust["Aishui"]>>.//
+[[Back to Act 1|Act 1]]
+</div>
+
 [[Back to Codex|Codex]]
-
-
