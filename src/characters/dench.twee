@@ -16,9 +16,52 @@ TODO: scene for Dench in Act 2.
 
 :: Codex Dench [codex char-Dench] {"position":"2260,1010","size":"100,100"}
 !Dench
-''Where:'' Mid-level district
+''Point of Contact:''  Sam Rains
+
+''Where:'' District 3
+
 ''Appears in:'' [[Act 2|A2 Dench]]
+
 <<if $trust["Dench"] isnot undefined>>''Trust:'' <<print $trust["Dench"]>><</if>>
+
+''Description:'' NPC - Bullheaded, prideful, xenophobic
+
+''Age:'' 37
+
+''Gender:'' Male (He/Him)
+
+''Origin:'' Merfolk Atlantean
+
+''Occupation:'' Fishmonger
+
+''Faction:'' Citizen Watch
+
+''Physical Description:'' Dench is thinner and taller than other Atlanteans, looking as a whole rather sallow. His scales are a dull, burnt sienna, with the occasional white scale breaking up the othrwise plain coloration. He has a heavy brow and intense, dark blue eyes, and tends to smile with only one side of his mouth pulled up. His clothing is simple, a top woven from netting, well-fitted but not bespoke, save for a bright red sash made from a single strip of kelp that marks him as a member of the Citizen Watch.
+
+''Overview:'' Dench was never a very remarkable person. He grew up in an average family, apprenticed under and took over the running of his father’s fish shop, and didn’t really make any waves. Before the Bleaching, most people would have had to think a bit upon hearing his name to remember exactly who he was. He always resented this, but didn’t see any opportunity to change his lot in life, so quietly seethed and carried on. Then, when the Bleaching began, and the bulwarks went up, he saw the opportunity that had been missing for so long. He told tall tales of the fish he’d seen that had been Bleached, of the Bleached Coral Creatures that he had spotted on the edge of town, and for the first time in his life, people listened and saw him. The more attention his tales got, the more he spoke up, and the bigger his following grew. He leaned in, calling for the formation of a Citizen’s Watch (with himself at the head, of course), spreading rumors and embellishing any information he learned, all in the process of keeping himself in the spotlight. He doesn’t care about the hurt he is doing to people, actually sick or otherwise.
+
+''Relationships:''
+Angler - Dench’s second in command in the Watch. He seems more reasonable than Dench, and Dench does actually listen to him, mainly because he lets Dench stay in the limelight.
+
+Pearl - The General Store Owner. Dench sees her as an obstacle to his goals, and is often looking for a good opportunity to accuse her of being Bleached or drawing in Bleached Coral creatures.
+
+Sir Richard Black - Dench claims to know Sir Richard, or to at least have seen him as he passed through. He also claims to have fought him once. These are all out and out lies.
+
+''Connections:'' 
+Citizen’s Watch - Founder and Head, at current
+
+''World Knowledge:'' Dench has some knowledge of the world both within and outside the city, largely from being a fishmonger and needing to catch some of the fish himself. His current information in regards to things like the Bleaching and the goings on in other districts is highly limited, and much of what he ‘knows’ he himself made up or heavily embellished from rumors picked up by other members of the Citizen’s Watch.
+
+''Goal & Obstacle:'' Dench’s goal is to elevate his social standing and keep it elevated. He will do anything short of actually killing someone with his own hands in order to achieve that goal. Actual work towards solving the Bleach, or building unity not built on the fear of it impedes this goal, and he is quick to stamp it out wherever he hears of it. He is stubborn and near impossible to persuade, as helping the MC would be detrimental to his current role.
+
+''Initial Percpetion of the Player Character:'' Dench’s initial impression of the MC is very low, but not yet at its lowest point upon meeting him. The MC represents a very real threat to his current, preferred situation. He is not difficult to push to violence, especially if he feels trapped in a corner.
+
+''Speech Patterns & Vocal Profile:" Dench’s voice is low, and he speaks slowly most times, his speech always seeming calculated. Dench does not have a high level of vocabulary or eloquence, though his manner of speaking pretends at being more highly educated and oratory.
+
+''Dialogue Sample:''
+<<say "Dench" "Strangers have been travelling among us! Hiding themselves in our homes, our communities! How are we to know they aren’t spreading the Bleach at this very moment!?">>
+<<say "Dench" "You’re calling me a liar? You think anybody would believe you, //stranger//?">>
+<<say "Dench" "Wh-what are you talking about? Of course I’m right, I-I saw it with my own eyes! Why would you b-believe them over me…unless //you// are working with our enemies!">>
 
 Bullheaded, xenophobic fishmonger who founded and leads the Citizen Watch. Very low trust, quick to violence.
 
