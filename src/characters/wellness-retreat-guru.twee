@@ -128,7 +128,7 @@ TODO: scene for Soothira Waves in Act 4.
 <<say "Soothira Waves" "I can recognize if someone is lying, surface-dweller. You are not lying... Follow me." "determined">>
 <<stage "You nod at her in kind and follow her through the door next to the desk, glad to have an ally in the chase.">>
 
-:: A4 Soothira Waves Talk 3b  [dialogue act4 char-Soothira Waves]
+:: A4 Soothira Waves Talk 3b [dialogue act4 char-Soothira Waves]
 <<stage "Your question pushes her ot be lost in thought for three seconds before realization widens her eyes.">>
 <<say "Soothira Waves" "I'll admit, I have been deeply focused on the emotional, spiritual, and mental health of those under my care. But I think..." "thoughtful">>
 <<stage she turns her head to gaze at the door next to the desk in silence, as if she were pondering an important choice. She does this for three more seconds before refocusing on you with a calm focused gaze.">>
