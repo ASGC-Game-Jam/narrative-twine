@@ -2,7 +2,7 @@
 <<meet "Soothira Waves">>
 //Act 4, District 1 Spa//
 
-/* Bio: Peaceful, softspoken, and wise 14-year-old with robes made of green kelp. Atlantis' foremost wellness guru.*/
+/* Bio: Peaceful, softspoken, and wise 14-year-old with robes made of green kelp. Atlantis' foremost wellness guru. Medium trust at first.*/
 
 TODO: scene for Soothira Waves in Act 4.
 
@@ -56,11 +56,96 @@ TODO: scene for Soothira Waves in Act 4.
 ''Vocal Profile:'' Soothira’s vocal pattern can be best described as perpetually chill. She comes off as unerringly calm in even the most heated conversations and it is extremely difficult to catch her when she’s angry or sad.
 
 ''Dialogue Samples:''
+
 <<say "Soothira Waves" "Be with your feelings. Let them come and go like the waves.">>
 <<say "Soothira Waves" "My dearest sister, I hope you’ve brought comfort to many good souls today.">>
 <<say "Soothira Waves" "I hope the boss and the retreat are doing well without me…">>
 
+/*Meet Serena Waves in Act 1*/
 
-[[Back to Codex|Codex]]
+:: A4 Soothira Waves Talk [character act4 char-Soothira Waves]
+
+!Spa in District 1
+//Act 4, Meeting Soothira Waves//
+
+<<set _dlgWho to "Soothira Waves">><<set _dlgT to -0.7>>\
+<div id="dlg"><<include "A4 Soothira Waves Talk 1">></div>
+
+:: A4 Soothira Waves Talk 1 [dialogue act4 char-Soothira Waves]
+<<stage "You walk through the doors of the spa and immediately recognize the tranquil atmosphere of the entrance lobby. The walls are lined with decorative coral and small sea anemone stand on the long desk where merfolk workers are helping visitors. The lightining provided by the ceiling lights is at that comfortable level between being bright and dim. You take a moment to take in the scenery, only to be distracted by the door to the right of the desk being opened. A young merfolk woman with robes made of green kelp is guiding a merfolk man by his hands while wearing the most peaceful grin you had ever seen on anyone before.">>
+<<say "Soothira Waves" "I'm glad to have helped you better understand your anger. Always remember to be with that anger whenever it rises, instead of letting it rule over you." "gentle">>
+<<stage "The seemingly natural inner peace that this girl was exuding reminds you of those humans back home who adhere to peace and love. She hugs the merfolk man with a soothing grip and ushers him to the front door.">>
+<<say "Soothira Waves" "May you find the peace you deserve, sea-soul." "hopeful">>
+<<stage "Once the man swims by you and leaves, the girl greets you with a respectful bow.">>
+<<say "Soothira Waves" "Welcome to my humble spa, surface-dweller. I am Soothira Waves. What troubles bring you to my door?" "welcoming">>
+<<stage "You get the feeling that nothing you could say will upset her, when going by the tranquility in her smile.">>
+<<timed 2s t8n>>
+<<choices>>
+<<reply "Your spa was recommended to me by Serena Waves." "A4 Soothira Waves Talk 2a" 10>>
+<<reply "Did a Sir Richard Black visit your spa at some point?" "A4 Soothira Waves Talk 2b" -5>>
+<<reply "What do you know about the Bleaching Disease?" "A4 Soothira Waves Talk 2c" 5>>
+<</choices>>
+<</timed>>
+
+:: A4 Soothira Waves Talk 2a [dialogue act4 char-Soothira Waves]
+<<stage "Genuine joy shined from Soothira's grin as well as her eyes, her tail flapping happily in the water.">>
+<<say "Soothira Waves" "If my sister did that for you, then she feels comfortable with speaking to you. I'll make sure to thank her for sending you to me. But..." "joyful">>
+<<stage "She leans forward slightly while giving you a narrowed inquistive glare.">>
+<<say "Soothira Waves" "I suspect that you, a surface-dweller, came here with a weighty purpose." "inquisitive">>
+<<stage "Soothira is an observant girl, of that you are certain.">>
+<<timed 2s t8n>>
+<<choices>>
+<<reply "I am looking for Sir Richard Black. Have you seen him?" "A4 Soothira Waves Talk 2b" -5>>
+<<reply "I keep hearing about and seeing the Bleaching Disease. Do you know more about it?" "A4 Soothira Waves Talk 2c" 5>>
+<</choices>>
+<</timed>>
+
+:: A4 Soothira Waves Talk 2b [dialogue act4 char-Soothira Waves]
+<<stage "For half of a second, Soothria's smile wavers before regaining its strength. She slowly shakes her head before speaking to you again.">>
+<<say "Soothira Waves" "It is true that good Sir Richard did enter my spa at least once. However, client privacy rules forbid me from saying anything more than that about him." "polite">>
+<<stage "Your mission's success is paramount, but you would rather not disrespect Soothira and her spa over it. Perhaps a loophole can be found?">>
+<<timed 2s t8n>>
+<<choices>>
+<<reply "He is terrible danger and needs help! Any info you have could help me save him!" "A4 Soothira Waves Talk 3a" 10>>
+<</choices>>
+<</timed>>
+
+:: A4 Soothira Waves Talk 2c [dialogue act4 char-Soothira Waves]
+<<stage "Soothira lets out a sight sigh and gestures to the merfolking who are either floating or sitting on chairs in waiting with her right hand.">>
+<<say "Soothira Waves" "It is a terrible plight on the body. Its very existence in our society weighs heavy on our minds. Merfolk like Serena focus on tending to the body, which has helped." "calm sadness">>
+<<stage "Her warm smile returns in full force, hope filling her eyes.">>
+<<say "Soothira Waves" "Thus it falls on to fish like me to help these poor souls find peace within themselves, in spite of the infection that plagues us all. It seems like my efforts have improved my clients well-being these days, but I wonder if there's more to it than that..." "hopeful">>
+<<stage "Her words cause your mind to practically spin with thought. Sir Richard must be stopped, yes, but is there something about the Bleaching Disease that both you and him are missing?">>
+<<timed 2s t8n>>
+<<choices>>
+<<reply "Soothira, has the disease... improved in some of your clients?" "A4 Soothira Waves 3b" 5>>
+<<reply "A man named Sir Richard Black is in great danger. If you know anything about where he might be going..." "A4 Soothira Waves 3a" 10>> 
+<</choices>>
+<</timed>>
+
+:: A4 Soothira Waves Talk 3a [dialogue act4 char-Soothira Waves]
+<<stage "For a second, you worry that Soothira does not believe you. Her widened eyes and sure nod cast those worries away.">>
+<<say "Soothira Waves" "I can recognize if someone is lying, surface-dweller. You are not lying... Follow me." "determined">>
+<<stage "You nod at her in kind and follow her through the door next to the desk, glad to have an ally in the chase.">>
+
+:: A4 Soothira Waves Talk 3b  [dialogue act4 char-Soothira Waves]
+<<stage "Your question pushes her ot be lost in thought for three seconds before realization widens her eyes.">>
+<<say "Soothira Waves" "I'll admit, I have been deeply focused on the emotional, spiritual, and mental health of those under my care. But I think..." "thoughtful">>
+<<stage she turns her head to gaze at the door next to the desk in silence, as if she were pondering an important choice. She does this for three more seconds before refocusing on you with a calm focused gaze.">>
+<<say "Soothira Waves" "Have you seen any hint of the disease improving on the bodies of merfolk?" "calm">>
+<<stage "You think about your journey through Atlantis up to this point.">>
+<<timed 2s t8n>>
+<<choices>>
+<<reply "Wait... I did see improvement. It was subtle and I only saw this in a few merfolk, but for them-" "A4 Soothira Waves Talk 4" 10>>
+<<reply "I don't think I did, but if there's a chance..." A4 Soothira Waves Talk 4" 5>>
+
+:: A4 Soothira Waves Talk 4 [dialogue act4 char-Soothira Waves]
+<<stage "You and Soothira nod as one before you let her guide you through the door next to the desk. You can only hope that you made the right choice.">>
+
+<<set _dlgT += 0.9>>\
+<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+//Conversation over. Soothira Wave's trust is now <<print $trust["Soothira Waves"]>>.//
+[[Back to Act 4|Act 4]]
+</div>
 
 
