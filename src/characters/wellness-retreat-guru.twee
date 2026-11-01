@@ -127,7 +127,11 @@ TODO: scene for Soothira Waves in Act 4.
 <<stage "For a second, you worry that Soothira does not believe you. Her widened eyes and sure nod cast those worries away.">>
 <<say "Soothira Waves" "I can recognize if someone is lying, surface-dweller. You are not lying... Follow me." "determined">>
 <<stage "You nod at her in kind and follow her through the door next to the desk, glad to have an ally in the chase.">>
+<<timed 2s t8n>>
+<<choices>>
 <<reply "Thank you." "A4 Soothira Waves Talk 4">>
+<</choices>>
+<</timed>>
 
 :: A4 Soothira Waves Talk 3b [dialogue act4 char-Soothira Waves]
 <<stage "Your question pushes her ot be lost in thought for three seconds before realization widens her eyes.">>
