@@ -114,11 +114,11 @@ TODO: scene for Soothira Waves in Act 4.
 <<stage "Soothira lets out a sight sigh and gestures to the merfolking who are either floating or sitting on chairs in waiting with her right hand.">>
 <<say "Soothira Waves" "It is a terrible plight on the body. Its very existence in our society weighs heavy on our minds. Merfolk like Serena focus on tending to the body, which has helped." "calm sadness">>
 <<stage "Her warm smile returns in full force, hope filling her eyes.">>
-<<say "Soothira Waves" "Thus it falls on to fish like me to help these poor souls find peace within themselves, in spite of the infection that plagues us all. It seems like my efforts have improved my clients well-being these days, but I wonder if there's more to it than that..." "hopeful">>
+<<say "Soothira Waves" "Thus it falls on to fish like me to help these poor souls find peace within themselves, in spite of the infection that plagues us all. It seems like my efforts have improved my clients' well-being these days, but I wonder if there's more to it than that..." "hopeful">>
 <<stage "Her words cause your mind to practically spin with thought. Sir Richard must be stopped, yes, but is there something about the Bleaching Disease that both you and him are missing?">>
 <<timed 2s t8n>>
 <<choices>>
-<<reply "Soothira, has the disease... improved in some of your clients?" "A4 Soothira Waves 3b" 5>>
+<<reply "Soothira, has the disease... improved in some of your clients?" "A4 Soothira Waves Talk 3b" 5>>
 <<reply "A man named Sir Richard Black is in great danger. If you know anything about where he might be going..." "A4 Soothira Waves 3a" 10>> 
 <</choices>>
 <</timed>>
