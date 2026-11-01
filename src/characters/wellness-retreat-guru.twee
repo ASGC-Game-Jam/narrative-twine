@@ -136,7 +136,7 @@ TODO: scene for Soothira Waves in Act 4.
 :: A4 Soothira Waves Talk 3b [dialogue act4 char-Soothira Waves]
 <<stage "Your question pushes her ot be lost in thought for three seconds before realization widens her eyes.">>
 <<say "Soothira Waves" "I'll admit, I have been deeply focused on the emotional, spiritual, and mental health of those under my care. But I think..." "thoughtful">>
-<<stage she turns her head to gaze at the door next to the desk in silence, as if she were pondering an important choice. She does this for three more seconds before refocusing on you with a calm focused gaze.">>
+<<stage "zdhe turns her head to gaze at the door next to the desk in silence, as if she were pondering an important choice. She does this for three more seconds before refocusing on you with a calm focused gaze.">>
 <<say "Soothira Waves" "Have you seen any hint of the disease improving on the bodies of merfolk?" "calm">>
 <<stage "You think about your journey through Atlantis up to this point.">>
 <<timed 2s t8n>>
