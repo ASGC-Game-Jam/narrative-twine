@@ -101,11 +101,13 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <<stage "Aishui perks up again and gestures to himself and the two dolphins still playing together behind him.">>
 <<say "Aishui" "Mar and Ine are masters at hide-and-seek. I'm sure they can find your friend and then we can all play together!">>
 <<choices>>
-<<reply "I appreciate it, but I don't think they'll be able to find Sir Richard." "A1 Meet Aishui 4">>
+<<reply "I appreciate it, but I don't think they'll be able to find Sir Richard so easily." "A1 Meet Aishui 4">>
 <</choices>>
 
 :: A1 Meet Aishui 4 [dialogue act1 char-Aishui]
-<<say "Aishui" "You're Sir Richard's friend?! I've always wanted to meet you. Sir Richard's told me so many stories about you!">>
+<<say "Aishui" "You're Sir Richard's friend?! I've always wanted to meet you. He's told me so many stories about you!">>
+<<stage "Aishui's giggles softly to himself, lost in a memory only he can see.">>
+<<say "Aishui" "I remember a story he told me about how you used to follow him around like a puppy, whatever that is, when you first joined the Oceanography Council. Then he explained what a puppy was. Oh, you must have seen these land creatures too! Are they friendly? Are they fluffy?">>
 
 
 
