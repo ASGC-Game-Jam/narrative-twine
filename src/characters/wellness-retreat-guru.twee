@@ -143,6 +143,8 @@ TODO: scene for Soothira Waves in Act 4.
 <<choices>>
 <<reply "Wait... I did see improvement. It was subtle and I only saw this in a few merfolk, but for them-" "A4 Soothira Waves Talk 4" 10>>
 <<reply "I don't think I did, but if there's a chance..." A4 Soothira Waves Talk 4" 5>>
+<</choices>>
+<</timed>>
 
 :: A4 Soothira Waves Talk 4 [dialogue act4 char-Soothira Waves]
 <<stage "You can only hope that you made the right choice.">>
