@@ -10,10 +10,10 @@ TODO: scene for Soothira Waves in Act 4.
 * <<link "Earn trust (+10)" `passage()`>><<trust "Soothira Waves" 10>><</link>>
 * <<link "Lose trust (-10)" `passage()`>><<trust "Soothira Waves" -10>><</link>>
 
-[[Wellness Retreat Guru|Codex Wellness Retret Guru]]
+[[Wellness Retreat Guru|Codex Wellness Retreat Guru]]
 [[Back to Wellness Retreat|A4 Wellness Retreat]]
 
-:: Codex Soothira Waves [codex char-SoothiraWaves] {"position":"2390,1490","size":"100,100"}
+:: Codex Wellness Retreat Guru [codex char-SoothiraWaves] {"position":"2390,1490","size":"100,100"}
 !Soothira Waves
 
 ''Where:'' District 1 Spa
