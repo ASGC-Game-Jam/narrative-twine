@@ -18,15 +18,9 @@ TODO: scene for Soothira Waves in Act 4.
 
 ''Where:'' District 1 Spa
 
-''Appears in:'' [[Act 4|A4 Soothira Waves]
+''Appears in:'' [[Act 4|A4 Soothira Waves]]
 
 <<if $trust["Soothira Waves"] isnot undefined>>''Trust:'' <<print $trust["Soothira Waves"]>><</if>>
-
-''Where:'' District 1
-
-''Appears in:'' [[Act 1|A1 Serena Waves]]
-
-<<if $trust["Serena Waves"] isnot undefined>>''Trust:'' <<print $trust["Serena Waves"]>><</if>>
 
 ''Description:'' NPC - peaceful, softspoken, and wise
 
