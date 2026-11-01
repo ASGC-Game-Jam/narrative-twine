@@ -147,7 +147,7 @@ TODO: scene for Soothira Waves in Act 4.
 <</timed>>
 
 :: A4 Soothira Waves Talk 4 [dialogue act4 char-Soothira Waves]
-<<stage "Soothira motions for your to follow her deeper into the spa.">>
+<<stage "Soothira motions for you to follow her deeper into the spa.">>
 <<stage "You can only hope that you made the right choice.">>
 
 <<set _dlgT += 0.9>>\
