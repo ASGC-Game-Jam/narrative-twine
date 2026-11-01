@@ -105,7 +105,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <</choices>>
 
 :: A1 Meet Aishui 4 [dialogue act1 char-Aishui]
-<<say "Aishui" "You're Sir Richard's friend?!">>
+<<say "Aishui" "You're Sir Richard's friend?! I've always wanted to meet you. Sir Richard's told me so many stories about you!">>
 
 
 
