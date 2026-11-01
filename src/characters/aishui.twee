@@ -90,11 +90,22 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <<stage "The Atlantean spots you and rushes over to you.">>
 <<say "Aishui" "Hi, I'm Aishui! Are you here to play with us?">>
 <<choices>>
-<<reply "Yes, I would love to!" "A1 Meet Aishui 3" 5>>
-<<reply "I can't. I'm searching for my friend." "A1 Meet Aishui 4" -5>>
+<<reply "I can't. I'm searching for my friend." "A1 Meet Aishui 3">>
 <</choices>>
 
 :: A1 Meet Aishui 3 [dialogue act1 char-Aishui]
+<<stage "Aishui's eyes lose their sparkle of excitement.">>
+<<say "Aishui" "Oh, that's no fun.">>
+<<stage "Aishui tilts his head to the side like a sea otter.">>
+<<say "Aishui" "Are you losing to him in hide-and-seek?">>
+<<stage "Aishui perks up again and gestures to himself and the two dolphins still playing together behind him.">>
+<<say "Aishui" "Mar and Ine are masters at hide-and-seek. I'm sure they can find your friend and then we can all play together!">>
+
+
+
+
+
+
 
 
 
@@ -104,12 +115,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 
 
 :: A1 Meet Aishui 4 [dialogue act1 char-Aishui]
-<<stage "Aishui's eyes lose their sparkle of excitement.">>
-<<say "Aishui" "Oh, that's no fun.">>
-<<stage "Aishui tilts his head to the side like a sea otter.">>
-<<say "Aishui" "Are you losing to him in hide-and-seek?">>
-<<stage "Aishui perks up again and gestures to himself and the two dolphins still playing together behind him.">>
-<<say "Aishui" "Mar and Ine are masters at hide-and-seek. I'm sure they can find your friend and then we can all play together!">>
+
 
 
 
