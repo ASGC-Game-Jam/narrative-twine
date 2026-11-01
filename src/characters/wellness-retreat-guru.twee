@@ -118,8 +118,8 @@ TODO: scene for Soothira Waves in Act 4.
 <<stage "Her words cause your mind to practically spin with thought. Sir Richard must be stopped, yes, but is there something about the Bleaching Disease that both you and him are missing?">>
 <<timed 2s t8n>>
 <<choices>>
+<<reply "A man named Sir Richard Black is in great danger. If you know anything about where he might be going..." "A4 Soothira Waves 3a" 10>>
 <<reply "Soothira, has the disease... improved in some of your clients?" "A4 Soothira Waves Talk 3b" 5>>
-<<reply "A man named Sir Richard Black is in great danger. If you know anything about where he might be going..." "A4 Soothira Waves 3a" 10>> 
 <</choices>>
 <</timed>>
 
