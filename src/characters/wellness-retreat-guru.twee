@@ -118,7 +118,7 @@ TODO: scene for Soothira Waves in Act 4.
 <<stage "Her words cause your mind to practically spin with thought. Sir Richard must be stopped, yes, but is there something about the Bleaching Disease that both you and him are missing?">>
 <<timed 2s t8n>>
 <<choices>>
-<<reply "A man named Sir Richard Black is in great danger. If you know anything about where he might be going..." "A4 Soothira Waves 3a" 10>>
+<<reply "A man named Sir Richard Black is in great danger. If you know anything about where he might be going..." "A4 Soothira Waves Talk 3a" 10>>
 <<reply "Soothira, has the disease... improved in some of your clients?" "A4 Soothira Waves Talk 3b" 5>>
 <</choices>>
 <</timed>>
@@ -127,6 +127,7 @@ TODO: scene for Soothira Waves in Act 4.
 <<stage "For a second, you worry that Soothira does not believe you. Her widened eyes and sure nod cast those worries away.">>
 <<say "Soothira Waves" "I can recognize if someone is lying, surface-dweller. You are not lying... Follow me." "determined">>
 <<stage "You nod at her in kind and follow her through the door next to the desk, glad to have an ally in the chase.">>
+<<reply "Thank you." "A4 Soothira Waves Talk 4">>
 
 :: A4 Soothira Waves Talk 3b [dialogue act4 char-Soothira Waves]
 <<stage "Your question pushes her ot be lost in thought for three seconds before realization widens her eyes.">>
@@ -140,7 +141,7 @@ TODO: scene for Soothira Waves in Act 4.
 <<reply "I don't think I did, but if there's a chance..." A4 Soothira Waves Talk 4" 5>>
 
 :: A4 Soothira Waves Talk 4 [dialogue act4 char-Soothira Waves]
-<<stage "You and Soothira nod as one before you let her guide you through the door next to the desk. You can only hope that you made the right choice.">>
+<<stage "You can only hope that you made the right choice.">>
 
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
