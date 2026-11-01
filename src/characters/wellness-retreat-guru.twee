@@ -111,7 +111,7 @@ TODO: scene for Soothira Waves in Act 4.
 <</timed>>
 
 :: A4 Soothira Waves Talk 2c [dialogue act4 char-Soothira Waves]
-<<stage "Soothira lets out a sight sigh and gestures to the merfolking who are either floating or sitting on chairs in waiting with her right hand.">>
+<<stage "Soothira lets out a sight sigh and gestures to the merfolk who are either floating or sitting on chairs in waiting with her right hand.">>
 <<say "Soothira Waves" "It is a terrible plight on the body. Its very existence in our society weighs heavy on our minds. Merfolk like Serena focus on tending to the body, which has helped." "calm sadness">>
 <<stage "Her warm smile returns in full force, hope filling her eyes.">>
 <<say "Soothira Waves" "Thus it falls on to fish like me to help these poor souls find peace within themselves, in spite of the infection that plagues us all. It seems like my efforts have improved my clients' well-being these days, but I wonder if there's more to it than that..." "hopeful">>
@@ -141,12 +141,13 @@ TODO: scene for Soothira Waves in Act 4.
 <<stage "You think about your journey through Atlantis up to this point.">>
 <<timed 2s t8n>>
 <<choices>>
-<<reply "Wait... I did see improvement. It was subtle and I only saw this in a few merfolk, but for them-" "A4 Soothira Waves Talk 4" 10>>
+<<reply "Wait... I did see improvement. It was subtle and I only saw this in a few merfolk, but..." "A4 Soothira Waves Talk 4" 10>>
 <<reply "I don't think I did, but if there's a chance..." A4 Soothira Waves Talk 4" 5>>
 <</choices>>
 <</timed>>
 
 :: A4 Soothira Waves Talk 4 [dialogue act4 char-Soothira Waves]
+<<stage "Soothira motions for your to follow her deeper into the spa.">>
 <<stage "You can only hope that you made the right choice.">>
 
 <<set _dlgT += 0.9>>\
