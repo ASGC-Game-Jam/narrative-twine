@@ -1,26 +1,72 @@
-:: A4 Wellness Retreat Guru [character act4 todo char-WellnessRetreatGuru] {"position":"1870,770","size":"100,100"}
-<<meet "Wellness Retreat Guru">>
-//Act 4, Wellness Retreat//
+:: A4 Soothira Waves [character act4 todo char-SoothiraWaves] {"position":"1870,770","size":"100,100"}
+<<meet "Soothira Waves">>
+//Act 4, District 1 Spa//
 
-/* Bio: CHARACTER REQUEST. Soothira Waves (District 1 spa guru, full bio) could fill this. */
+/* Bio: Peaceful, softspoken, and wise 14-year-old with robes made of green kelp. Atlantis' foremost wellness guru.*/
 
-TODO: scene for Wellness Retreat Guru in Act 4.
+TODO: scene for Soothira Waves in Act 4.
 
 /* TODO: dialogue branches */
-* <<link "Earn trust (+10)" `passage()`>><<trust "Wellness Retreat Guru" 10>><</link>>
-* <<link "Lose trust (-10)" `passage()`>><<trust "Wellness Retreat Guru" -10>><</link>>
+* <<link "Earn trust (+10)" `passage()`>><<trust "Soothira Waves" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Soothira Waves" -10>><</link>>
 
-[[Wellness Retreat Guru|Codex Wellness Retreat Guru]]
+[[Soothira Waves|Codex Soothira Waves]]
 [[Back to Wellness Retreat|A4 Wellness Retreat]]
 
+:: Codex Soothira Waves [codex char-SoothiraWaves] {"position":"2390,1490","size":"100,100"}
+!Soothira Waves
 
-:: Codex Wellness Retreat Guru [codex char-WellnessRetreatGuru todo] {"position":"2390,1490","size":"100,100"}
-!Wellness Retreat Guru
-''Where:'' District 5 Wellness Retreat
-''Appears in:'' [[Act 4|A4 Wellness Retreat Guru]]
-<<if $trust["Wellness Retreat Guru"] isnot undefined>>''Trust:'' <<print $trust["Wellness Retreat Guru"]>><</if>>
+''Where:'' District 1 Spa
 
-CHARACTER REQUEST. Soothira Waves (District 1 spa guru, full bio) could fill this.
+''Appears in:'' [[Act 4|A4 Soothira Waves]
+
+<<if $trust["Soothira Waves"] isnot undefined>>''Trust:'' <<print $trust["Soothira Waves"]>><</if>>
+
+''Where:'' District 1
+
+''Appears in:'' [[Act 1|A1 Serena Waves]]
+
+<<if $trust["Serena Waves"] isnot undefined>>''Trust:'' <<print $trust["Serena Waves"]>><</if>>
+
+''Description:'' NPC - peaceful, softspoken, and wise
+
+''Age:'' 14
+
+''Gender:'' Female (She/Her)
+
+''Origin:'' Classical Merfolk
+
+''Occupation:'' Wellness Guru
+
+''Faction:'' N/A
+
+''Physical Description:'' A slim body clad in a robe-like outfit made with green kelp. Scales line the sides of her neck, down her back, and around her hips while leaving her belly noticeably bare. Her tailfin bears a soothing shade of lavender that brightens when hit with light. She wears a crown of colorful seashells on her head. Her vivid orange hair is as long as Serena’s, only she refuses to “restrict its flow” with ties. Soothira’s tail bears thick lavender scales that reach up to the tailfin. Her posture and entire physical demeanor almost always exudes peace and contentment.
+
+''Overview:'' Soothira Waves carries within her a simple mindset: heal yourself and others in order to heal your world. It is this mindset that has guided her every act as Atlantis’ foremost wellness guru, fostering within herself a seemingly unshakable sense of inner peace. Soothira runs her spa in District 1. In that establishment, she helps her clients find peace and fulfillment in their lives through all manner of healthy (and sometimes esoteric) methods. But while Soothira comes from a well-off family, she does not scoff at helping clients from the lower districts (those few who can reach District 1 anyway) and her prices are always fair. In her mind, making her services excessively expensive would deny merfolk wellness, something she will never abide by, no matter how many times her parents insist on bumping up the prices. Prior to the bleaching disease’s appearance, Soothira also worked in a wellness retreat all the way down in District 5. But the bulwarks dividing the districts have kept her away from that establishment, much to her dismay.
+
+''Relationships:''
+//Serema Waves// - Soothira loves her sister unconditionally and will always welcome her into her spa free of charge, especially if she is in need of guidance. She’ll sometimes add in a few choice medicinal sea-based herbs into Serena’s first-aid kit.
+
+//PC (Player Character)// - Soothira welcomes them with open arms upon their first encounter, for her intuition tells her that they are not a threat. She goes on to help them see the Bleaching problem from a wellness angle while giving them a safe space to recover and reflect on their mission.
+
+''Connections:'' N/A
+
+''World Knowledge:'' Through her extensive work with her clients, Soothira has learned a great deal about the ongoings of District 1. Of course, her rules as a wellness guru forbid her from revealing confidential client info. But if the situation is dire enough, then she has some wiggle room to work with…
+
+''Goal & Obstacle:'' Soothira, like her sister, wants to cure the Bleaching disease for the sake of all merfolk. But she is unsure of what is causing people to get infected in the first place. So she has focused her efforts on improving the spiritual, mental, and emotional health of her clients, hoping that gives them some measure of relief. Her other major goal is to reconnect with the wellness retreat in District 5. Now if only she could get past those bulwarks…
+
+''Initial perceptions of the Player Character:'' She does not view the player character with suspicion or fear from the moment she locks eyes on them. In her mind, they are simply a soul seeking aid in fulfilling an important task and she sees no reason to deny them the aid she can give.
+
+''Speech Pattern:'' Her dialect consists of every-day-life words with a few fancier ones she had learned from her family.
+
+''Vocal Profile:'' Soothira’s vocal pattern can be best described as perpetually chill. She comes off as unerringly calm in even the most heated conversations and it is extremely difficult to catch her when she’s angry or sad.
+
+''Dialogue Samples:''
+
+<<say "Soothira Waves" “Be with your feelings. Let them come and go like the waves.”>>
+<<say "Soothira Waves" “My dearest sister, I hope you’ve brought comfort to many good souls today.”>>
+<<say "Soothira Waves" “I hope the boss and the retreat are doing well without me…”>>
+
 
 [[Back to Codex|Codex]]
 
