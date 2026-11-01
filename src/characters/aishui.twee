@@ -88,7 +88,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <<stage "You hear a cheerful laugh ahead and swim closer to it, but it moves further away. You chase after this laugh in a playful game of Marco Polo, chasing blindly after it as the melody ebbs and flows.">>
 <<stage "When you finally reach the source of the melodic laugh, you freeze and blink several times wondering if the image before you is a mirage, but no matter how much or how long you stare, the image never fades. An ethereal Atlantean with coral antlers and an ocean-colored dragonlike tail swims around playfully between two dolphins.">>
 <<stage "The Atlantean spots you and rushes over to you.">>
-<<say "Aishui" "Hi! Are you here to play with us?">>
+<<say "Aishui" "Hi, I'm Aishui! Are you here to play with us?">>
 <<choices>>
 <<reply "Yes, I would love to!" "A1 Meet Aishui 3" 5>>
 <<reply "I can't. I'm searching for my friend." "A1 Meet Aishui 4" -5>>
