@@ -78,7 +78,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <div id="dlg"><<include "A1 Meet Aishui 1">></div>
 
 :: A1 Meet Aishui 1 [dialogue act1 char-Aishui]
-<<stage "You notice several strange occurences while swimming through the districts. Some Atlanteans and objects appear have to have faded in color while other Atlanteans appear to be detrimentally lethargic.">>
+<<stage "You notice several strange occurences while swimming through the districts. Some Atlanteans and objects appear to have faded in color while other Atlanteans appear to be detrimentally lethargic.">>
 <<stage "You mumble to yourself...">>
 <<choices>>
 <<reply "What is going on? Why is everyone so secretive about this illness?" "A1 Meet Aishui 2">>
