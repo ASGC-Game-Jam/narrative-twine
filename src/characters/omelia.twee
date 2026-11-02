@@ -15,7 +15,7 @@ TODO: scene for Omelia Goldfin in Act 2.
 
 
 :: Codex Omelia [codex char-Omelia] {"position":"2390,770","size":"100,100"}
-!Omelia Goldfin
+!Omelia
 ''Where:'' District 3 tavern
 ''Appears in:'' [[Act 2|A2 Rescue Omelia]]
 <<if $trust["Omelia"] isnot undefined>>''Trust:'' <<print $trust["Omelia"]>><</if>>
