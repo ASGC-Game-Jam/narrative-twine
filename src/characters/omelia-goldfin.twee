@@ -71,6 +71,113 @@ OMELIA: (if player doesn’t save her) I need no saviours, for I am and have alw
 
 OMELIA: Even the most heart-breaking tragedy becomes the most magnificent poem when I sing it.
 
+/* Dialogue for meeting Omelia if the player chooses to save her from the people who have kidnapped her */
+
+
+:: A2 Rescue Omelia [character act2]
+
+!Omelia's Prison
+
+//Act 2//
+
+
+<<set _dlgWho to "Omelia">>
+
+<div id="dlg"><<include "A2 Rescue Omelia">></div>
+
+
+:: A2 Save Omelia  [dialogue act2]
+
+<<stage "Careful not to burn yourself in the tentacles, you free the singer from her shackles. How long had she been imprisoned? What did those Atlanteans do in their vile attempt to 'steal' her voice?">>
+
+<<stage "Whatever the answers, Omelia Goldfin glided away from her restraints when the last bind opened, cap held high and defiance in her glowing eyes, no vestige of exhaustion or pain in her figure.">>
+
+<<say "Omelia" "Well, well, what do we have here? A hero? And one without tentacles or fins…" "sarcastic">>
+
+<<choices>>
+
+<<reply "Are you hurt? I’m no doctor, just a researcher, but maybe I can help." "A2 Save Omelia 2a">>
+
+<<reply "I’m no hero, just a researcher. They said your voice can keep the Bleaching away. Is that true?" "A2 Save Omelia 2b" -5>>
+
+<</choices>>
+
+
+:: A2 Save Omelia 2a [dialogue act2]
+
+<<say "Omelia" "Oh, how //noble!// Tell me, gallant hero, what are you here to research?" "wary">>
+
+<<choices>>
+
+<<reply "I came from the surface to put an end to this Bleaching. Can you tell me anything about it?" "A2 Save Omelia 3" +5>>
+
+<<reply "I’m no hero, just a researcher. They said your voice can keep the Bleaching away. Is that true?" "A2 Save Omelia 2b" -5>>
+
+<</choices>>
+
+
+:: A2 Save Omelia 2b [dialogue act2]
+
+<<stage "Omelia raises her head and sneers at you, and you have never felt smaller in your entire life.">>
+
+<<say "Omelia" "So that's why you //saved// me, so that //you// may use me." "angry">>
+
+<<choices>>
+
+<<reply "No! No, I swear! I'm trying to find a cure for the Bleaching, and I thought perhaps you could help!" "A2 Save Omelia 3">>
+
+<<reply "Have you seen the destruction? If you have the power to help, wouldn't that be your duty to do so?" "A2 Save Omelia 4" -5>>
+
+<</choices>>
+
+
+:: A2 Save Omelia 3 [dialogue act2]
+
+<<stage "Omelia looks you up and down.">>
+
+<<stage "You feel the urge to squirm away from her gaze, but you resist it, presuming she wouldn't take well to signs of cowardice.">>
+
+<<say "Omelia" "I might… but my help isn't a thing you can just ask and receive.">>
+
+<<choices>>
+
+<<reply "I saved you. Don't I deserve a reward?" "A2 Save Omelia 5" +5>>
+
+<<reply "What do you want?" "A2 Save Omelia 5">>
+
+<</choices>>
+
+
+:: A2 Save Omelia 4 [dialogue act2]
+
+<<stage "Omelia smiles, but there is no warmth behind it. No, her smile is as cold as the deep waters outside the city.">>
+
+<<say "Omelia" "Omelia Goldfin doesn't have to do anything.">>
+
+<<say "Omelia" "Many have made the mistake of underestimating me.">>
+
+<<say "Omelia" "They all learned to regret it.">>
+
+<<stage "She leaves, and you don't know if you'll see her again. Or if you want to see her again.">>
+
+
+:: A2 Save Omelia 5 [dialogue act2]
+
+<<stage "A hint of a smile.">>
+
+<<stage "For her, this is a game, and one she enjoys playing.">>
+
+<<say "Omelia" "You are a fast learner." "amused">>
+
+<<say "Omelia" "Good.">>
+
+<<say "Omelia" "Meet me at the Golden Oyster.">>
+
+<<say "Omelia" "I may have something for you.">>
+
+
+[[Back to Act 2|Act 2]]
+
 
 
 [[Back to Codex|Codex]]
