@@ -110,33 +110,44 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <<say "Aishui" "I remember a story he told me about how you used to follow him around like a puppy, whatever that is, when you first joined the Oceanography Council. He was too busy at the time to explain what a puppy was. Oh, you must have seen these land creatures too! Are they friendly? Are they fluffy? Do they like to play?">>
 <<stage "You gently clear your throat trying to get his attention and focus back on the topic at hand before it swims away from you both.">>
 <<choices>>
-<<reply "How do you know Sir Richard?" "A1 Meet Aishui 5">>
+<<reply "Have you seen Sir Richard recently?" "A1 Meet Aishui 5">>
 <</choices>>
 
 :: A1 Meet Aishui 5 [dialogue act1 char-Aishui]
+<<say "Aishui" "No, I just came back from visiting my best friend, Seayssal. I was on my way to meet him now to discuss the surge in Bleaching cases when Mar and Ine invited me to play."
+<<choices>>
+<<reply "He won't be there. The Oceanography Council hasn't been able to make contact with him for several weeks so I ventured to Atlantis to check on him." "A1 Meet Aishui 6">>
+<</choices>>
 
+:: A1 Meet Aishui 6 [dialogue act1 char-Aishui]
+<<stage "Aishui's tail stills and his posture drops.">>
+<<say "Aishui" "I hope's he okay.">>
+<<choices>>
+<<reply "Can you tell me more about the Bleaching? Perhaps that will lead me to him." "A1 Meet Aishui 7">>
+<</choices>>
 
+:: A1 Meet Aishui 7 [dialogue act1 char-Aishui]
+<<say "Aishui" "That's what we call the illness currently plaguing Atlantis and its people. I've been trying to figure out why there's so many cases and why it's more aggressive than past outbreaks. Can you aid us in solving this mystery for the sake of both of our civilizations?"
+<<choices>>
+<<reply "I'll do all that I can!" "A1 Meet Aishui 8a" 10>>
+<<reply "I'm just here to find Sir Richard." "A1 Meet Aishui 8b" -10>>
+<</choices>>
 
+:: A1 Meet Aishui 8a [dialogue act1 char-Aishui]
+<<stage "Aishui hugs you tightly.">>
+<<say "Aishui" "Oh, thank you! You surface-dwellers are so compassionate!">>
+<<say "Aishui" "You might find some clues in one of the research stations Sir Richard frequents.">>
+<<choices>>
+<<reply "I'll head there now." "A1 Meet Aishui 9">>
+<</choices>>
 
+:: A1 Meet Aishui 8b [dialogue act1 char-Aishui]
+<<stage "Aishui stares at you unbelievingly.">>
+<<say "">>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+:: A1 Meet Aishui 9 [dialogue act1 char-Aishui]
+<<say "Aishui" "A word of warning before you depart. The Bleaching has caused many coral entities to turn hostile, especially in the lower districts and the waters outside of Atlantis.">>
+<<stage "You dip your head in gratitude for the warning. Aishui waves at you then turns back toward Mar and Ine as you carry onward.">>
 
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
