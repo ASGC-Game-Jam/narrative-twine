@@ -114,7 +114,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <</choices>>
 
 :: A1 Meet Aishui 5 [dialogue act1 char-Aishui]
-<<say "Aishui" "No, I just came back from visiting my best friend, Seayssal. I was on my way to meet him now to discuss the surge in Bleaching cases when Mar and Ine invited me to play."
+<<say "Aishui" "No, I just came back from visiting my best friend, Seayssal. I was on my way to meet him now to discuss the surge in Bleaching cases when Mar and Ine invited me to play.">>
 <<choices>>
 <<reply "He won't be there. The Oceanography Council hasn't been able to make contact with him for several weeks so I ventured to Atlantis to check on him." "A1 Meet Aishui 6">>
 <</choices>>
@@ -127,7 +127,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <</choices>>
 
 :: A1 Meet Aishui 7 [dialogue act1 char-Aishui]
-<<say "Aishui" "That's what we call the illness currently plaguing Atlantis and its people. I've been trying to figure out why there's so many cases and why it's more aggressive than past outbreaks. Can you aid us in solving this mystery for the sake of both of our civilizations?"
+<<say "Aishui" "That's what we call the illness currently plaguing Atlantis and its people. I've been trying to figure out why there's so many cases and why it's more aggressive than past outbreaks. Can you aid us in solving this mystery for the sake of both of our civilizations?">>
 <<choices>>
 <<reply "I'll do all that I can!" "A1 Meet Aishui 8a" 10>>
 <<reply "I'm just here to find Sir Richard." "A1 Meet Aishui 8b" -15>>
