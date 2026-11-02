@@ -122,7 +122,8 @@ $(document).one("pointerdown keydown", function () {
   "Sir Richard Black": 50, "Seayssal": 30, "King Lareas Refidal": 50, "Aishui": 80,
   "Castella": 50, "Serena Waves": 20, "Sabelle": 40, "Omelia Goldfin": 50, "Polyp": 60,
   "Pearl": 75, "Dench": 10, "Gerold Granite": 35, "Eelis": 25, "Gumboh": 80,
-  "Silik": 30, "Skuttle": 10, "Ranhuma": 50, "Elvira": 50
+  "Silik": 30, "Skuttle": 10, "Ranhuma": 50, "Elvira": 50,
+  "Soothira Waves": 50
 }>>
 /* Story flags (TODO: wire these into scenes) */
 <<set $flags to {
