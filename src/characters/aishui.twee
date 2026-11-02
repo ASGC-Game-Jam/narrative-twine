@@ -67,6 +67,9 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <<say "Aishui" "Taking a swim with the dolphins will ease your worries!">>
 <<say "Aishui" "Seayssal, please don’t let the currents sweep you away from me.">>
 
+''Scenes:''
+[[A1 Meet Aishui]]
+
 
 :: A1 Meet Aishui [character act1 char-Aishui] {"position":"440,1850","size":"100,100"}
 /* Dialogue for meeting Aishui in Act 1*/
