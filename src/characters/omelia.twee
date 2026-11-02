@@ -1,4 +1,4 @@
-:: A2 Rescue Omelia [character act2 todo char-Omelia] {"position":"1090,290","size":"100,100"}
+:: A2 Omelia [character act2 todo char-Omelia] {"position":"1090,290","size":"100,100"}
 <<meet "Omelia">>
 //Act 2, Districts 3 and 4//
 
@@ -17,7 +17,7 @@ TODO: scene for Omelia Goldfin in Act 2.
 :: Codex Omelia [codex char-Omelia] {"position":"2390,770","size":"100,100"}
 !Omelia
 ''Where:'' District 3 tavern
-''Appears in:'' [[Act 2|A2 Rescue Omelia]]
+''Appears in:'' [[Act 2|A2 Omelia]]
 <<if $trust["Omelia"] isnot undefined>>''Trust:'' <<print $trust["Omelia"]>><</if>>
 
 ''Description:'' NPC - Charming (seductive, even). Imaginative. Shrewd.
@@ -72,7 +72,7 @@ OMELIA: (if player doesn’t save her) I need no saviours, for I am and have alw
 OMELIA: Even the most heart-breaking tragedy becomes the most magnificent poem when I sing it.
 
 ''Scenes:''
-[[Rescue Omelia|A2 Save Omelia]]
+[[Rescue Omelia|A2 Rescue Omelia]]
 
 /* Dialogue for meeting Omelia if the player chooses to save her from the people who have kidnapped her */
 
@@ -86,7 +86,7 @@ OMELIA: Even the most heart-breaking tragedy becomes the most magnificent poem w
 
 <<set _dlgWho to "Omelia">>
 
-<div id="dlg"><<include "A2 Rescue Omelia">></div>
+<div id="dlg"><<include "A2 Save Omelia">></div>
 
 
 :: A2 Save Omelia  [dialogue act2]
