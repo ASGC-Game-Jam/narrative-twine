@@ -127,7 +127,7 @@ TODO: scene for Eelis in Act 3.
 <<say "Eelis" "What can I say? I have my ways. I can get you the scoop on what goes down in the districts. That'll help ya' figure out how this Bleacbin' Disease works so we can cure that seahorse ink." "Cocky">>
 <<stage "You are about to reply when Eelis adds with a chuckle.">>
 <<say "Eelis" "Just so we're clear: ya' don't get a choice in this." "Mischievous">>
-<<stage "He suddenly swims around you and back into the shadows before you can blink. He manages to call out to you before he is out of reach of your hearing.">>
+<<stage "He suddenly swims around you, gives your helmet a quick slap with his tail fin, and slips back into the shadows before you can blink. He manages to call out to you before he is out of reach of your hearing.">>
 <<say "Eelis" "See ya', starfish!" "Jovial">>
 <<stage "You're not sure what exactly you did to get Eelis' attention in the first place. You're also hoping that his pranks don't give you an actual heart attack one day.">>
 
