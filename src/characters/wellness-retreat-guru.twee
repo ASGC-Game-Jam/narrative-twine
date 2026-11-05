@@ -153,7 +153,8 @@ TODO: scene for Soothira Waves in Act 4.
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
 //Conversation over. Soothira Wave's trust is now <<print $trust["Soothira Waves"]>>.//
-[[Back to Act 4|Act 4]]
 </div>
+
+[[Back to Act 4|Act 4]]
 
 
