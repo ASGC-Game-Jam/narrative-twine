@@ -13,14 +13,57 @@ TODO: scene for Eelis in Act 3.
 [[Eelis|Codex Eelis]]
 [[Back to District 3 Slums|A3 District 3 Slums]]
 
-
 :: Codex Eelis [codex char-Eelis] {"position":"2390,1130","size":"100,100"}
 !Eelis
+
 ''Where:'' Slums
+
 ''Appears in:'' [[Act 3|A3 Eelis]]
+
 <<if $trust["Eelis"] isnot undefined>>''Trust:'' <<print $trust["Eelis"]>><</if>>
 
-Slippery, skeptical 20-year-old merman thief. Hides an early Bleaching mark. Protects Serena; partners with Sabelle.
+''Description:'' NPC - kind, shy, and gentle
+
+''Age:'' 20
+
+''Gender:'' Male (He/Him)
+
+''Origin:'' Classical Merfolk
+
+''Occupation:'' N/A
+
+''Faction:'' N/A
+
+''Physical Description:'' A lanky young merman with ragged clothing that is torn in places, short green seaweed hair, and a small slightly ripped white covering on his tailfin. A tiny hint of the bleaching disease can just barely be seen poking out from the tip of his tailfin where the rip is. Eelis has eyes as green as his hair and a long old cut along his back that his shirt keeps out of sight. Attached to his belt are pouches containing all kinds of items fit for a thief or escape artist, including a bunch of little marbles, smoke bombs, and squid ink. On the front of his neck is a black eel tattoo. He’ll often be navigating the alleys, streets, and rooftops of the slums with his honed swimming skills
+
+''Overview:'' A man who has lived in the slums all his life, Eelis knows every step of every back alley in the city. Thanks to this knowledge and his years of honed sneaking skills, he can slip through the barricades, pilfer any food or currency he can get his hands on, and leave with no one being the wiser. Of course, if he does get caught by police or the more dangerous cityfolk, he has his silver tongue and sharp reflexes to get him out of a jam. He does all of this not so much for the sake of causing trouble or being cruel, but for the sake of surviving. This fact is given a grim undertone by the early signs of the bleaching disease on his tailfin, which he keeps hidden under a white covering every chance he gets. Eelis can be approachable to those who are willing to talk to him (if they can find him first). But the sting of betrayal will make him skeptical of newcomers, and most people in general, from the start. Regardless, if someone were to earn his trust, he may be willing to give them valuable info on the city’s underbelly.
+
+''Relationships:''
+
+//Serena Waves// - She is one of the few people in the city who Eelis has never been suspicious of, thanks in large part to her kind nature. He sees her as too sweet to be left unprotected, so he’ll do his best to watch over her when he’s able. He’ll sometimes bring her a snack or even some medical supplies if he can manage. Whenever Serena is feeling blue, Eelis will bring out his best jokes to make her smile.
+
+//The Player Character// -  Eelis is skeptical of them at first and is quick to keep an eye on them from his many hiding spots throughout town. It’s only when he sees them being nice to Serena that he decides to see what they’re really about. Over time, he comes to see them as his cool surface dweller friend.
+
+//Sabelle// - Eelis respects Sabelle’s distaste for the wealthy class, not to mention her willingness to ‘borrow’ from them. He’ll often help her bag a few choice parts that she can use to invent things. Out of gratitude, Sabelle will sometimes make new tools for him to improve his thievery, so long as he doesn’t steal from the innocent. From this arrangement of mutual aid, an honest friendship has formed.
+
+//Gumboh// - Eelis thinks him to be a do-gooder and a sap. In other words: an easy mark to steal food from. What he doesn’t know is that Gumboh has been purposely leaving food for him to steal so that he doesn’t go hungry. Eelis could ask for the food himself, but his pride holds him back. Deep down, he appreciates Gumboh’s good nature, since he doesn’t see that sort of thing as much as he would like to in the slums.
+
+''Connections:'' N/A
+
+''World Knowledge:'' Through his many stealthy travels throughout the city, Eelis has kept his ear fixed on the workings of its seedier side, if nothing else but to keep himself alive. He knows the names and rosters of every gang in the slums as well as their hangouts, defenses, and, of course, where they keep the good stuff. In other words, he’s street smart!
+
+''Goal & Obstacle:'' Eelis’ goal is simple: survive the city long enough to find a way to thrive in it. If sees a chance to help an innocent person survive too, he just might take it. The city’s police, as well as the slums’ gangs and those guarding the barricades, are constant threats to his survival.
+
+''Initial perceptions of the Player Character:'' Eelis keeps a suspicious eye on the PC from the moment they first step into the city, wondering if this is a harmless visitor or a potential mark. He gets his answer when the PC tries to befriend Serena.
+
+''Speech Pattern:'' Eelis vocal pitch is low when he’s conversing with someone, since more often than not, he’s on the down-low. His pitch goes up to the middle only when he is sure he’s in a private space. He’ll make that pitch go up high whenever he’s luring those who are chasing him into traps.
+
+''Vocal Profile:'' He speaks with simple words and slang commonly used in the slums. Whenever he talks, he uses a tone that is almost always bordering on arrogance. He drops the arrogance in favor of gentleness whenever he catches Serena, though.
+
+''Dialogue Samples:''
+<<say "Eelis" "Look what the current dumped on the street! How’s it goin’, outsider? They call me Eelis.">>
+<<say "Eelis" "Hey there, Doc. Ya’ see any cool fish today?">>
+<<say "Eelis" "Catch me if ya’ can, ya’ starfish!">>
 
 [[Back to Codex|Codex]]
 
