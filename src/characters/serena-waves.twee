@@ -133,5 +133,6 @@ She uses every-day-life words. She’ll usually speak rather briefly when talkin
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
 //Conversation over. Serena Wave's trust is now <<print $trust["Serena Waves"]>>.//
-[[Back to Act 1|Act 1]]
 </div>
+
+[[Back to Act 1|Act 1]]
