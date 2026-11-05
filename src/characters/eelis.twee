@@ -61,10 +61,80 @@ TODO: scene for Eelis in Act 3.
 ''Vocal Profile:'' He speaks with simple words and slang commonly used in the slums. Whenever he talks, he uses a tone that is almost always bordering on arrogance. He drops the arrogance in favor of gentleness whenever he catches Serena, though.
 
 ''Dialogue Samples:''
+
 <<say "Eelis" "Look what the current dumped on the street! How’s it goin’, outsider? They call me Eelis.">>
 <<say "Eelis" "Hey there, Doc. Ya’ see any cool fish today?">>
 <<say "Eelis" "Catch me if ya’ can, ya’ starfish!">>
 
 [[Back to Codex|Codex]]
+
+/*Meet Eelis in Act 3*/
+
+:: A3 Eelis Talk [character act3 char-Eelis]
+
+!District 3 Slums
+//Act 3, Meeting Eelis//
+
+<<set _dlgWho to "Soothira Waves">><<set _dlgT to -0.7>>\
+<div id="dlg"><<include "A3 Eelis Talk 1">></div>
+
+:: A3 Eelis Talk 1 [dialogue act3 char-Eelis]
+<<stage "You walk through the slums with cautious steps, your eyes gleaming with concern for the nearby merfolk who are battling poverty with varying results. When you reach an out of the way quiet corner of the street, you decide to take a moment to ponder your next move.">>
+<<stage "Unbeknownst to you, a figure looms behind you from the shadows. It slowly swims up to your back, the outline of its head rising along with its hands...">>
+<<say "Eelis" "BOO!" "playfully jokey">>
+<<stage "You do a short hop that the oceanic pressure barely allows out of shock and fright. As you slowlly return to the ground, your mind recovers from the shock. With stable footing, you turn to face the prankster who startled you.">>
+<<stage "It's a young merman with tattered clothing, a tatoo on the side of his neck, and green seaweed hair. Of particular note to you is the white covering on his tailfin. He is currently laughing his tailfin off."
+<<say "Eelis" "Hahaha! I got ya' good, didn't I outsider?" "jovial">>
+<<stage "While this well-meaning prankster is calming down, you shake your head in your helmet while trying to think of how to best respond.">>
+<<timed 2s t8n>>
+<<choices>>
+<<reply "Not bad, kid." "A3 Eelis Talk 2a" 5>>
+<<reply "You're trying to give me a heart attack?" "A3 Eelis Talk 2b" -5>>
+<</timed>>
+<</choices>>
+
+:: A3 Eelis Talk 2a [dialogue act3 char-Eelis]
+<<stage "The merman lets out a short satisfied laugh.">>
+<<say "Eelis" "Glad to see there's some good sports in your world." "approving">>
+<<stage "He bumps his chest with his right fist, his smirk alone exuding with pride.">>
+<<say "Eelis" "The name's Eelis. The slippery slumfish who's been watchin' ya' and I gotta say...">>
+<<stage "Eelis leans over to gaze at you with narrowed eyes.">>
+<<say "Eelis" "You've got my attention, what with ya' lookin' into that whole Bleachin' stuff." "Inquisitive.">>
+<<stage "A confident smirk paints his face.">>
+<<say "Eelis" "Way I figured, since we're both nosy fish, why don't we help each other out? I know every alley, coral, and cave in these slums and I've got my ear on what goes on around here." "Confident">>
+<<stage "Eelis swims up to hover at your right side. He then leans over to your right ear and whispers with a devious smirk.">>
+<<say "Eelis" "I've also slipped through the bulwarks multiple times." "Devious">>
+<<stage "Your eyes go wide with shock over this news as you watch him swim back to his previous position before you, his smirk refusing to vanish.">>
+<<say "Eelis" "What can I say? I have my ways. I can get you the scoop on what goes down in the districts. That'll help ya' figure out how this Bleacbin' Disease works so we can cure that seahorse ink." "Cocky">>
+<<stage "You are about to reply when Eelis adds with a chuckle.">>
+<<say "Eelis" "Just so we're clear: you don't get a choice in this." "Mischievous">>
+<<stage "He suddenly swims around you and back into the shadows before you can blink. He manages to call out to you before he is out of reach of your hearing.">>
+<<say "Eelis" "See ya', starfish!" "Jovial">>
+<<stage "You're not sure what exactly you did to get Eelis' attention in the first place and you hope that it wasn't anything negative.">>
+
+:: A3 Eelis Talk 2b [dialogue act3 char-Eelis]
+<<stage "The merman raises his hands up in a defensive manner.">>
+<<say "Eelis" "Take it easy, big fish. I'm sure you surface-dwellers are made of tougher scales than that." "somewhat nervous">>
+<<stage "After taking a quick breath to steady himself, he bumps his chest with his right fist, his smirk alone exuding with pride.">>
+<<say "Eelis" "The name's Eelis. The slippery slumfish who's been watchin' ya' and I gotta say...">>
+<<stage "Eelis leans over to gaze at you with narrowed eyes.">>
+<<say "Eelis" "You've got my attention, what with ya' lookin' into that whole Bleachin' stuff." "Inquisitive.">>
+<<stage "A confident smirk paints his face.">>
+<<say "Eelis" "Way I figured, since we're both nosy fish, why don't we help each other out? I know every alley, coral, and cave in these slums and I've got my ear on what goes on around here." "Confident">>
+<<stage "Eelis swims up to hover at your right side. He then leans over to your right ear and whispers with a devious smirk.">>
+<<say "Eelis" "I've also slipped through the bulwarks multiple times." "Devious">>
+<<stage "Your eyes go wide with shock over this news as you watch him swim back to his previous position before you, his smirk refusing to vanish.">>
+<<say "Eelis" "What can I say? I have my ways. I can get you the scoop on what goes down in the districts. That'll help ya' figure out how this Bleacbin' Disease works so we can cure that seahorse ink." "Cocky">>
+<<stage "You are about to reply when Eelis adds with a chuckle.">>
+<<say "Eelis" "Just so we're clear: you don't get a choice in this." "Mischievous">>
+<<stage "He suddenly swims around you and back into the shadows before you can blink. He manages to call out to you before he is out of reach of your hearing.">>
+<<say "Eelis" "See ya', starfish!" "Jovial">>
+<<stage "You're not sure what exactly you did to get Eelis' attention in the first place. You're also hoping that his pranks don't give you an actual heart attack one day.">>
+
+<<set _dlgT += 0.9>>\
+<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+//Conversation over. Eelis's trust is now <<print $trust["Eelis"]>>.//
+[[Back to Act 3|Act 3]]
+</div>
 
 
