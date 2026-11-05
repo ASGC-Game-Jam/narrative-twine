@@ -90,8 +90,8 @@ TODO: scene for Eelis in Act 3.
 <<choices>>
 <<reply "Not bad, kid." "A3 Eelis Talk 2a" 5>>
 <<reply "You're trying to give me a heart attack?" "A3 Eelis Talk 2b" -5>>
-<</timed>>
 <</choices>>
+<</timed>>
 
 :: A3 Eelis Talk 2a [dialogue act3 char-Eelis]
 <<stage "The merman lets out a short satisfied laugh.">>
