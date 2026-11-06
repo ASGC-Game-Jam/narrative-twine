@@ -59,7 +59,7 @@ They have a bit of a “rogue-ish” behaviour, usually hunched when idle or wor
 
 A young Atlantean from the poorer regions, Sabelle dreams of becoming an inventor like the ones whose creations have inspired wonder in them. Refused by mentors due to their social status and young age, and unable to pay for proper equipment, they scavenge for parts they can use to assemble their own tools and ingredients for their various experiments. It's during one of these expeditions that Sabelle finds an uncommon source of power.
 
-Sabelle’s wish to create comes from two places: they wish to make life easier, especially for people like her family, and to be remembered for their inventions; to make a difference. These two desires can sometimes conflict and contradict one another, especially once Sabelle gets invested in a line of investigation. They’ll make excuses for themselves, claiming it’s for the best for everyone, but in truth, they’re chasing their personal dreams.
+Sabelle’s wish to create comes from two places: they wish to make life easier, especially for people like their family, and to be remembered for their inventions; to make a difference. These two desires can sometimes conflict and contradict one another, especially once Sabelle gets invested in a line of investigation. They’ll make excuses for themselves, claiming it’s for the best for everyone, but in truth, they’re chasing their personal dreams.
 
 Sabelle admires other inventors (including those who turned them down), scholars, and people with an adventurous personality. On the other hand, they don’t like the wealthy class and have “borrowed” items from them more than once.
 
@@ -112,7 +112,7 @@ SABELLE: (about stealing from the rich) They won’t even notice if I grab a thi
 <div id="dlg"><<include "A2 Meet Sabelle 1">></div>
 
 :: A2 Meet Sabelle 1 [dialogue act2 char-Sabelle]
-<<stage "You enter a comfortably cluttered workshop. There are all manner of tools, gadgets, and an assortment of parts on every surface and on pegboards covering the walls. A "fish-type Atlantean" /*placeholder*/ is busy tinkering with something complex looking, their various belts and chains clinking as they move. They reach for tools without needing to search and you get the impression that while their workshop may look messy to some, they know exactly where everything is. They don't stop working when you enter so you clear your throat to try to get their attention.">>
+<<stage "You enter a comfortably cluttered workshop. There are all manner of tools, gadgets, and an assortment of parts on every surface and on pegboards covering the walls. A 'fish-type Atlantean' is busy tinkering with something complex looking, their various belts and chains clinking as they move. They reach for tools without needing to search and you get the impression that while their workshop may look messy to some, they know exactly where everything is. They don't stop working when you enter so you clear your throat to try to get their attention.">>
 <<say "Sabelle" "Give me a moment, I've almost got this..one more time should do the trick. There!">>
 <<stage "When they do look up and push their goggles up to their head to reveal their face, you see their previous enthusiasm for finishing their task turn into wariness.">>
 <<say "Sabelle" "I haven't seen you before. What are you doing here?">>
@@ -163,7 +163,7 @@ SABELLE: (about stealing from the rich) They won’t even notice if I grab a thi
 <</choices>>
 
 :: A2 Meet Sabelle 8 [dialogue act2 char-Sabelle]
-<<say "Sabelle" "But even if you get the parts..for this tool to work, we'll need the "special coral" /*placeholder*/ and city leaders won't share that with just anyone.">>
+<<say "Sabelle" "But even if you get the parts..for this tool to work, we'll need the 'special coral' and city leaders won't share that with just anyone.">>
 <<choices>>
 <<reply "I'm willing to try! I can be pretty convincing." "A2 Meet Sabelle 9">>
 <</choices>>
