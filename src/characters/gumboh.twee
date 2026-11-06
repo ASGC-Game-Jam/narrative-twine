@@ -79,4 +79,125 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 
 [[Back to Codex|Codex]]
 
+:: A3 Gumboh Talk [character act3 char-Gumboh] {"position":"440,1850","size":"100,100"}
+/* Example dialogue scene. The beats below are included one after another into the #dlg box.
+   Castella's lines in beats 3 to 5 come from her bio's dialogue sample. */
+!District 3 Slums
+//Act 3, Gumboh's Kitchen//
+
+<<set _dlgWho to "Gumboh">><<set _dlgT to -0.7>>\
+<div id="dlg"><<include "A3 Gumboh Talk 1">></div>
+
+
+:: A3 Gumboh Talk 1 [dialogue act3 char-Gumboh] {"position":"570,1850","size":"100,100"}
+<<stage "The smell of boiled seaweed drifts across the kitchen, past a labyrinth of empty shelves. A large, hulking Merperson stands with their back to you, hunched over a gently bubbling cauldron.">>
+<<say "Gumboh" "Eelis? That you again?" "suspicious">>
+<<choices>>
+<<reply "Um, yep. That's me... Eelis." "A3 Gumboh Talk 2a" -5>>
+<<reply "It's not Eelis, no..." "A3 Gumboh Talk 2b" 5>>
+<</choices>>
+
+
+:: A3 Gumboh Talk 2a [dialogue act3 char-Gumboh] {"position":"700,1790","size":"100,100"}
+<<stage "The giant cook turns around. as their eyes fall upon you, their brow furrows.">>
+<<say "Gumboh" "Oh. A trick." "hurt">>
+<<stage "They set down their ladle in the giant cauldron and fold their arms across their chest.">>
+<<choices>>
+<<reply "I'm sorry. I don't know what I was playing at. It's been... a long day" "A3 Gumboh Talk 3a" 5>>
+<<reply "Cheer up! Can't you take a joke?" "A3 Gumboh Talk 3b" -5>>
+<</choices>>
+
+
+:: A3 Gumboh Talk 2b [dialogue act3 char-Gumboh] {"position":"700,1910","size":"100,100"}
+<<stage "The giant cook turns around. As their eyes fall upon you, they break out into a warm smile.">>
+<<say "Gumboh" "Ah. You!" "intrigued">>
+<<stage "They set down their ladle in the giant cauldron, rest their hands on their waiste and peer at you with a curious smile.">>
+<<choices>>
+<<reply "You know who I am?" "A3 Gumboh Talk 4" >>
+<<reply "Always have been, always will be!" "A3 Gumboh Talk 4">>
+<</choices>>
+
+
+:: "A3 Gumboh Talk 3a [dialogue act3 char-Gumboh] {"position":"830,1790","size":"100,100"}
+<<stage "The cook let's out a deep, tired laugh.">>
+<<say "Gumboh" "That's ok. Everybody tired. Everybody hungry. But you are lucky..." "weary">>
+<<stage "In one graceful movement they turn back to the cauldron, one hand slipping a bowl from the counter as the other ladles in a generous portion of piping hot soup, without a drop being spilled.">>
+<<say "Gumboh" "In Gumboh's kitchen, the most tired, the most hungry, eats first.">>
+<<stage "Gumboh holds the bowl towards you. Their eyes encourage you to take it.">>
+<<choices>>
+<<reply "Thank you, Gumboh. It's a pleasure to meet you." "A3 Gumboh Talk 6a" 5>>
+<</choices>>
+
+:: "A3 Gumboh Talk 3b [dialogue act3 char-Gumboh] {"position":"830,1790","size":"100,100"}
+<<stage "The cook let's out a deep, tired sigh.">>
+<<say "Gumboh" "Not a good time for jokes, friend. Everybody tired. Everybody hungry. Even you, I can tell." "morose">>
+<<stage "In one graceful movement they turn back to the cauldron, one hand slipping a bowl from the counter as the other ladles in a generous portion of piping hot soup, without a drop being spilled.">>
+<<say "Gumboh" "In Gumboh's kitchen, the most tired, the most hungry, eats first. Even the rude ones." "weary">>
+<<stage "Gumboh holds the bowl towards you, lowering their eyes to the floor.">>
+<<choices>>
+<<reply "Thank you, Gumboh. I'm sorry about being rude. you're right, I'm just exhausted." "A3 Gumboh Talk 5" 5>>
+<<reply "No offense, but that doesn't look very appetising." "A3 Gumboh Talk 6b" -5>>
+<</choices>>
+
+:: A3 Gumboh Talk 4 [dialogue act3 char-Gumboh] {"position":"700,1910","size":"100,100"}
+<<stage "The cook opens their arms out wide.">>
+<<say "Gumboh" "Of course! I have tasted your reputation on the stories of the townsfolk. We keep very close, here, in the Slums. Well..." "enthusiastic">>
+<<stage "Their arms fall to their side.">>
+<<say "Gumboh" "Maybe not so close anymore. Everybody tired. Everybody hungry. Even you, I can tell." "weary">>
+<<stage "In one graceful movement they turn back to the cauldron, one hand slipping a bowl from the counter as the other ladles in a generous portion of piping hot soup, without a drop being spilled.">>
+<<say "Gumboh" "Lucky for you... In Gumboh's kitchen the most tired, the most hungry, eats first.">>
+<<stage "Gumboh holds the bowl towards you. Their eyes encourage you to take it. Their warm smile insists.">>
+<<choices>>
+<<reply "Thank you, Gumboh. It's a pleasure to meet you." "A3 Gumboh Talk 6a" 5>>
+<</choices>>
+
+
+:: A3 Gumboh Talk 5 [dialogue act3 char-Gumboh] {"position":"1220,1790","size":"100,100"}
+<<say "Gumboh" "That's ok, friend." "warm">>
+<<include "A3 Gumboh Talk 6a">>
+
+
+:: A3 Gumboh Talk 6a [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
+<<stage "You wrench open the viewport of your diving helmet and tilt the bowl gently to your lips.">>
+<<stage "A simple Seaweed Soup. It tastes...">>
+<<stage "Amazing! It's only a humble broth but the variety of flavours and textures are unlike anything you've ever tasted. This Gumboh is the real deal!">>
+<<reply "Gumboh, this soup is incredible!">>
+<<stage "Gumboh chuckles bashfully and returns to their cauldron.">>
+<<say "Gumboh" "Too kind. Seawood Soup is simple. Impossible to taste wrong!" "shyly">>
+<<say "Gumboh" "But every day Seawood Soup... It can make the flavour disappear." "upset">>
+<<reply "What do you mean?">>
+<<say "Gumboh" "In Gumboh's kitchen we are proud to serve the best food from across all the ocean. So our people, humble people, eat the same as the Kings. Since the city become divided, it's impossible to find ingredients. Impossible to mix flavours. So... " "sadly">>
+<<say "Gumboh" "Seawood Soup every day. And little of it.">>
+<<reply "What if I can help? I could procure you ingredients from the other districts?" 5>>
+<<say "Gumboh" "You could? That would mean... Everything. I will keep kitchen open. If you find something, bring it to me here. Thank you, friend! Thank you!" "lighting up">>
+<<set _dlgT += 0.9>>\
+<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+//Conversation over. Gumboh's trust is now <<print $trust["Gumboh"]>>.//
+[[Talk to Gumboh again|A3 Gumboh Talk]]
+[[Back to District 3 Slums|A3 District 3 Slums]]
+[[Back to Act 3|Act 3]]
+</div>
+
+:: A3 Gumboh Talk 6b [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
+<<stage "Gumboh bows their head in defeat. They slowly withdraw the bowl and cup it in their large hands.">>
+<<say "Gumboh" "A simple Seaweed Soup. I'm afraid we have nothing else." "crestfallen">>
+<<stage "Gumboh gently places the bowl on the kitchen surface.">>
+<<say "Gumboh" "I leave it here for you. If you change your mind.">>
+<<reply "Why do you only have Seaweed Soup?">>
+<<say "Gumboh" "It's not always been this way.">>
+<<say "Gumboh" "In Gumboh's kitchen we are proud to serve the best food from across all the ocean. So our people, humble people, eat the same as the Kings. Since the city become divided, it's impossible to find ingredients. Impossible to mix flavours. So... " "sadly">>
+<<say "Gumboh" "Seawood Soup every day. And little of it.">>
+<<reply "What if I can help? I could procure you ingredients from the other districts?">>
+<<stage "Gumboh looks down at you with tired eyes.">>
+<<say "Gumboh" "Another joke." "blankly">>
+<<stage "Gumboh returns to their caldron.">>
+<<reply "I'm not joking this time!">>
+<<say "Gumboh" "Ok, friend. I keep Gumboh's kitchen open late tonight. If I find new fresh ingredients here, then I believe you, ok?" "tired">>
+<<set _dlgT += 0.9>>\
+<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+//Conversation over. Gumboh's trust is now <<print $trust["Gumboh"]>>.//
+[[Talk to Gumboh again|A3 Gumboh Talk]]
+[[Back to District 3 Slums|A3 District 3 Slums]]
+[[Back to Act 3|Act 3]]
+</div>
 
