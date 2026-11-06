@@ -52,7 +52,74 @@ TODO: scene for Castella in Act 4.
 ''Appears in:'' [[Act 1|A1 Castella]], [[Act 2|A2 Castella]], [[Act 4|A4 Castella]]
 <<if $trust["Castella"] isnot undefined>>''Trust:'' <<print $trust["Castella"]>><</if>>
 
-Pessimistically optimistic doctor leading the Wandering Healers. Sir Richard is her surrogate father. Near burnout.
+''Point of Contact:'' Charlotte/Duncan Sullivan [Discord: Selflessturtle]
+''Description:'' NPC - Pessimistically optimistic doctor 
+''Age:'' Young adult
+''Gender:'' Female
+''Origin:'' Atlantean - Jellyfish
+''Occupation:'' Doctor / Researcher
+''Resident of the district:'' Inherently nomadic, but grew up in a wealthier district. 
+''Physical description:'' 
+Unsure what exactly the underwater people look like, but her hair/scale covering would be a reddish hue. She dresses in some form of medical wear, be this a surgeon gown or leaner underwater suits with white flaps reminiscent of a doctor's coat. When not acting, which her hands are very often busy working, she keeps them clasped in front of her. This is because she never knows what to do with her hands when they aren’t doing something, so she holds them still with effort. People will notice her soft smile first, and her tired eyes that betray the smile second. She wants everyone to survive, she’s terrified that it might be a doomed cause. Castella wears a translucent bubble helmet and other PPE to protect herself from contagion
+''Overview:'' 
+Castella is a doctor that is working to treat and possibly cure the bleaching, the underwater civilization’s version of a plague doctor. She is mainly self-educated and is treading water by the sweat of her brow with a smile that has begun to falter in the face of so much death. Castella is currently working under the orders of the atlantean authorities to through the research that Richard Black left behind when he disappeared.
+	Castella had a good relationship with Sir Richard Black (oceanography council human contact) before the bleaching, thinking of him as a paternal role model in her life. She lost her parents to the bleaching and decided to go all in on trying to find answers and cure it, encouraged by Richard Black who has taken a fatherly role for her now. He is her benefactor and promised guardian if anything goes wrong. Determined, optimistic with pessimistic delivery, harsh but kind depending on necessary bedside manner. If you’re dying, she’ll tell you, but she’ll also be honest if she thinks there is a chance she can stop it.
+	Castella is respected and wanted where she goes. She could be instrumental in getting the PC into locations they otherwise would have shut off to them, along with helping solve the mystery as an ally. Will also work with the PC in developing the tools to cure the bleaching.
+
+''Relationships & Connections:'' 
+
+• Her family, passed away in some of the earliest spreading of the bleaching. A father, mother, and two brothers. Only her friendship with Richard Black kept her together and moving forward.
+• Sir Richard Black: It has evolved from a mentor-mentee relationship to a father-daughter relationship in a way, which they both feel, but neither will say aloud. He is her benefactor and promised guardian if anything goes wrong. 
+Sabelle: Respected acquaintance but does not know them particularly well.
+
+''World knowledge:''
+	Medically, Castella is extremely intelligent. She is self-educated through a mix of reading and experience. Since she is traveling all over the underwater city, she is up to date on current events and keeps Sir Richard Black updated on those current events. Can also be a source of current events and world knowledge for the PC, as she doesn’t hide anything.
+
+''Goal & Obstacle:'' 
+Castella is a doctor that is working to treat and possibly cure the bleaching, the underwater civilization’s version of a plague doctor. She wants everyone, or as many as possible, to survive, but she’s terrified that it might be a doomed cause. More knowledge on the disease from others would help her immensely. She has not tried everything, still working towards her goal at game beginning From the beginning she is looking for Sir Richard Black and looking through his research for both clues on the bleaching and clues on where he has gone.
+
+''Initial perception of the Player Character:'' 
+	Castella would likely not trust the player right off the bat exactly, but wouldn’t be negative towards them either. They are an element that can mix things up for better or for worse, but at least they will change the situation which might get Castella closer to critical discoveries.
+
+''Speech patterns & Vocal profile:'' 
+1. Voice pitch is higher and she sounds tired. Like Sir Richard Black, she will have some thoughtful hmmm’s
+2. While knowledgeable and eloquent, she speaks in laymans terms when getting medical, and is reminiscent of the young woman she actually is when she is able to let go of the stress and responsibility for a short window.
+
+''Dialogue Sample:'' 
+[Castella]
+(Strained) 
+I’m sorry, truly, but the spread has progressed too far. We’ll need to quarantine… I promise to do what I can but I would suggest you say goodbye to your family.
+
+[Patient]
+(Edge of panic)
+No- No, no! There has to be something you can do, Doctor. I don’t want to die-
+
+[Castella]
+I’m not going to let you die. I’m not letting anybody die on my watch. I won’t sleep until I have a way to get you back, I promise. Please trust me.
+
+[Patient]
+…I trust you.
+
+[Castella]
+I won’t waste that. 
+—
+
+[Castella] 
+(surprised & amused) 
+Oh my goodness! Did you really do that?! You’re remarkably impossible.
+—
+
+[Castella] 
+Someone collapsed! He- He isn’t breathing! Bring me my tools- What are you doing standing there!? Bring me my equipment! Hurry!
+—
+
+[Castella] 
+This is all so much bigger than me… I feel like a bandage that is trying to stop an aneurysm. Please tell me it’s worth something.
+—
+
+[Castella]  
+I can’t stop any of it, we’re all… I don’t know if any of us are going to survive. I’ll save who I can, but what if I can’t save even one?
+
 
 [[Back to Codex|Codex]]
 
