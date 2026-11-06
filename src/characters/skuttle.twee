@@ -118,7 +118,7 @@ Skuttle initially has  a very low trust score of the Player, in the same way tha
 <<stage "BANG!">>
 <<stage "You recoil at the sound of fin slapping metal from inside the shack.">>
 <<say "Skuttle" "HOW DO YOU KNOW!?" "manic">>
-<<say "Skuttle" "You really think *THEY* are just going to slither out of the shadows, tap you on the shoulder and say, "Hey, watch out, I'm following you?" You must be a few parcels short of a full post cart, pal!" "manic">>
+<<say "Skuttle" "You really think *THEY* are just going to slither out of the shadows, tap you on the shoulder and say, 'Hey, watch out, I'm following you?' You must be a few parcels short of a full post cart, pal!" "manic">>
 <<stage "You take a long look at Skuttle's metal viewing slot, and wonder whether it can be closed from the outside...">>
 <<say "Skuttle" "You really want me to trust you? Answer me this final question. It's a big one. The BIGGEST one, maybe." "whispered">>
 <<say "Skuttle" "Who is the only person you can rely on in this ocean?" "gravely">>
