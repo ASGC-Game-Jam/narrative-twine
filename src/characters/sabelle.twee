@@ -130,6 +130,7 @@ SABELLE: (about stealing from the rich) They won’t even notice if I grab a thi
 <<say "Sabelle" "How's that?">>
 <<choices>>
 <<reply "I've seen this strange illness that's been spreading around here. My friend was working on a solution." "A2 Meet Sabelle 4">>
+<</choices>>
 
 :: A2 Meet Sabelle 4 [dialogue act2 char-Sabelle]
 <<stage "Sabelle continues to stare at you, expression unchanged.">>
@@ -156,13 +157,13 @@ SABELLE: (about stealing from the rich) They won’t even notice if I grab a thi
 
 :: A2 Meet Sabelle 7 [dialogue act2 char-Sabelle]
 <<stage "Sabelle looks at you and you almost see the gears turing in their head as they reply.">>
-<<say "Sabelle" "If you help, it may be possible..yes.. They won't trade with me, but you seem fancy enough.>>
+<<say "Sabelle" "If you help, it may be possible..yes.. They won't trade with me, but you seem fancy enough.">>
 <<choices>>
 <<reply "Great, just tell me where to go!" "A2 Meet Sabelle 8">>
 <</choices>>
 
 :: A2 Meet Sabelle 8 [dialogue act2 char-Sabelle]
-<<say "Sabelle" "But even if you get the parts..for this tool to work, we'll need the "special coral" /*placeholder*/ and city leaders won't share that with just anyone. >>
+<<say "Sabelle" "But even if you get the parts..for this tool to work, we'll need the "special coral" /*placeholder*/ and city leaders won't share that with just anyone.">>
 <<choices>>
 <<reply "I'm willing to try! I can be pretty convincing." "A2 Meet Sabelle 9">>
 <</choices>>
@@ -172,7 +173,7 @@ SABELLE: (about stealing from the rich) They won’t even notice if I grab a thi
 <<say "Sabelle" "If this machine works, it could be my claim to fame. Maybe I'd finally be taken seriously and accepted into a guild. Imagine all the new tools I could have..a bigger workshop maybe? Wouldn't be able to keep up with requests I bet..">>
 <<stage "They suddenly realize you're still standing there and snap out of their daydream.">>
 <<say "Sabelle" "Anything I can do to help stop the spread of this illness is worth a try. I'll mark down some places you can look for the parts. Bring them here and I'll see what I can do.">>
-<<stage "As you take your leave, you can't help but notice a bit more liveliness as Sabelle gets back to work, humming to themself.>>
+<<stage "As you take your leave, you can't help but notice a bit more liveliness as Sabelle gets back to work, humming to themself.">>
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
 //Conversation over. Sabelle's trust is now <<print $trust["Sabelle"]>>.//
