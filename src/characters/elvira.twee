@@ -4,7 +4,55 @@
 ''Appears in:'' not on screen (see Endings / references)
 <<if $trust["Elvira"] isnot undefined>>''Trust:'' <<print $trust["Elvira"]>><</if>>
 
-Cruel human supremacist scientist. Faction undecided: Anglers or Council. Needed for the best ending but never introduced.
+''Point of Contact:'' Charlotte/Duncan Sullivan [Discord: Selflessturtle] 
+
+''Description:'' NPC - Human-supremacist cruel bitch
+
+''Age:'' 40’s 
+
+''Gender:'' Female 
+
+''Origin:'' Human 
+
+''Occupation:'' Scientist - council member  
+
+''Faction (if any):'' the Oceanography council 
+
+''Physical description:'' 
+ 	Elvira has long straight black hair that is always up in a messy bun, tawny skin, and deep brown eyes with deep shadows. Her build is lean with average height and weight. One hand is often on her cocked hip, the other hanging by her side, when she is standing idly. This reflects a sense of superiority in the room, even if she’s too exhausted from pouring over research and conducting experiments to say anything of the sort.
+
+''Overview:'' 
+A scientific-minded woman that cares deeply for humanity at the cost of everything that isn’t human. She is Brilliant, stubborn, and cruel in a utilitarian way. Elvira is sympathetic to humans, but sees the underwater species as nothing but animals dangerous creatures to be tested on. Brutal live animal testing for medicine is 100% ethical in her book. As such, that extends to the people of the underwater civilization. Her first concern is that, like how diseases can mutate and jump to humans from pigs and chickens, the bleaching disease may jump to humans if not handled. If this means burning out the entire place, so be it, but that would be a waste to her utilitarian mind. Her second concern is about the transfer of tech between the humans and atlanteans to be as smooth and as one-sidedly beneficial to humans as possible.
+Elvira would be generally kind to the PC, and helpful depending on PC actions/what they say. She will grow frustrated with the PC if the PC starts to act like the underwater people are deserving of all the same considerations that humans are afforded.
+Relationships & Connections: 
+
+• Sir Richard Black: In their youth, when Richard was an explorer, she often served as a scientist on his submarines, working to help humanity to understand and utilize the world around them. She did not agree with Richard Black staying with the underwater civilization, regretting that humanity was losing such a brilliant mind to “An overgrown and underevolved school of fish”. She is willing to abuse Sir Black’s trust to gain advantages for humans though.
+• the contact between the council’s wishes (or just her own) and the PC during the mission. She became a member of the council under these circumstances due to her part in the discovery of the underwater council. She was a voice towards their isolation, claiming they wouldn’t help humanity, only hurt their curiosities.
+ 
+''World knowledge:'' 
+ 	Extremely knowledgable of humanity, playing drastic catchup on the underwater civilization. Needs the PC to relay information to her if a council contact
+
+''Goal & Obstacle:'' 
+Stop the bleaching disease, either through quarentine, purge, or cure. This goal is born from a desire to protect humans and not for any care for the underwater species. They could be decimated in the process of getting rid of the bleaching by her plans and she wouldn’t lose sleep.
+Conspiring to get technology even to the detriment of the Atlanteans.
+
+''Speech patterns & Vocal profile:'' 
+1. She has a deep voice for a woman and an european spanish accent
+2. Elvira speaks in big words and quickly, not caring for the understanding of those less educated than her. Either they “get it” or they “aren’t of use”.
+
+''Dialogue Sample:'' 
+[Elvira] 
+(surprised) 
+With proper application of Bernoulli's principle in a constant vibration wavelength around the exterior, the rigid stationary infrastructure could theoretically withstand the altered PSI over elongated periods of time… but what power source do they draw from? 
+—
+
+[Elvira]
+Humanity is beautiful, the great and artistic minds of so many rising aboves the masses like oil to water. What else is needed but for humanity to prosper?
+—
+
+[Elvira]
+Bring me evidence, not theories and conjecture. I’ll draw the conclusions, you must only act on them.
+
 
 [[Back to Codex|Codex]]
 
