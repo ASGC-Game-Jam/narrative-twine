@@ -4,7 +4,7 @@
 
 /* Bio: Industrious, ingenious, eager 20-year-old inventor (they/them) from the slums with goggles and a homemade gauntlet. Built Seayssal's tail fin. */
 
-TODO: scene for Sabelle in Act 2.
+TODO: More dialogue options and trust settings for Sabelle scene in Act 2.
 
 /* TODO: dialogue branches */
 * <<link "Earn trust (+10)" `passage()`>><<trust "Sabelle" 10>><</link>>
@@ -109,7 +109,7 @@ SABELLE: (about stealing from the rich) They won’t even notice if I grab a thi
 //Act 2, The Wilds Workshop//
 
 <<set _dlgWho to "Sabelle">><<set _dlgT to -0.7>>\
-<div id="dlg"><<include "A2 Meet Sabelle">></div>
+<div id="dlg"><<include "A2 Meet Sabelle 1">></div>
 
 :: A2 Meet Sabelle 1 [dialogue act2 char-Sabelle]
 <<stage "You enter a comfortably cluttered workshop. There are all manner of tools, gadgets, and an assortment of parts on every surface and on pegboards covering the walls. A "fish-type Atlantean" /*placeholder*/ is busy tinkering with something complex looking, their various belts and chains clinking as they move. They reach for tools without needing to search and you get the impression that while their workshop may look messy to some, they know exactly where everything is. They don't stop working when you enter so you clear your throat to try to get their attention.">>
