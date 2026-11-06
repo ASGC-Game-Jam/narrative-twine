@@ -104,7 +104,7 @@ SABELLE: (about stealing from the rich) They won’t even notice if I grab a thi
 
 /*Meet Sabelle in Act 2*/
 
-:: A2 Meet Sabelle [character act2 char-Sabelle] {"position":"440,1850","size":"100,100"}
+:: A2 Meet Sabelle [character act2 char-Sabelle]
 !The Wilds Workshop
 //Act 2, The Wilds Workshop//
 
@@ -129,14 +129,15 @@ SABELLE: (about stealing from the rich) They won’t even notice if I grab a thi
 :: A2 Meet Sabelle 3 [dialogue act2 char-Sabelle]
 <<say "Sabelle" "How's that?">>
 <<choices>>
-<<reply "I've seen this strange illness that's been spreading around here. My friend was working on a solution.">>
-<</choices>>
-<<stage "Sabelle continues to stare at you, expression unchanged.">>
-<<choices>>
-<<reply "Castella found this schematic among the things left behind when he disappeared. She said you were the one to see about building something." "A2 Meet Sabelle 4">>
-<</choices>>
+<<reply "I've seen this strange illness that's been spreading around here. My friend was working on a solution." "A2 Meet Sabelle 4">>
 
 :: A2 Meet Sabelle 4 [dialogue act2 char-Sabelle]
+<<stage "Sabelle continues to stare at you, expression unchanged.">>
+<<choices>>
+<<reply "Castella found this schematic among the things left behind when he disappeared. She said you were the one to see about building something." "A2 Meet Sabelle 5">>
+<</choices>>
+
+:: A2 Meet Sabelle 5 [dialogue act2 char-Sabelle]
 <<stage "Sabelle's eyes light up as you mention the schematic.">>
 <<say "Sabelle" "Shoulda started with that! Castella's right; haven't met a schematic I couldn't build! Let's see it.">>
 <<stage "You hand over the schematic and Sabelle spreads it across their table, pushing aside a few things. They spend a few moments studying it, muttering to themselves. You think it best not to interrupt.">>
@@ -144,29 +145,29 @@ SABELLE: (about stealing from the rich) They won’t even notice if I grab a thi
 <<stage "When they finally look up, a look of disappointment spreads over their face.">>
 <<say "Sabelle" "Would like to help with this, really, but there's quite a few parts that I don't have stocked.">>
 <<choices>>
-<<reply "Can you procure them?" "A2 Meet Sabelle 5">>
+<<reply "Can you procure them?" "A2 Meet Sabelle 6">>
 <</choices>>
  
-:: A2 Meet Sabelle 5 [dialogue act2 char-Sabelle]
+:: A2 Meet Sabelle 6 [dialogue act2 char-Sabelle]
 <<say "Sabelle" "These are rare; not common parts that can be found scavenging. Could try to find a workaround, but that would take some time.">>
 <<choices>>
-<<reply "But you know where they can be obtained? I'm willing to help." "A2 Meet Sabelle 6">>
-<</choices>>
-
-:: A2 Meet Sabelle 6 [dialogue act2 char-Sabelle]
-<<stage "Sabelle looks at you and you almost see the gears turing in their head as they reply.">>
-<<say "Sabelle" "If you help, it may be possible..yes.. They won't trade with me, but you seem fancy enough.>>
-<<choices>>
-<<reply "Great, just tell me where to go!" "A2 Meet Sabelle 7">>
+<<reply "But you know where they can be obtained? I'm willing to help." "A2 Meet Sabelle 7">>
 <</choices>>
 
 :: A2 Meet Sabelle 7 [dialogue act2 char-Sabelle]
-<<say "Sabelle" "But even if you get the parts..for this tool to work, we'll need the "special coral" /*placeholder*/ and city leaders won't share that with just anyone. >>
+<<stage "Sabelle looks at you and you almost see the gears turing in their head as they reply.">>
+<<say "Sabelle" "If you help, it may be possible..yes.. They won't trade with me, but you seem fancy enough.>>
 <<choices>>
-<<reply "I'm willing to try! I can be pretty convincing." "A2 Meet Sabelle 8">>
+<<reply "Great, just tell me where to go!" "A2 Meet Sabelle 8">>
 <</choices>>
 
 :: A2 Meet Sabelle 8 [dialogue act2 char-Sabelle]
+<<say "Sabelle" "But even if you get the parts..for this tool to work, we'll need the "special coral" /*placeholder*/ and city leaders won't share that with just anyone. >>
+<<choices>>
+<<reply "I'm willing to try! I can be pretty convincing." "A2 Meet Sabelle 9">>
+<</choices>>
+
+:: A2 Meet Sabelle 9 [dialogue act2 char-Sabelle]
 <<stage "Sabelle considers this and seemingly thinks out loud.">>
 <<say "Sabelle" "If this machine works, it could be my claim to fame. Maybe I'd finally be taken seriously and accepted into a guild. Imagine all the new tools I could have..a bigger workshop maybe? Wouldn't be able to keep up with requests I bet..">>
 <<stage "They suddenly realize you're still standing there and snap out of their daydream.">>
