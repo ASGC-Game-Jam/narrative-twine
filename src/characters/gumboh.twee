@@ -128,6 +128,7 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 <<reply "Thank you, Gumboh. It's a pleasure to meet you." "A3 Gumboh Talk 6a" 5>>
 <</choices>>
 
+
 :: A3 Gumboh Talk 3b [dialogue act3 char-Gumboh] {"position":"830,1790","size":"100,100"}
 <<stage "The cook let's out a deep, tired sigh.">>
 <<say "Gumboh" "Not a good time for jokes, friend. Everybody tired. Everybody hungry. Even you, I can tell." "morose">>
@@ -138,6 +139,7 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 <<reply "Thank you, Gumboh. I'm sorry about being rude. you're right, I'm just exhausted." "A3 Gumboh Talk 5" 5>>
 <<reply "No offense, but that doesn't look very appetising." "A3 Gumboh Talk 6b" -5>>
 <</choices>>
+
 
 :: A3 Gumboh Talk 4 [dialogue act3 char-Gumboh] {"position":"700,1910","size":"100,100"}
 <<stage "The cook opens their arms out wide.">>
@@ -169,12 +171,14 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 <<reply "What do you mean?" "A3 Gumboh Talk 6c">>
 <</choices>>
 
+
 :: A3 Gumboh Talk 6c [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
 <<say "Gumboh" "In Gumboh's kitchen we are proud to serve the best food from across all the ocean. So our people, humble people, eat the same as the Kings. Since the city become divided, it's impossible to find ingredients. Impossible to mix flavours. So... " "sadly">>
 <<say "Gumboh" "Seawood Soup every day. And little of it.">>
 <<choices>>
 <<reply "What if I can help? I could procure you ingredients from the other districts?" "A3 Gumboh Talk 6d" 5>>
 <</choices>>
+
 
 :: A3 Gumboh Talk 6d [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
 <<say "Gumboh" "You could? That would mean... Everything. I will keep kitchen open. If you find something, bring it to me here. Thank you, friend! Thank you!" "lighting up">>
@@ -185,6 +189,7 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 [[Back to District 3 Slums|A3 District 3 Slums]]
 [[Back to Act 3|Act 3]]
 </div>
+
 
 :: A3 Gumboh Talk 6b [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
 <<stage "Gumboh bows their head in defeat. They slowly withdraw the bowl and cup it in their large hands.">>
@@ -204,6 +209,7 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 <<reply "What if I can help? I could procure you ingredients from the other districts?" "A3 Gumboh Talk 6f">>
 <</choices>>
 
+
 :: A3 Gumboh Talk 6f [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
 <<stage "Gumboh looks down at you with tired eyes.">>
 <<say "Gumboh" "Another joke." "blankly">>
@@ -211,6 +217,7 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 <<choices>>
 <<reply "I'm not joking this time!" "A3 Gumboh Talk 6g">>
 <</choices>>
+
 
 :: A3 Gumboh Talk 6g [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
 <<say "Gumboh" "Ok, friend. I keep Gumboh's kitchen open late tonight. If I find new fresh ingredients here, then I believe you, ok?" "tired">>
