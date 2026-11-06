@@ -96,6 +96,87 @@ SABELLE (eager): Imagine all the knowledge we can discover, all the secrets we c
 
 SABELLE: (about stealing from the rich) They won’t even notice if I grab a thing or two… or three… for the greater good!
 
+''Scenes:''
+[[Meet Sabelle|A2 Meet Sabelle]]
+
+[[Back to Codex|Codex]]
+
+/*Meet Sabelle in Act 2*/
+
+:: A2 Meet Sabelle [character act2 char-Sabelle]
+
+!The Wilds Workshop
+//Act 2, The Wilds Workshop//
+
+<<set _dlgWho to "Sabelle">><<set _dlgT to -0.7>>\
+<div id="dlg"><<include "A2 Meet Sabelle">></div>
+
+:: A2 Meet Sabelle 1 [dialogue act2 char-Sabelle]
+<<stage "You enter a comfortably cluttered workshop. There are all manner of tools, gadgets, and an assortment of parts on every surface and on pegboards covering the walls. A "fish-type Atlantean" /*placeholder*/ is busy tinkering with something complex looking, their various belts and chains clinking as they move. They reach for tools without needing to search and you get the impression that while their workshop may look messy to some, they know exactly where everything is. They don't stop working when you enter so you clear your throat to try to get their attention.">>
+<<say "Sabelle" "Give me a moment, I've almost got this..one more time should do the trick. There!">>
+<<stage "When they do look up and push their goggles up to their head to reveal their face, you see their previous enthusiasm for finishing their task turn into wariness.">>
+<<say "Sabelle" "I haven't seen you before. What are you doing here?">>
+<<choices>>
+<<reply "Sabelle, I presume? I've been looking for my friend, Richard, and I'm hoping you can help with something he started." "A2 Meet Sabelle 2">>
+<</choices>>
+
+:: A2 Meet Sabelle 2 [dialogue act2 char-Sabelle]
+<<say "Sabelle" "Aye, but I don't know your friend. And I don't know you.">>
+<<choices>>
+<<reply "I understand. The thing is, if you help me, you'll also be helping your people." "A2 Meet Sabelle 3">>
+<</choices>>
+
+:: A2 Meet Sabelle 3 [dialogue act2 char-Sabelle]
+<<say "Sabelle" "How's that?">>
+<<choices>>
+<<reply "I've seen this strange illness that's been spreading around here. My friend was working on a solution.">>
+<</choices>>
+<<stage "Sabelle continues to stare at you, expression unchanged.">>
+<<choices>>
+<<reply "Castella found this schematic among the things left behind when he disappeared. She said you were the one to see about building something." "A2 Meet Sabelle 4">>
+<</choices>>
+
+:: A2 Meet Sabelle 4 [dialogue act2 char-Sabelle]
+<<stage "Sabelle's eyes light up as you mention the schematic.">>
+<<say "Sabelle" "Shoulda started with that! Castella's right; haven't met a schematic I couldn't build! Let's see it.">>
+<<stage "You hand over the schematic and Sabelle spreads it across their table, pushing aside a few things. They spend a few moments studying it, muttering to themselves. You think it best not to interrupt.">>
+<<say "Sabelle" "Hmm, is that..aha! Ohhh..what a shame.">>
+<<stage "When they finally look up, a look of disappointment spreads over their face.">>
+<<say "Sabelle" "Would like to help with this, really, but there's quite a few parts that I don't have stocked.">>
+<<choices>>
+<<reply "Can you procure them?" "A2 Meet Sabelle 5">>
+<</choices>>
+ 
+:: A2 Meet Sabelle 5 [dialogue act2 char-Sabelle]
+<<say "Sabelle" "These are rare; not common parts that can be found scavenging. Could try to find a workaround, but that would take some time.">>
+<<choices>>
+<<reply "But you know where they can be obtained? I'm willing to help." "A2 Meet Sabelle 6">>
+<</choices>>
+
+:: A2 Meet Sabelle 6 [dialogue act2 char-Sabelle]
+<<stage "Sabelle looks at you and you almost see the gears turing in their head as they reply.">>
+<<say "Sabelle" "If you help, it may be possible..yes.. They won't trade with me, but you seem fancy enough.>>
+<<choices>>
+<<reply "Great, just tell me where to go!" "A2 Meet Sabelle 7">>
+<</choices>>
+
+:: A2 Meet Sabelle 7 [dialogue act2 char-Sabelle]
+<<say "Sabelle" "But even if you get the parts..for this tool to work, we'll need the "special coral" /*placeholder*/ and city leaders won't share that with just anyone. >>
+<<choices>>
+<<reply "I'm willing to try! I can be pretty convincing." "A2 Meet Sabelle 8">>
+<</choices>>
+
+:: A2 Meet Sabelle 8 [dialogue act2 char-Sabelle]
+<<stage "Sabelle considers this and seemingly thinks out loud.">>
+<<say "Sabelle" "If this machine works, it could be my claim to fame. Maybe I'd finally be taken seriously and accepted into a guild. Imagine all the new tools I could have..a bigger workshop maybe? Wouldn't be able to keep up with requests I bet..">>
+<<stage "They suddenly realize you're still standing there and snap out of their daydream.">>
+<<say "Sabelle" "Anything I can do to help stop the spread of this illness is worth a try. I'll mark down some places you can look for the parts. Bring them here and I'll see what I can do.">>
+<<stage "As you take your leave, you can't help but notice a bit more liveliness as Sabelle gets back to work, humming to themself.>>
+<<set _dlgT += 0.9>>\
+<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+//Conversation over. Sabelle's trust is now <<print $trust["Sabelle"]>>.//
+[[Back to Act 2|Act 2]]
+</div>
 
 [[Back to Codex|Codex]]
 
