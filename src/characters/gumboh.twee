@@ -165,10 +165,18 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 <<stage "Gumboh chuckles bashfully and returns to their cauldron.">>
 <<say "Gumboh" "Too kind. Seawood Soup is simple. Impossible to taste wrong!" "shyly">>
 <<say "Gumboh" "But every day Seawood Soup... It can make the flavour disappear." "upset">>
-<<reply "What do you mean?">>
+<<choices>>
+<<reply "What do you mean?" "A3 Gumboh Talk 6c">>
+<</choices>>
+
+:: A3 Gumboh Talk 6c [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
 <<say "Gumboh" "In Gumboh's kitchen we are proud to serve the best food from across all the ocean. So our people, humble people, eat the same as the Kings. Since the city become divided, it's impossible to find ingredients. Impossible to mix flavours. So... " "sadly">>
 <<say "Gumboh" "Seawood Soup every day. And little of it.">>
-<<reply "What if I can help? I could procure you ingredients from the other districts?" 5>>
+<<choices>>
+<<reply "What if I can help? I could procure you ingredients from the other districts?" "A3 Gumboh Talk 6d" 5>>
+<</choices>>
+
+:: A3 Gumboh Talk 6d [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
 <<say "Gumboh" "You could? That would mean... Everything. I will keep kitchen open. If you find something, bring it to me here. Thank you, friend! Thank you!" "lighting up">>
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
@@ -183,15 +191,28 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 <<say "Gumboh" "A simple Seaweed Soup. I'm afraid we have nothing else." "crestfallen">>
 <<stage "Gumboh gently places the bowl on the kitchen surface.">>
 <<say "Gumboh" "I leave it here for you. If you change your mind.">>
-<<reply "Why do you only have Seaweed Soup?">>
+<<choices>>
+<<reply "Why do you only have Seaweed Soup?" "A3 Gumboh Talk 6e">>
+<</choices>>
+
+
+:: A3 Gumboh Talk 6e [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
 <<say "Gumboh" "It's not always been this way.">>
 <<say "Gumboh" "In Gumboh's kitchen we are proud to serve the best food from across all the ocean. So our people, humble people, eat the same as the Kings. Since the city become divided, it's impossible to find ingredients. Impossible to mix flavours. So... " "sadly">>
 <<say "Gumboh" "Seawood Soup every day. And little of it.">>
-<<reply "What if I can help? I could procure you ingredients from the other districts?">>
+<<choices>>
+<<reply "What if I can help? I could procure you ingredients from the other districts?" "A3 Gumboh Talk 6f">>
+<</choices>>
+
+:: A3 Gumboh Talk 6f [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
 <<stage "Gumboh looks down at you with tired eyes.">>
 <<say "Gumboh" "Another joke." "blankly">>
 <<stage "Gumboh returns to their caldron.">>
-<<reply "I'm not joking this time!">>
+<<choices>>
+<<reply "I'm not joking this time!" "A3 Gumboh Talk 6g">>
+<</choices>>
+
+:: A3 Gumboh Talk 6g [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
 <<say "Gumboh" "Ok, friend. I keep Gumboh's kitchen open late tonight. If I find new fresh ingredients here, then I believe you, ok?" "tired">>
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
