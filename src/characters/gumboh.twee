@@ -120,7 +120,7 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 
 :: A3 Gumboh Talk 3a [dialogue act3 char-Gumboh] {"position":"830,1790","size":"100,100"}
 <<stage "The cook let's out a deep, tired laugh.">>
-<<say "Gumboh" "That's ok. Everybody tired. Everybody hungry. But you are lucky..." "weary">>
+<<say "Gumboh" "That's ok. Everybody is tired. Everybody is hungry. But you are lucky..." "weary">>
 <<stage "In one graceful movement they turn back to the cauldron, one hand slipping a bowl from the counter as the other ladles in a generous portion of piping hot soup, without a drop being spilled.">>
 <<say "Gumboh" "In Gumboh's kitchen, the most tired, the most hungry, eats first.">>
 <<stage "Gumboh holds the bowl towards you. Their eyes encourage you to take it.">>
@@ -131,7 +131,7 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 
 :: A3 Gumboh Talk 3b [dialogue act3 char-Gumboh] {"position":"830,1790","size":"100,100"}
 <<stage "The cook let's out a deep, tired sigh.">>
-<<say "Gumboh" "Not a good time for jokes, friend. Everybody tired. Everybody hungry. Even you, I can tell." "morose">>
+<<say "Gumboh" "Not a good time for jokes, friend. Everybody is tired. Everybody is hungry. Even you, I can tell." "morose">>
 <<stage "In one graceful movement they turn back to the cauldron, one hand slipping a bowl from the counter as the other ladles in a generous portion of piping hot soup, without a drop being spilled.">>
 <<say "Gumboh" "In Gumboh's kitchen, the most tired, the most hungry, eats first. Even the rude ones." "weary">>
 <<stage "Gumboh holds the bowl towards you, lowering their eyes to the floor.">>
@@ -143,9 +143,9 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 
 :: A3 Gumboh Talk 4 [dialogue act3 char-Gumboh] {"position":"700,1910","size":"100,100"}
 <<stage "The cook opens their arms out wide.">>
-<<say "Gumboh" "Of course! I have tasted your reputation on the stories of the townsfolk. We keep very close, here, in the Slums. Well..." "enthusiastic">>
+<<say "Gumboh" "Of course! The flavour of your reputation is cooked into the stories of the townsfolk these days. We keep very close, here in the Slums. Well..." "enthusiastic">>
 <<stage "Their arms fall to their side.">>
-<<say "Gumboh" "Maybe not so close anymore. Everybody tired. Everybody hungry. Even you, I can tell." "weary">>
+<<say "Gumboh" "Maybe not so close anymore. Everybody is tired. Everybody is hungry. Even you, I can tell." "weary">>
 <<stage "In one graceful movement they turn back to the cauldron, one hand slipping a bowl from the counter as the other ladles in a generous portion of piping hot soup, without a drop being spilled.">>
 <<say "Gumboh" "Lucky for you... In Gumboh's kitchen the most tired, the most hungry, eats first.">>
 <<stage "Gumboh holds the bowl towards you. Their eyes encourage you to take it. Their warm smile insists.">>
@@ -169,8 +169,8 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 
 :: A3 Gumboh Talk 6c [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
 <<stage "Gumboh chuckles bashfully and returns to their cauldron.">>
-<<say "Gumboh" "Too kind. Seawood Soup is simple. Impossible to taste wrong!" "shyly">>
-<<say "Gumboh" "But every day Seawood Soup... It can make the flavour disappear." "upset">>
+<<say "Gumboh" "Too kind. Seawood Soup is simple. Impossible to make it taste wrong!" "shyly">>
+<<say "Gumboh" "But, if every day is only Seawood Soup... It can make the flavour disappear." "upset">>
 <<choices>>
 <<reply "What do you mean?" "A3 Gumboh Talk 6d">>
 <</choices>>
@@ -178,14 +178,14 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 
 :: A3 Gumboh Talk 6d [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
 <<say "Gumboh" "In Gumboh's kitchen we are proud to serve the best food from across all the ocean. So our people, humble people, eat the same as the Kings. Since the city become divided, it's impossible to find ingredients. Impossible to mix flavours. So... " "sadly">>
-<<say "Gumboh" "Seawood Soup every day. And little of it.">>
+<<say "Gumboh" "Every day. Seawood Soup And little of it.">>
 <<choices>>
 <<reply "What if I can help? I could procure you ingredients from the other districts?" "A3 Gumboh Talk 6e" 5>>
 <</choices>>
 
 
 :: A3 Gumboh Talk 6e [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
-<<say "Gumboh" "You could? That would mean... Everything. I will keep kitchen open. If you find something, bring it to me here. Thank you, friend! Thank you!" "lighting up">>
+<<say "Gumboh" "You could? That would mean... Everything. We'll keep Gumboh's kitchen open tonight. If you find something tasty, bring it to me here. Thank you, friend! Thank you!" "lighting up">>
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
 //Conversation over. Gumboh's trust is now <<print $trust["Gumboh"]>>.//
@@ -224,7 +224,7 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 
 
 :: A3 Gumboh Talk 6h [dialogue act3 char-Gumboh] {"position":"1350,1850","size":"100,100"}
-<<say "Gumboh" "Ok, friend. I keep Gumboh's kitchen open late tonight. If I find new fresh ingredients here, then I believe you, ok?" "tired">>
+<<say "Gumboh" "Ok, friend. We keep Gumboh's kitchen open late tonight. If I find new fresh ingredients here, then I believe you. Ok?" "tired">>
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
 //Conversation over. Gumboh's trust is now <<print $trust["Gumboh"]>>.//
