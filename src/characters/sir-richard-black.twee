@@ -36,7 +36,93 @@ TODO: scene for Sir Richard Black in Act 4.
 ''Appears in:'' [[Act 3|A3 Sir Richard Black]], [[Act 4|A4 Sir Richard Black]]
 <<if $trust["Sir Richard Black"] isnot undefined>>''Trust:'' <<print $trust["Sir Richard Black"]>><</if>>
 
-Brilliant, paranoid, paternal. 55-year-old knighted human explorer who discovered Atlantis. Believes the leviathan causes the Bleaching and will kill a god to stop it. Carries James's brass compass.
+''Point of Contact:''  Charlotte/Duncan Sullivan [Discord: Selflessturtle]
+
+''Where:'' Throughout the game
+
+''Description:'' NPC - Brilliant, Paranoid, Paternal.
+
+''Age:'' 55
+
+''Gender:'' Male (He/Him)
+
+''Origin:'' Human
+
+''Occupation:'' Nautical explorer and Contact for the Oceanography council 
+
+
+''Faction:'' Black is a human with connection to the Oceanography council, along with contact at some point with every faction in the civilization, something he made a point of doing.
+
+
+''Physical Description:'' Sir Richard Black is a visually gruff character, broad shouldered, chiseled, with a large and bushy Hungarian handlebar mustache that covers his mouth. Masculine in body type, and caucasian. His brown short hair is combed neatly to the side and full. He takes care of himself, as control is important to him and that is something easily controlled. 
+	Even for his age, he is physically fit. He dresses in a utilitarian manner, focusing on function over form. This probably has him in his own diving suit most of the time depending on the layout of the underwater city. He is closed off and usually keeps his arms crossed to represent that. The way he often holds himself in relation to others is thoughtful. His eyebrows are furrowed in thought more often than not.
+	The vibe he puts out is the thoughtful giant, gentle with one hand and protectively harsh with the other.
+
+ 
+''Overview:'' Sir Richard Black is a knighted and celebrated scientist among scientists in the expeditionary ocean exploration community. Having led dozens of submarine missions in his youth, he was the first to discover, along with his crew, the underwater civilization. He never returned from that voyage, electing to stay with the civilization. Sir Black recognized the importance of the connection between humans and these new peoples, and decided to establish as the contact for humanity there and then in coordination with the oceanography council. He had good relations with nearly every faction, being a kind and engaging person. Similarly, he was nothing but cooperative with the council and never gave them cause for concern or a reason to doubt his abilities as contact and researcher. 
+	Working with the underwater civilization was, ultimately, his life dream come true and the peak of his ambitions at that point in his life. He is one of the strongest voices that humanity cannot be trusted with the knowledge of the underwater civilization, and they must be protected by the council.
+	When the Bleaching disease began cropping up, Sir Richard Black first took it upon himself to try to manage the situation and figure out what was going on. He comes to believe that the leviathan is responsible, as is. 
+
+ He pulled back from the factions after the king rejected all reason that Richard presented, interacting with only a select few, mostly others that are trying to save the city, still trying to find answers and protect the underwater people.
+
+	Additionally, he cut contact with the oceanography council believing that there is a corrupt faction that has expededited the bleaching by not taking things seriously on purpose.
+	He carries with him his diving gear and a single heirloom that brings him good luck. It is a small brass orb with a clear upperhalf that shows the internal gyrocompass that points true north. He stares at it when alone and not wanting to be lost in his own thoughts. It was a gift from his late husband that died before he found the underwater civilization in a submarine mission gone wrong. It has engraved on the brass bottom: “EQUUS CALIDUS ANIMIS”. The brass compass also has a heating element in it that warms the hands when held tightly.
+	Richard Black thinks of the civilization as his adopted children in a sense, like he has taken on their responsibility as guardian and is internally utterly terrified of powerlessly losing them in the same way as he did his husband. This can drive his paranoia to the point that he becomes distrustful in everyone but himself. “He had said the submarine mission was a bad idea, if only his late husband had listened, they would be in the city together. Everyone just needs to listen to him.”
+	Nobody is listening, so he has to do it himself.
+
+''Relationships:'' • Dead husband that passed away in an exploration submarine mission years ago. His name was James. Richard holds a lot of regret in not exercising authority at the time and stopping the mission he had a bad feeling about, but James had convinced him it would be fine at the time.
+• Oceanography council as the contact for humanity with the underwater city. 
+• Doctor Castella (An NPC with a different bio). She is his remaining major point of contact with the underwater civilization’s people and source of information for current events and bleaching plague progress outside of his own investigations. Richard views her as a daughter even if he can’t admit it to himself, out loud or inside his heart. Part of the reason Castella has such open reign to move around the city is the knowledge that getting in her way invites the ire of Sir Richard Black
+The main character is a close friend after years of contact with each other through the reports. Richard Black believes that the MC is just as much to blame as the rest of the oceanography council for things getting as terribly far as they are.
+
+''World Knowledge:'' 	Richard is extremely well informed about the world around him. Not only was a highly educated scientist in the human world, but he keeps his ear to the ground and digs for information in the underwater world as much as he possibly can. He is a well of information though there are plenty of mysteries he can’t untangle (as is the role of the PC) 
+ 
+
+''Goal & Obstacle:''  Richard’s main goal is to foster the growth and prosperity of the underwater civilization while learning and recording everything that he can about their culture and history. The bleaching disease is an existential threat to that goal. He is willing to do whatever it takes to protect the underwater species and their home, even if it means betraying their beliefs and killing their god.
+
+''Initial Perception of the Player Character:'' The player character is a close friend that Richard Black wants to believe in but can’t bring himself to consciously do so because he suspects that the player character might be implicated in the possible corruption of the oceanography council.
+
+''Vocal Qualities:'' 1. Deep voice, controlled in a lower energy sense. Gruff is the best way to describe it. Lots of thoughtful “Hmmm”’s.
+2. Richard speaks with a large and educated vocabulary, but doesn’t speak any more than he needs to. He doesn’t speak like a caveman, but he won’t go into anything resembling a stereotypical scientist rant.
+
+
+''Dialogue Sample:''
+
+[Richard Black] 
+(Apprehensive) 
+Concerning your theories, they're all weak conjectures made up of fanciful fictions rather than evidence and experimentation… But you may be onto something.
+—
+
+[Richard Black] 
+(Angry) 
+I know what I’m doing, I always know what I’m doing. Think for once in your life and just listen.
+—
+
+[Richard Black] 
+(Apologetic) 
+You were right.
+
+[PC]
+What? I suspect I misheard you.
+
+[Richard Black]
+I suspect you might have, I’m not repeating myself.
+—
+
+[Richard Black] 
+(Excited) 
+This is brilliant… it changes the very foundations of every theory we have. We’ll have to start over with these findings. Where did you get this!?
+—
+
+[Richard Black] 
+(Supportive) 
+Kid… There isn’t a thing you can’t accomplish if you try. I promise you, I would be the first to make sure you knew if you’d fail.
+—
+
+[Richard Black] 
+(Vulnerable) 
+Time… I need some time to think all of this over. Leave, plea
+
 
 [[Back to Codex|Codex]]
 
