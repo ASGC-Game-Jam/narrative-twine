@@ -82,22 +82,26 @@ Skuttle initially has  a very low trust score of the Player, in the same way tha
 :: A4 Skuttle Talk 1 [dialogue act4 char-Skuttle] {"position":"570,1850","size":"100,100"}
 <<stage "You approach the tiny shack with caution. As you get closer you see the hodge-podge of corrugated iron, timber planks, rotted netting and discarded plastics from whihc this makeshift shelter has been assembled. As you reach out to touch the rusted metal exterior, a slat in the iron facade is yanked open with a metallic screech. A pair of eyes stare back intensely at you.">>
 <<say "Skuttle" "Stop right there!" "commanding">>
-
+<<stage "You flinch back, and do as the nasal voice commands.">>
+<<say "Skuttle" "Who sent you!?">>
+<<reply "Um...">>
+<<say "Skuttle" "WHO SENT YOU, DAMNIT!?" "screeching">>
 <<choices>>
-<<reply "Um, yep. That's me... Eelis." "A3 Gumboh Talk 2a" -5>>
-<<reply "It's not Eelis, no..." "A3 Gumboh Talk 2b" 5>>
+<<reply "Nobody?" "A4 Skuttle Talk 2a" -5>>
+<<reply "The Oceanography Council?" "A4 Skuttle Talk 2b" -5>>
 <</choices>>
 
 
-:: A3 Gumboh Talk 2a [dialogue act3 char-Gumboh] {"position":"700,1790","size":"100,100"}
-<<stage "The giant cook turns around. as their eyes fall upon you, their brow furrows.">>
-<<say "Gumboh" "Oh. A trick." "hurt">>
-<<stage "They set down their ladle in the giant cauldron and fold their arms across their chest.">>
+:: A4 Skuttle Talk 2a [dialogue act4 char-Skuttle] {"position":"570,1850","size":"100,100"}
+<<say "Skuttle" "That's what they all say! Now answer me this: Were you followed!? Spotted!? Clocked!? Trailed!? Stalked!? Spied!? Seen in situ!? Sent by THEM!???">>
+<<stage "You struggle to remember.">>
+<<say "Skuttle" "Who sent you!?">>
+<<reply "Um...">>
+<<say "Skuttle" "WHO SENT YOU, DAMNIT!?" "screeching">>
 <<choices>>
-<<reply "I'm sorry. I don't know what I was playing at. It's been... a long day" "A3 Gumboh Talk 3a" 5>>
-<<reply "Cheer up! Can't you take a joke?" "A3 Gumboh Talk 3b" -5>>
+<<reply "Nobody?" "A4 Skuttle Talk 2a" -5>>
+<<reply "The Oceanography Council?" "A4 Skuttle Talk 2b" -5>>
 <</choices>>
-
 
 :: A3 Gumboh Talk 2b [dialogue act3 char-Gumboh] {"position":"700,1910","size":"100,100"}
 <<stage "The giant cook turns around. As their eyes fall upon you, they break out into a warm smile.">>
