@@ -118,7 +118,7 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 <</choices>>
 
 
-:: "A3 Gumboh Talk 3a [dialogue act3 char-Gumboh] {"position":"830,1790","size":"100,100"}
+:: A3 Gumboh Talk 3a [dialogue act3 char-Gumboh] {"position":"830,1790","size":"100,100"}
 <<stage "The cook let's out a deep, tired laugh.">>
 <<say "Gumboh" "That's ok. Everybody tired. Everybody hungry. But you are lucky..." "weary">>
 <<stage "In one graceful movement they turn back to the cauldron, one hand slipping a bowl from the counter as the other ladles in a generous portion of piping hot soup, without a drop being spilled.">>
@@ -128,7 +128,7 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 <<reply "Thank you, Gumboh. It's a pleasure to meet you." "A3 Gumboh Talk 6a" 5>>
 <</choices>>
 
-:: "A3 Gumboh Talk 3b [dialogue act3 char-Gumboh] {"position":"830,1790","size":"100,100"}
+:: A3 Gumboh Talk 3b [dialogue act3 char-Gumboh] {"position":"830,1790","size":"100,100"}
 <<stage "The cook let's out a deep, tired sigh.">>
 <<say "Gumboh" "Not a good time for jokes, friend. Everybody tired. Everybody hungry. Even you, I can tell." "morose">>
 <<stage "In one graceful movement they turn back to the cauldron, one hand slipping a bowl from the counter as the other ladles in a generous portion of piping hot soup, without a drop being spilled.">>
