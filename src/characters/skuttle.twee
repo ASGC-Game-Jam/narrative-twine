@@ -106,7 +106,8 @@ Skuttle initially has  a very low trust score of the Player, in the same way tha
 <</choices>>
 
 :: A4 Skuttle Talk 2b [dialogue act4 char-Skuttle] {"position":"570,1850","size":"100,100"}
-<<say "Skuttle" "HA! That's a good one! What business would the Oceanography Council have sending someone down here?">> 
+<<say "Skuttle" "HA! That's a good one! What business would the Oceanography Council have sending someone down here?">>
+<<stage "It's a fair question, one whose answer seems to get more elusive the more  you discover about this city.">>
 <<say "Skuttle" "Ok, so we've established you're a no good liar. But try to answer this one honestly: Were you followed!? Spotted!? Clocked!? Trailed!? Stalked!? Spied!? Seen in situ!? Sent by THEM!???" "frantic">>
 <<stage "You struggle to remember. It's been such a long and exhausting journey so far.">>
 <<choices>>
@@ -174,8 +175,8 @@ Skuttle initially has  a very low trust score of the Player, in the same way tha
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
 //Conversation over. Skuttle's trust is now <<print $trust["Skuttle"]>>.//
-[[Talk to Skuttle again|A3 Skuttle Talk]]
-[[Back to District 5 Wastes|A3 District 5 Wastes]]
+[[Talk to Skuttle again|A4 Skuttle Talk]]
+[[Back to District 5 Wastes|A4 District 5 Wastes]]
 [[Back to Act 4|Act 4]]
 </div>
 
