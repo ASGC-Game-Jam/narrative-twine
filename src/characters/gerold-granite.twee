@@ -103,7 +103,7 @@ TODO: scene for Gerold Granite in Act 2.
 <<say "Gerold Granite" "I am Gerold Granite, Liason to the Council. Through me, you have a direct line to the Council and vice-versa. Now let's get to work, shall we?" "professional">>
 <<timed 2s t8n>>
 <<choices>>
-<<reply "Where do I begin..." "A2 Gerold Council Radio Talk 3">>
+<<reply "Of course..." "A2 Gerold Council Radio Talk 3">>
 <</choices>>
 <</timed>>
 
