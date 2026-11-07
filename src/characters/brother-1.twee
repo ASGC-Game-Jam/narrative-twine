@@ -122,7 +122,7 @@ Both brothers are too invested in bickering to really pay too much attention to 
 <<stage "Yeah... this is going to be trouble. The brothers get back to arguing.">>
 <<say "Sabelle" "Me and Aishui, we just wanted them to learn to get along, you know?" "whispered">>
 <<say "Aishui" "I asked Sabelle to design something that could keep them as close as possible. So they could put their differences aside." "hushed">>
-<<say "Sabelle" "I guess they put too many differences aside, because after a few days they forgot which Brother they are!" "sniggering">>
+<<say "Sabelle" "I guess they put too many differences aside, because after a few days they forgot which brother they are!" "sniggering">>
 <<say "Aishui" "Now they're in a bigger argument than before! And they won't help us fix anything until we can solve it!" "hushed">>
 <<say "Sabelle" "If you can find some way to tell which one is which, we can get them to fix the Manta Ray Ornithopter. All we really know about them is that Willun was the hands-on brother, and Abol was the brains..." "whispered">>
 <<stage "You look closely at the pair. They really are identical. This isn't going to be easy, but here goes nothing. You raise your voice again.">>
@@ -141,7 +141,7 @@ Both brothers are too invested in bickering to really pay too much attention to 
 <<stage "Yeah... this is going to be trouble. The brothers get back to arguing.">>
 <<say "Sabelle" "Me and Aishui, we just wanted them to learn to get along, you know?" "whispered">>
 <<say "Aishui" "I asked Sabelle to design something that could keep them as close as possible. So they could put their differences aside." "hushed">>
-<<say "Sabelle" "I guess they put too many differences aside, because after a few days they forgot which Brother they are!" "sniggering">>
+<<say "Sabelle" "I guess they put too many differences aside, because after a few days they forgot which brother they are!" "sniggering">>
 <<say "Aishui" "Now they're in a bigger argument than before! And they won't help us fix anything until we can solve it!" "hushed">>
 <<say "Sabelle" "If you can find some way to tell which one is which, we can get them to fix the Manta Ray Ornithopter. All we really know about them is that Willun was the hands-on brother, and Abol was the brains..." "whispered">>
 <<stage "You look closely at the pair. They really are identical. This isn't going to be easy, but here goes nothing. You raise your voice again.">>
