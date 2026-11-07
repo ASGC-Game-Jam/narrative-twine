@@ -63,4 +63,43 @@ TODO: scene for Gerold Granite in Act 2.
 
 [[Back to Codex|Codex]]
 
+/*Meet Gerold in Act 2*/
 
+:: A2 Gerold Council Radio Talk [character act2 char-GeroldGranite]
+
+!Room in District 2
+//Act 2, Meeting Gerold Granite//
+
+<<set _dlgWho to "Gerold Granite">><<set _dlgT to -0.7>>\
+<div id="dlg"><<include "A2 Gerold Council Radio Talk 1">></div>
+
+:: A2 Gerold Council Radio Talk 1 [dialogue act2 char-GeroldGranite]
+
+<<stage "It doesn't take long for you to set the radio to the frequency you were given. Once set, a calm male voice speaks to you through the radio.">>
+<<say "Gerold Granite" "Investigator, can you hear me?" "professional">>
+<<timed 2s t8n>>
+<<choices>>
+<<reply "I read you." "A2 Gerold Council Radio Talk 2a" 5>>
+<<reply "How can you get a radio signal to reach this far down?" "A2 Gerold Council Radio Talk 2b" -5>>
+<</choices>>
+<</timed>>
+
+:: A2 Gerold Council Radio Talk 2a [dialogue act2 char-GeroldGranite]
+<<say "Gerold Granite" "I am Gerold Granite, Liason to the Council. It is my job to maintain a line between you and them during your mission. Let's skip the pleasantries and get right to work." "professional">>
+<<stage "It is plain to you at this point that this Gerold is not one to waste time or energy.">>
+<<say "Gerold Granite" "The radio that is now in your possession must be kept on your person at all times. It should be easy to attach to your suit." "professional">>
+<<stage "While you are attaching your radio, Gerold continues to speak.">>
+<<say "Gerold Granite" "Now, what info do you have on the situation below thus far?" "professional">>
+
+:: A2 Gerold Council Radio Talk 2 [dialogue act2 char-GeroldGranite]
+<<stage "A short and subtle groan can barely be heard through the radio's speaker.">>
+<<say "Gerold Granite" "You should have been informed of this prior to your departure. I suggest you consult your notes. Anyway..." "Restrained annoyance">>
+<<stage "The man on the other end took an audible breath and began to explain.">>
+<<say "Gerold Granite" "I am Gerold Granite, Liason to the Council. Through me, you have a direct line to the Council and vice-versa. Now let's get to work, shall we?" "professional">>
+
+<<set _dlgT += 0.9>>\
+<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+//Conversation over. Gerold Granite's trust is now <<print $trust["Gerold Granite"]>>.//
+</div>
+
+[[Back to Act 2|Act 2]]
