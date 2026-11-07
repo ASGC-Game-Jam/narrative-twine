@@ -91,7 +91,7 @@ TODO: scene for Gerold Granite in Act 2.
 <<stage "While you are attaching your radio, Gerold continues to speak.">>
 <<say "Gerold Granite" "Now, what info do you have on the situation below thus far?" "professional">>
 
-:: A2 Gerold Council Radio Talk 2 [dialogue act2 char-GeroldGranite]
+:: A2 Gerold Council Radio Talk 2b [dialogue act2 char-GeroldGranite]
 <<stage "A short and subtle groan can barely be heard through the radio's speaker.">>
 <<say "Gerold Granite" "You should have been informed of this prior to your departure. I suggest you consult your notes. Anyway..." "Restrained annoyance">>
 <<stage "The man on the other end took an audible breath and began to explain.">>
