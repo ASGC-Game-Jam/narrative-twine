@@ -13,7 +13,6 @@ TODO: scene for Gerold Granite in Act 2.
 [[Gerold Granite|Codex Gerold Granite]]
 [[Back to Council Radio|A2 Council Radio]]
 
-
 :: Codex Gerold Granite [codex char-GeroldGranite] {"position":"2260,1130","size":"100,100"}
 !Gerold Granite
 
@@ -58,9 +57,9 @@ TODO: scene for Gerold Granite in Act 2.
 ''Vocal Profile:'' He’ll slip in a fancy word where applicable from time to time, but he typically uses regular everyday words. He’ll speak his mind with carefully chosen words and no amount of verbal dilly-dallying, so his sentences are only as long as necessary to get his point across. He loses some of that word control when he’s angry enough, however.
 
 ''Dialogue Samples:''
-<<say "Gerold Granite" “I am Gerold Granite, the Council’s Official Liaison. Let’s skip the pleasantries and get right to business.”>>
-<<say "Gerold Granite" “I can understand wanting to win the civilians over, but time is a resource we can’t afford to waste!”>>
-<<say "Gerold Granite" “I warned the Council numerous times: Directly interfering with the advancement of these Atlanteans can only bring disaster! Have those fools not learned from Human history?!”>>
+<<say "Gerold Granite" "I am Gerold Granite, the Council’s Official Liaison. Let’s skip the pleasantries and get right to business.">>
+<<say "Gerold Granite" "I can understand wanting to win the civilians over, but time is a resource we can’t afford to waste!">>
+<<say "Gerold Granite" "I warned the Council numerous times: Directly interfering with the advancement of these Atlanteans can only bring disaster! Have those fools not learned from Human history?!">>
 
 [[Back to Codex|Codex]]
 
