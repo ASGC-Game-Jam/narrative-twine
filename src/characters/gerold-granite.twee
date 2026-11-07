@@ -16,11 +16,51 @@ TODO: scene for Gerold Granite in Act 2.
 
 :: Codex Gerold Granite [codex char-GeroldGranite] {"position":"2260,1130","size":"100,100"}
 !Gerold Granite
+
 ''Where:'' Not a resident
+
 ''Appears in:'' [[Act 2|A2 Gerold Granite]]
+
 <<if $trust["Gerold Granite"] isnot undefined>>''Trust:'' <<print $trust["Gerold Granite"]>><</if>>
 
-Focused, stubborn 40-year-old human Council liaison on the radio. Was Richard's liaison when he vanished. Warms up over time.
+''Description:'' NPC - kind, shy, and gentle
+
+''Age:'' 40
+
+''Gender:'' Male (He/Him)
+
+''Origin:'' Human
+
+''Occupation:'' Liason
+
+''Faction:'' The Council
+
+''Physical Description:'' Gerold wears a tan dress shirt with the Council’s logo stitched onto the front, matching pants, and thick black boots. Overall, the outfit is not overly fancy while still making the importance of his role visually clear to the PC. Unbeknownst to said PC, he is wearing a bulletproof vest underneath the shirt. He carries in his right hand a suitcase that contains much of his communication equipment. He also wears a black leather belt that has a gun holster attached on its right side with a gray pistol held inside and two knives on its left.
+
+''Overview:'' Serving as the infamously stubborn official liaison between the protagonist and the Council, Gerold takes a ‘no-nonsense’ approach to performing his duty. His job is to relay key information between both parties to keep them informed during the course of the protagonist’s investigation. He does not abide by reckless fools and short-sighted scumbags threatening the mission at hand. So he is more than willing to talk back to the protagonist, and even his own superiors, if it means getting things done. He is insistent on not letting what he sees as the ‘well-meaning but often foolish hands of humanity’ negatively affect the advancement of the hidden undersea society. While there are disagreements among the Council concerning what to do about the undersea civilization, as far as he knows, it is maintaining a hands-off approach with the investigation. Gerold hopes for the best when it comes to the mission and his employers, even though he has prepared for the worst…
+
+''Relationships:''
+//PC (Player Character)// - He’ll have his initial misgivings about sending someone he knows very little about into the aquatic city. But he’ll grow to respect the PC’s determination to see the mission through to its end.
+
+''Connections:''
+//The Council// - Thanks to his employment, Gerold has been able to gain an understanding of what the members of the Council are like. He has even been able to get in touch with those who share his stance on how best to handle the Merfolk. He has also recognized who among the Council would take a dangerously hands-on approach instead if they could, a fact that worries him deeply.
+
+//Sir Richard Black// - Prior to Sir Richard’s disappearance, Gerold had served as the liaison between him and the Council. He was on duty when Sir Richard vanished and, as of the start of the game, has no idea as to why this happened.
+
+''World Knowledge:'' Thanks to the Council being gracious enough to not let him go into this job blind, Gerold has enough knowledge on the state of the city and its citizens to get the PC started on a good foot. He also has some insight into the mindset of the Council members that could be useful later, if things were to go awry on their end.
+
+''Goal & Obstacle:'' Gerold’s goal is pretty straightforward: to keep both the PC and the Council apprised on important information during the course of the investigation. The more he learns about the bleaching disease, the misinformation, and the paranoia plaguing the city, however, the more he wants to see such a plight resolved. Of course, he has to make sure that neither he, nor the PC, step too far out of line during their work, lest they incur the wrath of the Council.
+
+''Initial perceptions of the Player Character:'' Since he doesn’t know the PC (other than what the Council told them), he has misgivings about them and is ready to take them to task at the drop of a hat. It is when they hear about their work on the investigation, however, that he starts to warm up to them.
+
+''Speech Pattern:'' Vocal pitch is in the middle during normal conversations, but it rises when he’s angered. He sounds calm with a no-nonsense tone. 
+
+''Vocal Profile:'' He’ll slip in a fancy word where applicable from time to time, but he typically uses regular everyday words. He’ll speak his mind with carefully chosen words and no amount of verbal dilly-dallying, so his sentences are only as long as necessary to get his point across. He loses some of that word control when he’s angry enough, however.
+
+''Dialogue Samples:''
+<<say "Gerold Granite" “I am Gerold Granite, the Council’s Official Liaison. Let’s skip the pleasantries and get right to business.”>>
+<<say "Gerold Granite" “I can understand wanting to win the civilians over, but time is a resource we can’t afford to waste!”>>
+<<say "Gerold Granite" “I warned the Council numerous times: Directly interfering with the advancement of these Atlanteans can only bring disaster! Have those fools not learned from Human history?!”>>
 
 [[Back to Codex|Codex]]
 
