@@ -96,7 +96,7 @@ Both brothers are too invested in bickering to really pay too much attention to 
 <<stage "As you approach the din, Sabelle turns to you.">>
 <<say "Sabelle" "So, we do have a bit of a... Technical hitch." "wincing">>
 <<stage "You round the final workbench and stop in your tracks. Standing before you are two physically identical, lanky old mechanics, dressed up in messy overalls.">> 
-<<stage "You say two, but there may as well be one. Something, or someone has bound these two poor soles together side-by-side with some contraption made of coral and strong, binding seaweed. The two identical men form one kind of being, one on the left, one on the right. Right now, they are doubled-up, face-to-face, bickering and arguing.">>
+<<stage "You say two, but there may as well be one. Something, or someone has bound these two poor souls together side-by-side with some contraption made of coral and strong, binding seaweed. The two identical men form one kind of being, one on the left, one on the right. Right now, they are doubled-up, face-to-face, bickering and arguing.">>
 <<stage "Sabelle smiles coyly at you. Oh yeah, they are definitely responsible for this.">>
 <<say "Aishui" "This is Willun and Abol.  Atlantis' finest mechanics!" "genially">>
 <<say "Sabelle" "And crankiest twin brothers!" "whispered">>
@@ -164,8 +164,8 @@ Both brothers are too invested in bickering to really pay too much attention to 
 <<say "Right Brother" "I'M ABOL!" "furious">>
 <<stage "You turn to Sabelle and Aishui. They both shrug in unison.">>
 <<choices>>
-<<reply "This is really like one of those riddles, where the one gatekeeper is a liar and the other always tells the truth." "A3 Brothers Talk 4a" -5>>
-<<reply "This is above my pay grade. I'm going to just let you guys hash it out for the time being." "A3 Brothers Talk 4b" >>
+<<reply "This is really like one of those riddles, where the one gatekeeper is a liar and the other always tells the truth." "A3 Brothers Talk 4a" -10>>
+<<reply "This is above my pay grade. I'm going to just let you guys hash it out for the time being." "A3 Brothers Talk 4b" 10>>
 <</choices>>
 
 :: A3 Brothers Talk 3b [dialogue act3 char-Willun] {"position":"570,1850","size":"100,100"}
@@ -183,8 +183,8 @@ Both brothers are too invested in bickering to really pay too much attention to 
 <<say "Right Brother" "I'M ABOL!" "furious">>
 <<stage "You turn to Sabelle and Aishui. They both shrug in unison.">>
 <<choices>>
-<<reply "This is really like one of those riddles, where the one gatekeeper is a liar and the other always tells the truth." "A3 Brothers Talk 4a" -5>>
-<<reply "This is above my pay grade. I'm going to just let you guys hash it out for the time being." "A3 Brothers Talk 4b" 5>>
+<<reply "This is really like one of those riddles, where the one gatekeeper is a liar and the other always tells the truth." "A3 Brothers Talk 4a" -10>>
+<<reply "This is above my pay grade. I'm going to just let you guys hash it out for the time being." "A3 Brothers Talk 4b" 10>>
 <</choices>>
 
 :: A3 Brothers Talk 4a [dialogue act3 char-Willun] {"position":"570,1850","size":"100,100"}
