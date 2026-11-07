@@ -184,7 +184,7 @@ Both brothers are too invested in bickering to really pay too much attention to 
 <<stage "You turn to Sabelle and Aishui. They both shrug in unison.">>
 <<choices>>
 <<reply "This is really like one of those riddles, where the one gatekeeper is a liar and the other always tells the truth." "A3 Brothers Talk 4a" -5>>
-<<reply "This is above my pay grade. I'm going to just let you guys hash it out for the time being." "A3 Brothers Talk 4b" >>
+<<reply "This is above my pay grade. I'm going to just let you guys hash it out for the time being." "A3 Brothers Talk 4b" 5>>
 <</choices>>
 
 :: A3 Brothers Talk 4a [dialogue act3 char-Willun] {"position":"570,1850","size":"100,100"}
@@ -200,5 +200,35 @@ Both brothers are too invested in bickering to really pay too much attention to 
 <<say "Sabelle" "Well, at least they weren't arguing with each other for a minute!" "smirking">>
 <<say "Aishui" "That's a good thing, right?" "cheerful">>
 <<stage "Getting through to the Brothers feels like a hopeless task. You need to find some kind of evidence to prove which one is which.">>
+<<set _dlgT += 0.9>>\
+<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+//Conversation over. Willun's trust is now <<print $trust["Willun"]>>.//
+[[Talk to Willun again|A3 Brothers Talk]]
+[[Back to District 4 Slums|A3 District 4 Workshop]]
+[[Back to Act 3|Act 3]]
+</div>
+
+:: A3 Brothers Talk 4b [dialogue act3 char-Willun] {"position":"570,1850","size":"100,100"}
+<<stage "The brothers stop arguing and smile at you, sweetly.">>
+<<say "Left Brother" "Now isn't that polite!" "gently">>
+<<say "Right Brother" "Such good manners." "approving">>
+<<say "Left Brother" "Someone who understands when to give folk a little space." "proud">>
+<<say "Right Brother" "That's that emotional intelligence, I've been talking about!" "excited">>
+<<say "Left Brother" "Pains me to say it, but you've always been good with that." "warmly">>
+<<say "Right Brother" "Me! YOU were always good with that!" "abrupt">>
+<<say "Left Brother" "ME!? My emotional intelligence stinks!" "forceful">>
+<<say "Right Brother" "Not as much as mine, Willun!" "determined">>
+<<say "Left Brother" "ABOL!" "furious">>
+<<stage "You let out a sigh that reverberates around your helmet. You step back towards Aishui and Sabelle.">>
+<<say "Sabelle" "Well, at least they were agreeing with each other for a minute!" "wincing">>
+<<say "Aishui" "We're on the right path! Maybe?" "cheerful">>
+<<stage "Getting through to the Brothers feels like a hopeless task. You need to find some kind of evidence to prove which one is which.">>
+<<set _dlgT += 0.9>>\
+<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+//Conversation over. Willun's trust is now <<print $trust["Willun"]>>.//
+[[Talk to Willun again|A3 Brothers Talk]]
+[[Back to District 4 Slums|A3 District 4 Workshop]]
+[[Back to Act 3|Act 3]]
+</div>
 
 
