@@ -1,5 +1,5 @@
-:: A3 Brother 1 [character act3 todo char-Brother1] {"position":"1480,770","size":"100,100"}
-<<meet "Brother 1">>
+:: A3 Willun [character act3 todo char-Willun] {"position":"1480,770","size":"100,100"}
+<<meet "Willun">>
 //Act 3, District 4 Workshop//
 
 /* Bio: CHARACTER REQUEST, no bio. Repairs the manta ray ornithopter. */
@@ -10,15 +10,15 @@ TODO: scene for Brother 1 in Act 3.
 * <<link "Earn trust (+10)" `passage()`>><<trust "Brother 1" 10>><</link>>
 * <<link "Lose trust (-10)" `passage()`>><<trust "Brother 1" -10>><</link>>
 
-[[Brother 1|Codex Brother 1]]
+[[Willun|Codex Willun]]
 [[Back to District 4 Workshop|A3 District 4 Workshop]]
 
 
-:: Codex Brother 1 [codex char-Brother1 todo] {"position":"2390,1250","size":"100,100"}
-!Brother 1
+:: Codex Willun [codex char-Willun todo] {"position":"2390,1250","size":"100,100"}
+!Willun
 ''Where:'' District 4: Suburbia
-''Appears in:'' [[Act 3|A3 Brother 1]]
-<<if $trust["Brother 1"] isnot undefined>>''Trust:'' <<print $trust["Brother 1"]>><</if>>
+''Appears in:'' [[Act 3|A3 Willun]]
+<<if $trust["Willun"] isnot undefined>>''Trust:'' <<print $trust["Willun"]>><</if>>
 ''Description:'' NPC - sulky, snappy, absent-minded
 ''Age:'' 75
 ''Gender:'' Male (he/him)
@@ -80,5 +80,125 @@ Both brothers are too invested in bickering to really pay too much attention to 
 
 
 [[Back to Codex|Codex]]
+
+/*Meet Willun in Act 3*/
+
+:: A3 Brothers Talk [character act3 char-Willun] {"position":"440,1850","size":"100,100"}
+!District 4 Workshop
+//Act 3, Workshop//
+
+<<set _dlgWho to "Willun">><<set _dlgT to -0.7>>\
+<div id="dlg"><<include "A3 Brothers Talk 1">></div>
+
+
+:: A3 Brothers Talk 1 [dialogue act3 char-Willun] {"position":"570,1850","size":"100,100"}
+<<stage "You follow Sabelle and Aishui into the workshop. You were expecting the sound of sawing, drilling, soldering, sparks flying, yet your footsteps echo in a void. The only other thing you can hear is the sound of an argument from the end of the hall.">>
+<<stage "As you approach the din, Sabelle turns to you.">>
+<<say "Sabelle" "So, we do have a bit of a... Technical hitch." "wincing">>
+<<stage "You round the final workbench and stop in your tracks. Standing before you are two physically identical, lanky old mechanics, dressed up in messy overalls.">> 
+<<stage "You say two, but there may as well be one. Something, or someone has bound these two poor soles together side-by-side with some contraption made of coral and strong, binding seaweed. The two identical men form one kind of being, one on the left, one on the right. Right now, they are doubled-up, face-to-face, bickering and arguing.">>
+<<stage "Sabelle smiles coyly at you. Oh yeah, they are definitely responsible for this.">>
+<<say "Aishui" "This is Willun and Abol.  Atlantis' finest mechanics!" "genially">>
+<<say "Sabelle" "And crankiest twin brothers!" "whispered">>
+<<stage "The two identical, bickering old men haven't even registered your presence. You clear your throat.">>
+<<choices>>
+<<reply "Pleased to meet you, gentlemen." "A3 Brothers Talk 1b" >>
+<</choices>>
+
+:: A3 Brothers Talk 1b [dialogue act3 char-Willun] {"position":"570,1850","size":"100,100"}
+<<stage "The brothers keep on arguing. You raise your voice.">>
+<<choices>>
+<<reply "So... Which one of you is Willun?" "A3 Brothers Talk 2a" >>
+<<reply "So... Which one of you is Abol?" "A3 Brothers Talk 2b" >>
+<</choices>>
+
+:: A3 Brothers Talk 2a [dialogue act3 char-Willun] {"position":"570,1850","size":"100,100"}
+<<stage "The brothers stop and turn to you.">>
+<<say "Left Brother" "I am!" "indignant">>
+<<say "Right Brother" "I am!" "indignant">>
+<<stage "They jab an identical accusatory finger at one another.">>
+<<say "Left Brother" "No you're not!" "furious">>
+<<say "Right Brother" "No you're not" "furious">>
+<<stage "Yeah... this is going to be trouble. The brothers get back to arguing.">>
+<<say "Sabelle" "Me and Aishui, we just wanted them to learn to get along, you know?" "whispered">>
+<<say "Aishui" "I asked Sabelle to design something that could keep them as close as possible. So they could put their differences aside." "hushed">>
+<<say "Sabelle" "I guess they put too many differences aside, because after a few days they forgot which Brother they are!" "sniggering">>
+<<say "Aishui" "Now they're in a bigger argument than before! And they won't help us fix anything until we can solve it!" "hushed">>
+<<say "Sabelle" "If you can find some way to tell which one is which, we can get them to fix the Manta Ray Ornithopter. All we really know about them is that Willun was the hands-on brother, and Abol was the brains..." "whispered">>
+<<stage "You look closely at the pair. They really are identical. This isn't going to be easy, but here goes nothing. You raise your voice again.">>
+<<choices>>
+<<reply "Willun, you must be strong after all that... fixing." "A3 Brothers Talk 3a" >>
+<<reply "Abol... maybe I could pick your brains sometime, I hear you're a smart one." "A3 Brothers Talk 3b" >>
+<</choices>>
+
+:: A3 Brothers Talk 2b [dialogue act3 char-Willun] {"position":"570,1850","size":"100,100"}
+<<stage "The brothers stop and turn to you.">>
+<<say "Left Brother" "He is!" "indignant">>
+<<say "Right Brother" "He is!" "indignant">>
+<<stage "They jab an identical accusatory finger at one another.">>
+<<say "Left Brother" "No I'm not!" "furious">>
+<<say "Right Brother" "No I'm not" "furious">>
+<<stage "Yeah... this is going to be trouble. The brothers get back to arguing.">>
+<<say "Sabelle" "Me and Aishui, we just wanted them to learn to get along, you know?" "whispered">>
+<<say "Aishui" "I asked Sabelle to design something that could keep them as close as possible. So they could put their differences aside." "hushed">>
+<<say "Sabelle" "I guess they put too many differences aside, because after a few days they forgot which Brother they are!" "sniggering">>
+<<say "Aishui" "Now they're in a bigger argument than before! And they won't help us fix anything until we can solve it!" "hushed">>
+<<say "Sabelle" "If you can find some way to tell which one is which, we can get them to fix the Manta Ray Ornithopter. All we really know about them is that Willun was the hands-on brother, and Abol was the brains..." "whispered">>
+<<stage "You look closely at the pair. They really are identical. This isn't going to be easy, but here goes nothing. You raise your voice again.">>
+<<choices>>
+<<reply "Willun, you must be strong after all that... fixing." "A3 Brothers Talk 3a" >>
+<<reply "Abol... maybe I could pick your brains sometime, I hear you're a smart one." "A3 Brothers Talk 3b" >>
+<</choices>>
+
+:: A3 Brothers Talk 3a [dialogue act3 char-Willun] {"position":"570,1850","size":"100,100"}
+<<stage "The brothers turn to you once more.">>
+<<say "Left Brother" "Why, thank you!" "flattered">>
+<<say "Right Brother" "Why, thank you" "flattered">>
+<<say "Left Brother" "HEY!" "angered">>
+<<say "Right Brother" "HEY!" "angered">>
+<<say "Left Brother" "He was talking to ME, you fishwit!" "abrasive">>
+<<say "Right Brother" "No, he was talking to ME, you mollusc brain! "abusive"">>
+<<say "Left Brother" "Willun, I swear..." "threatening">>
+<<say "Right Brother" "I ain't Willun! YOU'RE Willun!" "defensive">>
+<<say "Left Brother" "The heck I am! I'm most certainly Abol!" "indignant">>
+<<say "Right Brother" "I'M ABOL!" "furious">>
+<<stage "You turn to Sabelle and Aishui. They both shrug in unison.">>
+<<choices>>
+<<reply "This is really like one of those riddles, where the one gatekeeper is a liar and the other always tells the truth." "A3 Brothers Talk 4a" -5>>
+<<reply "This is above my pay grade. I'm going to just let you guys hash it out for the time being." "A3 Brothers Talk 4b" >>
+<</choices>>
+
+:: A3 Brothers Talk 3b [dialogue act3 char-Willun] {"position":"570,1850","size":"100,100"}
+<<stage "The brothers turn to you once more. Two silent, confused stares. Moments pass.">>
+<<stage "All of a sudden, the Left Brother slaps his brother on the right shoulder.">>
+<<say "Left Brother" "Hey, he's talking to you!" "pushy">>
+<<say "Right Brother" "Are you kidding, he's talking to YOU!" "cranky">>
+<<say "Left Brother" "I ain't no smart brother!" "indignant">>
+<<say "Right Brother" "Smarter than me, I bet!" "indignant">>
+<<say "Left Brother" "You take that back, you scrap-basket!" "defensive">>
+<<say "Right Brother" "No, YOU take that back, oil-chugger! "abusive"">>
+<<say "Left Brother" "Willun, I swear..." "threatening">>
+<<say "Right Brother" "I ain't Willun! YOU'RE Willun!" "defensive">>
+<<say "Left Brother" "The heck I am! I'm most certainly Abol!" "indignant">>
+<<say "Right Brother" "I'M ABOL!" "furious">>
+<<stage "You turn to Sabelle and Aishui. They both shrug in unison.">>
+<<choices>>
+<<reply "This is really like one of those riddles, where the one gatekeeper is a liar and the other always tells the truth." "A3 Brothers Talk 4a" -5>>
+<<reply "This is above my pay grade. I'm going to just let you guys hash it out for the time being." "A3 Brothers Talk 4b" >>
+<</choices>>
+
+:: A3 Brothers Talk 4a [dialogue act3 char-Willun] {"position":"570,1850","size":"100,100"}
+<<say "Left Brother" "No it isn't!" "scornful">>
+<<say "Right Brother" "No it isn't!" "scornful">>
+<<stage "They shake their heads in unison.">>
+<<say "Left Brother" "It's nothing like that riddle!" "indignant">>
+<<say "Right Brother" "Have you ever even solved one of those riddles?" "mocking">>
+<<say "Left Brother" "Can't have, otheriwise they wouldn't be making such foolish comparisons!" "abrasive">>
+<<say "Right Brother" "I used to solve those riddles all the time!" "boastful">>
+<<say "Left Brother" "No you didn't! That was me!" "furious">>
+<<stage "With wounded pride, you step back towards Aishui and Sabelle.">>
+<<say "Sabelle" "Well, at least they weren't arguing with each other for a minute!" "smirking">>
+<<say "Aishui" "That's a good thing, right?" "cheerful">>
+<<stage "Getting through to the Brothers feels like a hopeless task. You need to find some kind of evidence to prove which one is which.">>
 
 
