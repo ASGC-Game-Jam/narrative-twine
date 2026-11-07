@@ -90,12 +90,25 @@ TODO: scene for Gerold Granite in Act 2.
 <<say "Gerold Granite" "The radio that is now in your possession must be kept on your person at all times. It should be easy to attach to your suit." "professional">>
 <<stage "While you are attaching your radio, Gerold continues to speak.">>
 <<say "Gerold Granite" "Now, what info do you have on the situation below thus far?" "professional">>
+<<timed 2s t8n>>
+<<choices>>
+<<reply "Where do I begin..." "A2 Gerold Council Radio Talk 3">>
+<</choices>>
+<</timed>>
 
 :: A2 Gerold Council Radio Talk 2b [dialogue act2 char-GeroldGranite]
 <<stage "A short and subtle groan can barely be heard through the radio's speaker.">>
 <<say "Gerold Granite" "You should have been informed of this prior to your departure. I suggest you consult your notes. Anyway..." "Restrained annoyance">>
 <<stage "The man on the other end took an audible breath and began to explain.">>
 <<say "Gerold Granite" "I am Gerold Granite, Liason to the Council. Through me, you have a direct line to the Council and vice-versa. Now let's get to work, shall we?" "professional">>
+<<timed 2s t8n>>
+<<choices>>
+<<reply "Where do I begin..." "A2 Gerold Council Radio Talk 3">>
+<</choices>>
+<</timed>>
+
+:: A2 Gerold Council Radio Talk 3 [dialogue act2 char-GeroldGranite]
+<<stage "You get the feeling that this is going to be a long talk.">>
 
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
