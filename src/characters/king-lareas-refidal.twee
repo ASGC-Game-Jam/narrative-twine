@@ -77,7 +77,7 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 
 :: A1 Meet King Lareas Refidal [character act1 char-King Lareas Refidal]
 
-!The Royal Palace of Atlantis
+!The Royal Palace of Koralis
 //Act 1, The King's Throne Room//
 
 <<set _dlgWho to "King Lareas Refidal">><<set _dlgT to -0.7>>\
@@ -106,7 +106,7 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 <</choices>>
 
 :: A1 Meet King Lareas Refidal 3b [dialogue act1 char-King Lareas Refidal]
-<<say "King Lareas Refidal" "I'd advise you to watch your snark in my presence for only I can grant you access to the rest of Atlantis. You can either receive my aid or wallow in the dungeons forever ruminating upon the fate of your friend.">>
+<<say "King Lareas Refidal" "I'd advise you to watch your snark in my presence for only I can grant you access to the rest of Koralis. You can either receive my aid or wallow in the dungeons forever ruminating upon the fate of your friend.">>
 <<stage "You bite your tongue to reign yourself in and avoid further conflict with the king.">>
 <<choices>>
 <<reply "I deeply apologize, Your Majesty." "A1 Meet King Lareas Refidal 4">>
@@ -119,9 +119,9 @@ Angler - King Lareas denies that Esveas escaped from him because he didn’t ret
 <</choices>>
 
 :: A1 Meet King Lareas Refidal 5 [dialogue act1 char-King Lareas Refidal] 
-<<say "King Lareas Refidal" "There is no need to concern yourself with any of that. Atlantis has the best scientists and healers working tirelessy on solutions. Once you've apprehended Sir Richard, we can discuss involving the Oceanography Council.">>
+<<say "King Lareas Refidal" "There is no need to concern yourself with any of that. Koralis has the best scientists and healers working tirelessly on solutions. Once you've apprehended Sir Richard, we can discuss involving the Oceanography Council.">>
 <<stage "With a wave of his hand the knights surrounding you retreat a few steps back.">>
-<<say "King Lareas Refidal" "My knights will grant you access through the bulwarks between Districts 1 and 2.">>
+<<say "King Lareas Refidal" "My knights will grant you access through the bulwarks between Luxial and Ryman.">>
 <<choices>>
 <<reply "Your generosity knows no bounds." "A1 Meet King Lareas Refidal 6">>
 <</choices>>
