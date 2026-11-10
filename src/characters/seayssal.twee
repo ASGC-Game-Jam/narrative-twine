@@ -82,7 +82,7 @@ Seayssal does not speak through words. Instead, it communicates through telepath
 :: A1 Meet Seayssal [character act1 char-Seayssal] {"position":"440,1850","size":"100,100"}
 /* Dialogue for meeting Seayssal in Act 1*/
 
-!Outside of Atlantis
+!Outside of Koralis
 //Act 1, Underwater Cave//
 
 <<set _dlgWho to "Seayssal">><<set _dlgT to -0.7>>\
