@@ -74,7 +74,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 :: A1 Meet Aishui [character act1 char-Aishui] {"position":"440,1850","size":"100,100"}
 /* Dialogue for meeting Aishui in Act 1*/
 
-!Atlantis
+!Koralis
 //Act 1, District 2//
 
 <<set _dlgWho to "Aishui">><<set _dlgT to -0.7>>\
