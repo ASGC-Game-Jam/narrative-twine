@@ -81,7 +81,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <div id="dlg"><<include "A1 Meet Aishui 1">></div>
 
 :: A1 Meet Aishui 1 [dialogue act1 char-Aishui]
-<<stage "You notice several strange occurences while swimming through the districts. Some Atlanteans and objects appear to have faded in color while other Atlanteans appear to be detrimentally lethargic.">>
+<<stage "You notice several strange occurences while swimming through the districts. Some Koraleans and objects appear to have faded in color while other Koraleans appear to be detrimentally lethargic.">>
 <<stage "You mumble to yourself...">>
 <<choices>>
 <<reply "What is going on? Why is everyone so secretive about this illness?" "A1 Meet Aishui 2">>
@@ -89,7 +89,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 
 :: A1 Meet Aishui 2 [dialogue act1 char-Aishui]
 <<stage "You hear a cheerful laugh ahead and swim closer to it, but it moves further away. You chase after it in a playful game of Marco Polo, chasing blindly after it as the melody ebbs and flows.">>
-<<stage "When you finally reach the source of the melodic laugh, you freeze and blink several times. You wonder if the image before you is a mirage, but no matter how much or how long you stare, the image never fades. An ethereal Atlantean with coral antlers and an ocean-colored dragonlike tail swims around playfully between two dolphins.">>
+<<stage "When you finally reach the source of the melodic laugh, you freeze and blink several times. You wonder if the image before you is a mirage, but no matter how much or how long you stare, the image never fades. An ethereal Koralean with coral antlers and an ocean-colored dragonlike tail swims around playfully between two dolphins.">>
 <<stage "The Atlantean spots you and rushes over to you.">>
 <<say "Aishui" "Hi, I'm Aishui! Are you here to play with us?">>
 <<choices>>
@@ -119,7 +119,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 :: A1 Meet Aishui 5 [dialogue act1 char-Aishui]
 <<say "Aishui" "No, I just came back from visiting my best friend, Seayssal. I was on my way to meet him now to discuss the surge in Bleaching cases when Mar and Ine invited me to play.">>
 <<choices>>
-<<reply "He won't be there. The Oceanography Council hasn't been able to make contact with him for several weeks so I ventured to Atlantis to check on him." "A1 Meet Aishui 6">>
+<<reply "He won't be there. The Oceanography Council hasn't been able to make contact with him for several weeks so I ventured to Koralis to check on him." "A1 Meet Aishui 6">>
 <</choices>>
 
 :: A1 Meet Aishui 6 [dialogue act1 char-Aishui]
@@ -130,7 +130,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <</choices>>
 
 :: A1 Meet Aishui 7 [dialogue act1 char-Aishui]
-<<say "Aishui" "That's what we call the illness currently plaguing Atlantis and its people. I've been trying to figure out why there's so many cases and why it's more aggressive than past outbreaks. Can you aid us in solving this mystery for the sake of both of our civilizations?">>
+<<say "Aishui" "That's what we call the illness currently plaguing Koralis and its people. I've been trying to figure out why there's so many cases and why it's more aggressive than past outbreaks. Can you aid us in solving this mystery for the sake of both of our civilizations?">>
 <<choices>>
 <<reply "I'll do all that I can!" "A1 Meet Aishui 8a" 10>>
 <<reply "I'm just here to find Sir Richard." "A1 Meet Aishui 8b" -15>>
@@ -152,7 +152,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 <</choices>>
 
 :: A1 Meet Aishui 9 [dialogue act1 char-Aishui]
-<<say "Aishui" "A word of warning before you depart. The Bleaching has caused many coral entities to turn hostile, especially in the lower districts and the waters outside of Atlantis.">>
+<<say "Aishui" "A word of warning before you depart. The Bleaching has caused many coral entities to turn hostile, especially in the lower districts and the waters outside of Koralis.">>
 <<stage "You dip your head in gratitude for the warning. Aishui waves at you then turns back toward Mar and Ine as you carry onward.">>
 
 <<set _dlgT += 0.9>>\
