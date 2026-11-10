@@ -90,7 +90,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 :: A1 Meet Aishui 2 [dialogue act1 char-Aishui]
 <<stage "You hear a cheerful laugh ahead and swim closer to it, but it moves further away. You chase after it in a playful game of Marco Polo, chasing blindly after it as the melody ebbs and flows.">>
 <<stage "When you finally reach the source of the melodic laugh, you freeze and blink several times. You wonder if the image before you is a mirage, but no matter how much or how long you stare, the image never fades. An ethereal Koralean with coral antlers and an ocean-colored dragonlike tail swims around playfully between two dolphins.">>
-<<stage "The Atlantean spots you and rushes over to you.">>
+<<stage "The Koralean spots you and rushes over to you.">>
 <<say "Aishui" "Hi, I'm Aishui! Are you here to play with us?">>
 <<choices>>
 <<reply "I can't. I'm searching for my friend." "A1 Meet Aishui 3">>
