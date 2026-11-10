@@ -93,7 +93,7 @@ Seayssal does not speak through words. Instead, it communicates through telepath
 <<stage "The submarine propels you ever closer to your destination. However, you notice something amiss. At a loss, you grab your radio to get in touch with someone from the Oceanography Council.">>
 <<say "Gerold Granite" "Gerold Granite, speaking.">>
 <<choices>>
-<<reply "Massive bulwarks are restricting access to Atlantis. Do you know another route in?" "A1 Meet Seayssal 2">>
+<<reply "Massive bulwarks are restricting access to Koralis. Do you know another route in?" "A1 Meet Seayssal 2">>
 <</choices>>
 
 :: A1 Meet Seayssal 2 [dialogue act1 char-Seayssal]
@@ -108,7 +108,7 @@ Seayssal does not speak through words. Instead, it communicates through telepath
 <<stage "Before you can depart from the cave, the currents carry a beautiful sound to your ears. You float in the water admiring the hymn that sounds like tides.">>
 <<stage "The sound reverberates louder through the cave. You look up to see a large serpentine creature, it's semi-transparent body shining brightly from within.">>
 <<choices>>
-<<reply "I've never heard reports of a creature like this in Atlantis." "A1 Meet Seayssal 4">>
+<<reply "I've never heard reports of a creature like this in Koralis." "A1 Meet Seayssal 4">>
 <</choices>>
 
 :: A1 Meet Seayssal 4 [dialogue act1 char-Seayssal]
@@ -120,7 +120,7 @@ Seayssal does not speak through words. Instead, it communicates through telepath
 <</choices>>
 
 :: A1 Meet Seayssal 5 [dialogue act1 char-Seayssal]
-<<stage "You swim toward Atlantis excited to see what other wondrous secrets you'll discover on your journey.">>
+<<stage "You swim toward Koralis excited to see what other wondrous secrets you'll discover on your journey.">>
 
 <<set _dlgT += 0.9>>\
 <div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
