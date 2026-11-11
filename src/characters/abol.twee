@@ -1,24 +1,24 @@
-:: A3 Brother 2 [character act3 todo char-Brother2] {"position":"1480,890","size":"100,100"}
-<<meet "Brother 2">>
+:: A3 Abol [character act3 todo char-Abol] {"position":"1480,890","size":"100,100"}
+<<meet "Abol">>
 //Act 3, District 4 Workshop//
 
 /* Bio: CHARACTER REQUEST, no bio. Repairs the manta ray ornithopter. */
 
-TODO: scene for Brother 2 in Act 3.
+TODO: scene for Abol in Act 3.
 
 /* TODO: dialogue branches */
 * <<link "Earn trust (+10)" `passage()`>><<trust "Brother 2" 10>><</link>>
 * <<link "Lose trust (-10)" `passage()`>><<trust "Brother 2" -10>><</link>>
 
-[[Brother 2|Codex Brother 2]]
+[[Abol|Codex Abol]]
 [[Back to District 4 Workshop|A3 District 4 Workshop]]
 
 
-:: Codex Brother 2 [codex char-Brother2 todo] {"position":"2260,1370","size":"100,100"}
-!Brother 2
+:: Codex Abol [codex char-Abol todo] {"position":"2260,1370","size":"100,100"}
+!Abol
 ''Where:'' District 4: Suburbia
 ''Appears in:'' [[Act 3|A3 Brother 2]]
-<<if $trust["Brother 2"] isnot undefined>>''Trust:'' <<print $trust["Brother 2"]>><</if>>
+<<if $trust["Abol"] isnot undefined>>''Trust:'' <<print $trust["Abol"]>><</if>>
 ''Description:'' NPC - spiky, cantankerous, absent-minded
 ''Age:'' 75
 ''Gender:'' Male (he/him)
