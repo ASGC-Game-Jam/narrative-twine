@@ -124,7 +124,7 @@ Spiritual - Aishui is a god that has many “Atlantean” followers including Gu
 
 :: A1 Meet Aishui 6 [dialogue act1 char-Aishui]
 <<stage "Aishui's tail stills and his posture drops.">>
-<<say "Aishui" "I hope's he okay.">>
+<<say "Aishui" "I hope he's okay.">>
 <<choices>>
 <<reply "Can you tell me more about the Bleaching? Perhaps that will lead me to him." "A1 Meet Aishui 7">>
 <</choices>>
