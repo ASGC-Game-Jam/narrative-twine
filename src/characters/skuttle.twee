@@ -65,6 +65,11 @@ Skuttle initially has  a very low trust score of the Player, in the same way tha
 
 ''Dialogue Sample''
 
+<<say "Skuttle" "Were you followed!? Spotted!? Clocked!? Trailed!? Stalked!? Spied!? Seen in situ!? Sent by THEM!???" "frantic">>
+
+<<say "Skuttle" "You must be a few parcels short of a full post cart, pal!" "sneering">>
+
+<<say "Skuttle" "Good luck with that, kid. Come back when you're ready to open your eyes to the truth." "dismissive">>
 
 
 [[Back to Codex|Codex]]
