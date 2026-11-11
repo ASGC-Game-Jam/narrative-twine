@@ -157,7 +157,7 @@ Both brothers are too invested in bickering to really pay too much attention to 
 :: A3 Brothers Talk 3a [dialogue act3 char-Willun] {"position":"570,1850","size":"100,100"}
 <<stage "The brothers turn to you once more.">>
 <<say "Left Brother" "Why, thank you!" "flattered">>
-<<say "Right Brother" "Why, thank you" "flattered">>
+<<say "Right Brother" "Why, thank you!" "flattered">>
 <<say "Left Brother" "HEY!" "angered">>
 <<say "Right Brother" "HEY!" "angered">>
 <<say "Left Brother" "He was talking to ME, you fishwit!" "abrasive">>
