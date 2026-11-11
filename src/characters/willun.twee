@@ -77,7 +77,11 @@ Both brothers are too invested in bickering to really pay too much attention to 
 
 ''Dialogue Sample''
 
+<<say "Willun" "You take that back, you scrap-basket!" "defensive">>
 
+<<say "Willun" "The heck I am! I'm most certainly Abol!" "indignant">>
+
+<<say "Willun" "Someone who understands when to give folk a little space." "proud">>
 
 [[Back to Codex|Codex]]
 
