@@ -70,9 +70,11 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 
 ''Dialogue Sample''
 
+<<say "Gumboh" "The flavour of your reputation is cooked into the stories of the townsfolk these days. We keep very close, here in the Slums." "enthusiastic">>
 
+<<say "Gumboh" "In Gumboh's kitchen, the most tired, the most hungry, eats first." "proudly">>
 
-
+<<say "Gumboh" "Oh. A trick." "hurt">>
 
 
 /* Quest: ingredients from every district. */
@@ -122,7 +124,7 @@ Gumboh is, at heart, very trusting and open. They have a high trust rating from 
 <<stage "The cook let's out a deep, tired laugh.">>
 <<say "Gumboh" "That's ok. Everybody is tired. Everybody is hungry. But you are lucky..." "weary">>
 <<stage "In one graceful movement they turn back to the cauldron, one hand slipping a bowl from the counter as the other ladles in a generous portion of piping hot soup, without a drop being spilled.">>
-<<say "Gumboh" "In Gumboh's kitchen, the most tired, the most hungry, eats first.">>
+<<say "Gumboh" "In Gumboh's kitchen, the most tired, the most hungry, eats first." "proudly">>
 <<stage "Gumboh holds the bowl towards you. Their eyes encourage you to take it.">>
 <<choices>>
 <<reply "Thank you, Gumboh. It's a pleasure to meet you." "A3 Gumboh Talk 6a" 5>>
