@@ -166,7 +166,7 @@ Both brothers are too invested in bickering to really pay too much attention to 
 <<say "Left Brother" "HEY!" "angered">>
 <<say "Right Brother" "HEY!" "angered">>
 <<say "Left Brother" "He was talking to ME, you fishwit!" "abrasive">>
-<<say "Right Brother" "No, he was talking to ME, you mollusc brain! "abusive">>
+<<say "Right Brother" "No, he was talking to ME, you mollusc brain!" "abusive">>
 <<say "Left Brother" "Willun, I swear..." "threatening">>
 <<say "Right Brother" "I ain't Willun! YOU'RE Willun!" "defensive">>
 <<say "Left Brother" "The heck I am! I'm most certainly Abol!" "indignant">>
