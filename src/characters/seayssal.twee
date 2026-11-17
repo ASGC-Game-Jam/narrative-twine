@@ -106,7 +106,7 @@ Seayssal does not speak through words. Instead, it communicates through telepath
 <<stage "You garb yourself in your diving suit, abandon your submarine, and descend deeper into the ocean.">>
 <<stage "You navigate through the treacherous cave, guided by the light of bioluminescent fungi, until you see the open ocean ahead of you.">>
 <<stage "Before you can depart from the cave, the currents carry a beautiful sound to your ears. You float in the water admiring the hymn that sounds like tides.">>
-<<stage "The sound reverberates louder through the cave. You look up to see a large serpentine creature, it's semi-transparent body shining brightly from within.">>
+<<stage "The sound reverberates louder through the cave. You look up to see a large serpentine creature, its semi-transparent body shining brightly from within.">>
 <<choices>>
 <<reply "I've never heard reports of a creature like this in Koralis." "A1 Meet Seayssal 4">>
 <</choices>>
