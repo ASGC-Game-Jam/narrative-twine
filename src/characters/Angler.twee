@@ -1,0 +1,73 @@
+:: A2 Angler [character act2 todo char-Angler] {"position":"1090,770","size":"100,100"}
+<<meet "Angler">>
+//Act 2, Districts 3 and 4//
+
+/* Bio: Former jeweler looking to retake his former station in life. Watch member secretly paid by the King. */
+
+TODO: scene for Angler in Act 2.
+
+/* TODO: dialogue branches */
+* <<link "Earn trust (+10)" `passage()`>><<trust "Angler" 10>><</link>>
+* <<link "Lose trust (-10)" `passage()`>><<trust "Angler" -10>><</link>>
+
+[[Angler|Codex Angler]]
+[[Back to Districts 3 and 4|A2 Districts 3 and 4]]
+
+
+:: Codex Angler [codex char-Angler todo] {"position":"2390,1010","size":"100,100"}
+!Angler
+''Point of Contact:''  Sam Rains
+
+''Where:'' District 3
+
+''Appears in:'' [[Act 2|A2 Angler]]
+
+<<if $trust["Angler"] isnot undefined>>''Trust:'' <<print $trust["Angler"]>><</if>>
+
+''Description:'' NPC - Calm, deceitful, calculating
+
+''Age:'' 32
+
+''Gender:'' Male (He/Him)
+
+''Origin:'' Merfolk Atlantean
+
+''Occupation:'' Former JewelerUnemployed (Child)
+
+''Faction:'' Citizen Watch (Openly), King’s Faction (Plant)
+
+''Physical Description:'' Angler has more of a swimmer’s build, making him stand apart a bit from others living in District 3 in silhouette, and he is missing his right arm.. His scales are a deep purple, almost black, and he has a sharp, spined fin ridge along his back in a slightly lighter purple. His eyes are a deep green. He wears a nicer top woven from dark green seaweed, and the red kelp sash that marks him as a member of the Citizen Watch.
+
+''Overview:'' Life hasn’t been kind to Angler. Previously, he lived in District 2 and was an accomplished jeweler. Even the King occasionally ordered a piece or two from him. Coraltech has its dangers, however, and a workplace accident lost Angler his arm. One handed, he was unable to keep up with the amount of work needed to keep his shop running. In only a short time, he lost his shop, his home, and his marriage, and for the past year has been left to beg in District 3. However, recently, an agent of the King found him and offered him a deal. If he joined the Citizen Watch and fed any information from District 3 and 4 to the King, and in particular about any sightings of an individual named Esveas, then he would be paid for anything of use. Angler did not hesitate to jump at the offer, currying favor with Dench to get into a prime position within the Watch, and he has been there ever since. For the first time in a year, he has been eating well, dressing in clothing that hasn’t worn to shreds, and there is a light at the end of the tunnel. Not to mention, the rumors on the wind that, with Hydropunk tech, he might be able to regain an arm and return to his previous line of work…with all of that on the table, Angler is very motivated to see his new job through.
+
+''Relationships:''
+Dench - Angler is Dench’s second in command in the Citizen Watch. He loathes the man, but appreciates how easy he is to please and manipulate. He has no desire to be front and center within the Watch, so is more than happy to let Dench do all the face work.
+
+King Lareas - Angler did make a piece or two for the King when he was still a jeweler, and that was the connection that got him his current deal. He is loyal to Lareas, in large part because Lareas is the only reason he is able to eat three square meals a day now.
+
+Tyde - Angler’s ex-wife. She left him after he lost everything else, not willing to follow him into District 3. He’s very bitter about it.
+
+''Connections:'' 
+Citizen’s Watch - Second in Command
+
+King’s Faction - Plant in the Citizen’s Watch
+
+
+''World Knowledge:'' From his time living in District 2, and now due to his connection to the King, Angler has more information about the major events in Atlantis than most in Districts 3 and 4. He is still not as informed about Sir Richard’s activities, or the King’s actual intentions with Hydropunk tech, but he is very aware that just about everything Dench proclaims is a lie.
+
+''Goal & Obstacle:'' Angler’s primary goal is to feed the King information about Sir Richard and Esveas, at least until he can get himself back into his previous position in life. He is willing to lie, cheat, and manipulate, though he will not initiate any violence himself, preferring to direct Dench or the rest of the Watch if it comes to that. Both of his primary targets, however, have proven quite elusive, and the MC sniffing around threatens to disrupt his information network within the Watch.
+
+''Initial Percpetion of the Player Character:'' Angler sees the MC as an imminent threat, but does not act on that until truly pressed. Outwardly, he’ll be congenial, even helpful in some ways, all the while attempting to misdirect the MC away from disrupting his goals.
+
+''Speech Patterns & Vocal Profile:''  Angler has a strong voice, but tends to speak softly, calmly, and with a steady cadence, whether lying through his teeth or doing small talk. Angler has a higher level of vocabulary than anyone else in District 3. When speaking to the MC, he uses it to his advantage, but among other citizens of the district, he’ll code switch and attempt to use rougher language.
+
+''Dialogue Sample:''
+<<say "Angler" "Dench, aren’t we wasting our time here? The people need you to make them feel safe.">>
+<<say "Angler" "I’m terribly sorry, I haven’t heard anything about Sir Richard coming through this way. Perhaps you should move along, this District isn’t safe.">>
+<<say "Angler" "Only half as much this week…! I need to find a better lead on that runaway, and soon…">>
+
+Former jeweler looking to retake his former station in life. Watch member secretly paid by the King.
+
+[[Back to Codex|Codex]]
+
+
