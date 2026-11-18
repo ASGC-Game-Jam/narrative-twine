@@ -1,0 +1,18 @@
+:: A3 Eelis Quest1 Begin [act act3 todo]
+
+OBJECTIVE: Clean up the bleached area at locB
+DESCRIPTION: Eelis has asked you to clean up the bleaching in the surrounding area in exchange for information.
+REWARD: Endgame Clues
+
+OBJECTIVE: Clean up the bleached area at locB
+DESCRIPTION: Eelis has asked you to clean up the bleaching in the surrounding area in exchange for information.
+REWARD: Endgame Clues
+
+OBJECTIVE: Clean up the bleached area at locB
+DESCRIPTION: Eelis has asked you to clean up the bleaching in the surrounding area in exchange for information.
+REWARD: Endgame Clues
+
+:: A3EelisQuestInit
+<<include "A3MainQuestInit">>
+<<set $isAllEelisObjDone = false>>
+<<set $eelisObjCount = 0>>

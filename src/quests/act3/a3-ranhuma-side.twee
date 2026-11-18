@@ -1,0 +1,10 @@
+:: A3 Ranhuma Quest1 Begin [act act3 todo]
+
+OBJECTIVE: ???
+DESCRIPTION: ???
+REWARD: ???
+
+:: A3RanhumaQuestInit
+<<include "A3MainQuestInit">>
+<<set $isAllRhObjDone = false>>
+<<set $rhObjCount = 0>>

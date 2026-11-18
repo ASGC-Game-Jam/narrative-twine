@@ -1,0 +1,180 @@
+:: a3-main-setup [act act3 todo]
+<img class="art" src="img/ranhuma.jpg" alt="$rh">
+!Unwinding Secrets
+<<set _dlgWho to "$rh">>
+<div id="dlg"><<include "start-a3-main">></div>
+
+:: start-a3-main
+<<print $trust["Ranhuma"]>>
+<<stage "EXT. OUTSIDE THE BUBBLING THOUGHTS, KORALIS-3.">>
+<<stage "You look up at the giant fluorescent sign, a shining beacon deep within a pitch-black darkness, hung above a small opening of a cave-like structure. It's where the waypoint on your map is pointing to. The sign itself is written in a strange language you don't understand; the words are assembled with a set of thick squiggles and strokes so tightly written together that it isn't easy to tell what a letter is or where the words begin and end. You point your trustee LingoScanner toward the board, and wait a while before a cheery PING! gives you the word: 'Bubbling Thoughts'. This is the place indeed.">>
+
+<<choices>>
+    <<reply "Go in." "npca-intro">>
+<</choices>>
+
+:: npca-intro
+<<if $aboutCounter <= 0>>
+<<stage "INT. THE BUBBLING THOUGHTS OFFICE, KORALIS-3.">>
+<<stage "Entering the place, you see a walrus sitting on his chair, idly.">>
+<<say "$rh" "Ah, welcome. How may I help you? Come here to share some troubles, perhaps?" "Pleasant">>
+<</if>>
+
+<<choices>>
+    <<reply "[For Devs] Break roleplay and check Quest Beats." "a3mainquest-beats">>
+    <<reply "[Progress Story] I'm looking for Sir Richard." "npca-asked">>
+    <<reply "What do you do?" "npca-about">>
+<</choices>>
+
+:: npca-about
+<<stage "He seems taken aback by the question.">>
+
+<<say "$rh" "Me? Why! I'm $rh, a therapist! I don't often get clients, but surely someone must've referred me to you... no?" "Hopeful">>
+
+<<stage "Well? Are you going to tell him?">>
+
+<<choices>>
+    <<reply "[For Devs] Break roleplay and check Quest Beats." "a3mainquest-beats">>
+    <<reply "(lie) Umm... yeah, yeah! Sabelle did!" "npca-about-lie" 10>>
+    <<reply "I'm on official Oceanographic Council business, actually." "npca-about-truth">>
+    <<reply "That doesn't concern you, old man." "npca-about-gg" -10>>
+<</choices>>
+
+:: npca-about-lie
+<<set $aboutCounter = 1>>
+<<say "$rh" "Oh! Splendid! Yes, a good soul, that Sabelle, hm?" "Elated">>
+<<stage "... Sabelle's not going to appreciate that when they find out.">>
+<<say "$rh" "Anyway... where were we?">>
+<<include "npca-intro">>
+
+:: npca-about-truth
+<<set $aboutCounter = 2>>
+<<say "$rh" "Oh. Oh... well... I suppose that's understandable. It's all by the by..." "Deflated">>
+<<stage "He doesn't seem to be taking the truth well.">>
+<<say "$rh" "Anyway... where were we?">>
+<<include "npca-intro">>
+
+:: npca-about-gg
+<<set $aboutCounter = 3>>
+<<say "$rh" "Quite the mouth on you, my strange friend. Fine. State your business." "Sharp">>
+<<include "npca-intro">>
+
+:: npca-asked
+<<set $askedAbout = true>>
+<<stage "The rotund walrus shifts in his seat uncomfortably, and clears his throat.">>
+<<say "$rh" "W-well, I suppose I may have heard of him... Sounds like a, erm, a teacher? Oh! Perhaps a respected figure!" "Distracting">>
+<<choices>>
+    <<reply "[For Devs] Break roleplay and check Quest Beats." "a3mainquest-beats">>
+    <<if $askedAbout == true>><<reply "Please, he's my friend, and he's missing. Anything you may know helps." "npca-asked2-good" 10>><</if>>
+    <<if $askedAbout == true>><<reply "Hiding something? Guess I'll go tell the authorities..." "npca-asked2-bad" -10>><</if>>
+<</choices>>
+
+:: npca-asked2-good
+<<stage "$rh seems to mumble and hesitate, but finally...">>
+<<say "$rh" "Aw, alright... y-yes, I know of Sir Richard. He was my client, actually. We did a few sessions, him and I. He was supposed to turn up this week, but... *sigh* well, you know as much as I do now.">>
+
+<<include "npca-asked2-options">>
+
+
+:: npca-asked2-bad
+<<stage "At the mere mention of the authorities, $rh almost jumps off his seat as he screams 'WAIT!'.">>
+<<say "$rh" "Must you truly rely on such hostility!?">>
+<<stage "You say nothing. After a brief pause, he resumes talking.">>
+<<say "$rh" "Yes! I know of the explorer, he's been seeing me for therapy sessions ever since he found accomodation in Koralis-1. But if you're hoping to get something more out of me, you've come to the wrong place. I haven't seen him for over a week." "Sighs">>
+<<stage "He takes a moment to collect himself.">>
+<<say "$rh" "You have what you came for. Now, do me a favour... and leave my office this instant!" "Livid">>
+
+<<include "npca-asked2-options">>
+
+
+
+:: npca-asked2-options
+
+<<choices>>
+    <<reply "[For Devs] Break roleplay and check Quest Beats." "a3mainquest-beats">>
+    <<reply "Give me his session records. Anything that suggests what his plans are." "npca-records">>
+<</choices>>
+
+
+:: npca-records
+
+<<if $trust["Ranhuma"] <= 40>>
+    <<say "$rh" "Now WHY would I break client privilege for the likes of *you*?" "Livid">>
+    <<stage "You beckon the seal given to you by the King at the livid walrus.">>
+    <<say "$rh" "... It'll take me time to find the records, given the numerous clients' records I must sift through. Meanwhile... take yourself to $gb. That fellow needs a hand with something, and I shall only help you find the records you need, IF you help him." "Sighs">>
+    <<stage "He pauses.">>
+    <<say "$rh" "... And after this, I hope you do not pester me with your *bothersome* face again.">>
+<<else>>
+    <<say "$rh" "W-well... unfortunately, I can't quite *break* my client privilege, you see..." "Apologetic">>
+    <<stage "He goes into a deep thought...">>
+    <<say "$rh" "Ohh, very well. If it helps you find your friend. Given the numerous clients' records I must sift through, it may take me some time, I'm sure you understand. In the meanwhile, could you help my friend, a fellow named $gb? When you've finished with him, I promise you I will have your records ready!">>
+<</if>>
+
+<<choices>>
+    <<reply "[For Devs] Break roleplay and check Quest Beats." "a3mainquest-beats">>
+    <<reply "[Finish Quest] Go help $gb." "a3-main-setup-2">>
+<</choices>>
+
+:: a3-main-setup-2
+<img class="art" src="img/gumboh.jpg" alt="$gb">
+!A Helping Hand
+<<set _dlgWho to "Gumboh">>
+<div id="dlg"><<include "npcb-intro">></div>
+
+
+:: npcb-intro
+
+<<stage "You just spoke with $gb.">>
+
+<<choices>>
+<<reply "Good. Go back." "start-a3-main">>
+<</choices>>
+
+
+
+:: A3MainQuestInit
+
+/* Storing Char Names in Variables */
+<<set $rh = "Ranhuma">>
+<<set $gb = "Gumboh">>
+<<set $ee = "Eelis">>
+<<set $askedAbout = false>>
+<<set $aboutCounter = 0>>
+
+
+/* PLOT AND GAMEPLAY BEATS FOR THE QUEST */
+:: a3mainquest-beats
+
+!!Act 3 List of Objectives (with Descriptions)
+
+<<stage "> (DONE) <s><b>Speak with npcA at locA:</b> npcA has details about something.</s>">>
+
+<<stage "> <b>Get back to npcA:</b> npcA gives you the records of his shop or something that you then have to look over.">>
+
+<<stage "> <b>Piece together the evidence and the records with npcA:</b> Investigation sequence where you cross reference something? If this is possible gameplay wise.">>
+
+<<stage "> <b>Talk to npcB at locB:</b> npcB has some trouble they need help with.">>
+
+<<stage "> <b>Clean up the bleached area at locB:</b> npcB has asked you to clean up the bleaching in the surrounding area.">>
+
+<<stage "> <b>Share the good news with npcB:</b> The bleached area has been cleaned. Time for reward.">>
+
+<<stage "> <b>Find the Wilds research station:</b> The player would go to the research area, and as soon as it is in view it would go to the next objective.">>
+
+<<stage "> <b>Repair research station:</b> The player must fix the research station to make it operational.">>
+
+<<stage "> <b>Chase the contact:</b> The player has to chase the contact [...] and sabotages the ray station plays.">>
+
+<<stage "> <b>Get past Manta Ray Station:</b> The player must find a way to fix the mess the Contact left for them.">>
+
+<<stage "> <b>Speak with the Twins in District 4:</b> The player is directed to find a pair of twins who are said to be the handiest handymen in all of Merlantis.">>
+
+<<stage "> <b>Appoint the Twins to fix the Manta Ray Station:</b> Talk to the twins and see if they can help fix the station before the Contact gets away.">>
+
+<<stage "> <b>Find evidence to prove who’s right:</b> The player has to talk to them [...] that “I am correct”)">>
+
+<<stage "> <b>Convince them to stop their petty squabble (Optional):</b> The player goes to their house and checks clues  [...] they have to choose a side based on evidence.">>
+
+<<stage "> <b>Meet the Twins at the Manta Ray Station:</b> Now that the brothers want to work together [...] continues into act 4.">>
+
+!!End of Act 3 Main Questline

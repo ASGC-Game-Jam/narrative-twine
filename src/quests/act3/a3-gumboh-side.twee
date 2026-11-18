@@ -1,0 +1,10 @@
+:: A3 Gumboh Quest1 Begin [act act3 todo]
+
+OBJECTIVE: Do a delivery for npcB.
+DESCRIPTION: The area is fine, now it's time to attract business. Give them a hand?
+REWARD: "Shortcut to Station" Info
+
+:: A3GumbohQuestInit
+<<include "A3MainQuestInit">>
+<<set $isAllGumbohObjDone = false>>
+<<set $gumbohObjCount = 0>>

@@ -133,9 +133,12 @@ $(document).one("pointerdown keydown", function () {
   skuttleLetters: 0, deviceUpgraded: false, elviraExposed: false,
   dench_isPlant: false, mandateRevoked: false
 }>>
-/* Quest example: The Seashell Case (src/quests/seashell-case.twee) */
-<<include "Seashell Case Init">>
-
+/*Quest Inits */
+<<include "Seashell Case Init">> /* Quest example: The Seashell Case (src/quests/seashell-case.twee) */
+<<include "A3MainQuestInit">> /* Act 3 Main Quest Init (src/quests/act-3/a3-main.twee) */
+<<include "A3GumbohQuestInit">> /* Gumboh Side Quest Init (src/quests/act-3/a3-gumboh-side.twee) */
+<<include "A3EelisQuestInit">> /* Eelis Side Quest Init (src/quests/act-3/a3-eelis-side.twee) */
+<<include "A3RanhumaQuestInit">> /* Ranhuma Side Quest Init (src/quests/act-3/a3-ranhuma-side.twee) */
 
 :: StoryCaption {"position":"180,50","size":"100,100"}
 ''Act $act''<br>
