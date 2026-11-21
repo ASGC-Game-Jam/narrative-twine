@@ -159,13 +159,9 @@ OMELIA: Even the most heart-breaking tragedy becomes the most magnificent poem w
 <<say "Omelia" "They all learned to regret it.">>
 
 <<stage "She leaves, and you don't know if you'll see her again. Or if you want to see her again.">>
-<<set _dlgT += 0.9>>\
-<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+
 //Conversation over. Omelia's trust is now <<print $trust["Omelia"]>>.//
 [[Back to Act 2|Act 2]]
-</div>
-
-[[Back to Codex|Codex]]
 
 
 :: A2 Save Omelia 5 [dialogue act2 char-Omelia]
