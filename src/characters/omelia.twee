@@ -78,14 +78,9 @@ OMELIA: Even the most heart-breaking tragedy becomes the most magnificent poem w
 
 
 :: A2 Rescue Omelia [character act2]
-
 !Omelia's Prison
-
 //Act 2//
-
-
 <<set _dlgWho to "Omelia">>
-
 <div id="dlg"><<include "A2 Save Omelia">></div>
 
 
@@ -177,6 +172,12 @@ OMELIA: Even the most heart-breaking tragedy becomes the most magnificent poem w
 <<say "Omelia" "Meet me at the Golden Oyster.">>
 
 <<say "Omelia" "I may have something for you.">>
+
+<<set _dlgT += 0.9>>\
+<div class="dlg-line" @style="'animation-delay:' + _dlgT + 's'">\
+//Conversation over. Omelia's trust is now <<print $trust["Omelia"]>>.//
+[[Back to Act 2|Act 2]]
+</div>
 
 
 [[Back to Act 2|Act 2]]
